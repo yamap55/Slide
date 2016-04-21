@@ -44,23 +44,23 @@ Groovy の処理系はオープンソースソフトウェアであり、2015年
 
 ---
 
-1.万能接着剤 (Super Glue)
+- 1.万能接着剤 (Super Glue)
     - Javaのコンポーネントやフレームワークを、Groovyを糊(glue)としてつなぐ
-2.やわらかな心臓 (Liguied Hert)
+- 2.やわらかな心臓 (Liguied Hert)
     - 中核となるロジックだけをGroovy/DSLで書けるようにする
-3.リップスティック (Lipstick)
+- 3.リップスティック (Lipstick)
     - Groovyの機能・プロダクトを使ってコードを読みやすくする。（特に「DSL」）
-4.スマート設定 (Smart Configuration)
+- 4.スマート設定 (Smart Configuration)
     - 設定ファイルとしてGroovyスクリプトを使う
 
 ---
 
-5.無制限の解放 (Unlimited Openness)
+- 5.無制限の解放 (Unlimited Openness)
     - 全部Groovyで書いちゃう :)
-6.ゴーストライター (Ghost Writer)
+- 6.ゴーストライター (Ghost Writer)
     - アノテーションを使用したAST変換によるコード生成を利用する。
     - コードを書いていないのに、バイトコードレベルで機能が盛り込まれる
-7.小人さんスクリプト (House-Elf Scripts)
+- 7.小人さんスクリプト (House-Elf Scripts)
     - 周辺の各種支援スクリプトをGroovyで書く
 
 ---
