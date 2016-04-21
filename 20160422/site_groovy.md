@@ -207,7 +207,57 @@ println "end ${new Date()}"
 ```
 ---
 
-## まとめ
+### Excelの出力。
+
+```groovy
+@GrabResolver( name='kobo-maven-repo', root='https://github.com/kobo/maven-repo/raw/master/snapshot' )
+@Grab("org.jggug.kobo:gexcelapi:0.3-SNAPSHOT")
+import org.jggug.kobo.gexcelapi.GExcel
+
+println "start ${new Date()}"
+def inputPath = $/C:\work\github\Slide\20160422\example.xlsx/$
+def inputFile = new File(inputPath)
+def book = GExcel.open(inputFile)
+def sheet = book["Sheet1"]
+
+sheet.A1.value = "test"
+def r  = sheet.rows[1] ?: sheet.createRow(1)
+r.createCell(0).value = "a"
+r.createCell(1).value = "b"
+
+def os = inputFile.newOutputStream()
+book.write(os)
+os.close()
+println "end ${new Date()}"
+```
+
+---
+
+先程のサンプルだとすぐ書き込めましたが、実際は10万件のデータを複数シートに分けて書き込んだため、全て書き込もうとするとメモリが不足。
+
+4つのファイルに分けて出力しましたがそれでも1時間以上かかりました。
+
+多分、CSVに出力して手動でコピペした方が正解だったかと思います。
+
+---
+
+## 一番苦労した所
+
+>3. 社内で持っている施設情報に独自ID付与。
+>4. 厚生局情報と社内情報をマージ。
+
+手で管理しているデータの作業。
+
+---
+
+- 数字と指定しているのに文字。
+- 選択肢から選べと言っているのに異なる文字。
+- 必須と言っているのに未入力。
+- **そもそも期間までに提出されない！**
+
+---
+
+## 3. まとめ
 - 国がまとめたデータなんてろくなものじゃない。
 - ロジカルチェックは重要。
 - Script言語は便利。
