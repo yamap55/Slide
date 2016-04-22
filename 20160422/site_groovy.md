@@ -215,7 +215,7 @@ println "end ${new Date()}"
 import org.jggug.kobo.gexcelapi.GExcel
 
 println "start ${new Date()}"
-def inputPath = $/C:\work\github\Slide\20160422\example.xlsx/$
+def inputPath = $/D:\work\20160422\doc\example.xlsx/$
 def inputFile = new File(inputPath)
 def book = GExcel.open(inputFile)
 def sheet = book["Sheet1"]
