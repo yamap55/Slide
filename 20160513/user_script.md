@@ -56,3 +56,40 @@ Chromeの拡張機能も簡単に作れますが、もっと簡単！（Firefoxはちょっと難しい。）
 
 ---
 
+## デモ
+- [某サイト](https://www.chi-bus.jp/)を開く。
+- ユーザスクリプトon。
+    - 本来は自動で起動されます。
+- [某サイト](https://www.chi-bus.jp/)を開き直す。
+- **劇的な変化が！**
+
+---
+
+## コード
+```
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.chi-bus.jp/
+// @require      http://code.jquery.com/jquery-2.2.3.min.js
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    console.log("quick login start.");
+    var list = ["千葉駅","ひまわり幼稚園","中央三丁目"];
+    var se = $("<select>").attr({"name":"hoge","id":"hoge"}).on("change",function(){$("input[name='q']").val($(this).val());}).appendTo($(".container-fluid"));
+    $.each(list,function(i,v){
+        se.append($("<option>").attr({"value":v}).text(v));
+    });
+    console.log("quick login end.");
+})();
+```
+
+---
+
+---
