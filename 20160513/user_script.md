@@ -1,71 +1,71 @@
-# ���[�U�X�N���v�g�̂��T��
+# ユーザスクリプトのすゝめ
 
-�Г��׋���i2016/05/13�j
+社内勉強会（2016/05/13）
 yamap_55
 
 ---
 
-�ȉ��ŃX���C�h�����J���Ă��܂��B
+以下でスライドを公開しています。
 https://slideck.io/github.com/yamap55/Slide/20160513/user_script.md
 
 ---
 
-## �A�W�F���_
-1. ���[�U�X�N���v�g�Ƃ�
-2. �����b�g
-3. �T���v��
-4. Chrome�̏ꍇ
-5. Firefox�̏ꍇ
-6. �܂Ƃ�
+## アジェンダ
+1. ユーザスクリプトとは
+2. メリット
+3. サンプル
+4. Chromeの場合
+5. Firefoxの場合
+6. まとめ
 
 ---
 
-## ���[�U�X�N���v�g�Ƃ�
+## ユーザスクリプトとは
 
->Web�y�[�W���J���Ƃ��ɁA�u���E�U���Ŏw�肵�Ă�����JavaScript�����s������@�\�ł��B����̃y�[�W�iGoogle�̌������ʂȂǁj���J�X�^�}�C�Y���ĕ\��������ł��܂��B
->Firefox��Greasemonkey���L���ł����A���݂͎�v�u���E�U�̂قƂ�ǂŗ��p�ł��܂��B
->[���[�UJavaScript](http://gimite.net/pukiwiki/index.php?%A5%E6%A1%BC%A5%B6JavaScript)
-
----
-
-�L���ȃ��[�U�X�N���v�g���ƁAautopager���A�}�E�X�W�F�X�`���[�AGmail�̌����ڕύX�A�֗��{�^���ǉ��A�j�R�j�R����łق��ق��A�e�L�X�g�{�b�N�X�ɕ⊮���ǉ��A�y�V�̃��[���}�K�W���̃`�F�b�N�{�b�N�X���O������AJavaScript�̃Q�[���̃`�[�g��������B�B�B
+>Webページを開くときに、ブラウザ側で指定しておいたJavaScriptを実行させる機能です。特定のページ（Googleの検索結果など）をカスタマイズして表示したりできます。
+>FirefoxのGreasemonkeyが有名ですが、現在は主要ブラウザのほとんどで利用できます。
+>[ユーザJavaScript](http://gimite.net/pukiwiki/index.php?%A5%E6%A1%BC%A5%B6JavaScript)
 
 ---
 
-���ł́A��̊g���@�\������܂��B
+有名なユーザスクリプトだと、autopagerやら、マウスジェスチャー、Gmailの見た目変更、便利ボタン追加、ニコニコ動画でほげほげ、テキストボックスに補完候補追加、楽天のメールマガジンのチェックボックスを外したり、JavaScriptのゲームのチートをしたり。。。
 
 ---
 
-�ł́A���̃��[�U�X�N���v�g���Љ��̂��B
+今では、大体拡張機能があります。
 
 ---
 
-�ȒP�ɍ���B
+では、何故ユーザスクリプトを紹介するのか。
 
 ---
 
-Chrome�̊g���@�\���ȒP�ɍ��܂����A�����ƊȒP�I�iFirefox�͂�����Ɠ���B�j
+簡単に作れる。
 
 ---
 
-������Ƃ������ŁA������Ƃ������B������s���ǂ��ł��������Ԃ����炷���Ŏg�p�������B
+Chromeの拡張機能も簡単に作れますが、もっと簡単！（Firefoxはちょっと難しい。）
 
 ---
 
-��̓I�ɂ́A�J�����̃A�v���P�[�V�����̃��O�C����ʂŌ����ʂ�1�N���b�N�Ń��O�C��������A�o�^��ʂœK���Ȓl����͂�����A����̃y�[�W�ɃV���[�g�J�b�g�������A�ʓ|�ȓ��͂�⊮������B
+ちょっとした所で、ちょっとした事。何回も行うどうでもいい一手間を減らす所で使用したい。
 
 ---
 
-## �f��
-- [�^�T�C�g](https://www.chi-bus.jp/)���J���B
-- ���[�U�X�N���v�gon�B
-    - �{���͎����ŋN������܂��B
-- [�^�T�C�g](https://www.chi-bus.jp/)���J�������B
-- **���I�ȕω����I**
+具体的には、開発中のアプリケーションのログイン画面で権限別に1クリックでログインしたり、登録画面で適当な値を入力したり、特定のページにショートカット作ったり、面倒な入力を補完したり。
 
 ---
 
-## �R�[�h
+## デモ
+- [某サイト](https://www.chi-bus.jp/)を開く。
+- ユーザスクリプトon。
+    - 本来は自動で起動されます。
+- [某サイト](https://www.chi-bus.jp/)を開き直す。
+- **劇的な変化が！**
+
+---
+
+## コード
 ```
 // ==UserScript==
 // @name         New Userscript
@@ -81,7 +81,7 @@ Chrome�̊g���@�\���ȒP�ɍ��܂����A�����ƊȒP�I�iFirefox�͂�����Ɠ���B�j
 (function() {
     'use strict';
     console.log("quick login start.");
-    var list = ["��t�w","�Ђ܂��c�t��","�����O����"];
+    var list = ["千葉駅","ひまわり幼稚園","中央三丁目"];
     var se = $("<select>").attr({"name":"hoge","id":"hoge"}).on("change",function(){$("input[name='q']").val($(this).val());}).appendTo($(".container-fluid"));
     $.each(list,function(i,v){
         se.append($("<option>").attr({"value":v}).text(v));
