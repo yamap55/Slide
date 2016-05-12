@@ -25,6 +25,7 @@ https://slideck.io/github.com/yamap55/Slide/20160513/user_script.md
 
 >Webページを開くときに、ブラウザ側で指定しておいたJavaScriptを実行させる機能です。特定のページ（Googleの検索結果など）をカスタマイズして表示したりできます。
 >FirefoxのGreasemonkeyが有名ですが、現在は主要ブラウザのほとんどで利用できます。
+>
 >[ユーザJavaScript](http://gimite.net/pukiwiki/index.php?%A5%E6%A1%BC%A5%B6JavaScript)
 
 ---
