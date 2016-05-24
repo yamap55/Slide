@@ -23,7 +23,7 @@ https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md
 
 ---
 
-草生やし駆動勉強法
+## **草生やし駆動勉強法**
 
 ---
 
@@ -38,14 +38,22 @@ https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md
 
 ---
 
-草を生やす。
+## 草生やし駆動勉強法とは
+GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 
 ---
 
+![GitHub_Contributions](contributions.jpeg)
+
+---
+
+## 草生えるタイミングｗｗｗ
 - Commits
 - Issues
 - Pull Request
     - が、マージされた時。
+
+詳細は[こちら](https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/)
 
 ---
 
@@ -57,10 +65,10 @@ https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md
 ---
 
 ## サイクル
-とりあえず7日続ける。
-↓
-続けたくなる
-↓
+とりあえず7日続ける。  
+↓  
+続けたくなる  
+↓  
 頑張って続ける
 
 ---
@@ -83,16 +91,17 @@ https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md
 ---
 
 ## issue立てるだけにならない？
-- なりますが問題ありません。
+- なる。けど、問題ない。
 
 ---
 
+毎日何かをやるという「習慣をつける」事が目的。
+
 ---
 
-## issue立てるだけにならない？
-issueを毎日立てるのも限界があります。  
+ぶっちゃけissueを毎日立てるのも限界がある。  
 個人的な感覚だと3日が限界。ネタもなくなります。  
-遅くても土日にはやらざるを得なくなる。
+無理やりissue立て続けても土日には消化せざるを得なくなる。
 
 ---
 
