@@ -1,16 +1,16 @@
 # Slide
-- [Groovy‚ðŽg—p‚µ‚Äˆã—Ã‹@ŠÖî•ñ‚ð‚¢‚¶‚Á‚½˜b](https://slideck.io/github.com/yamap55/Slide/20160422/site_groovy.md) : 2016/04/22
+- [Groovyã‚’ä½¿ç”¨ã—ã¦åŒ»ç™‚æ©Ÿé–¢æƒ…å ±ã‚’ã„ã˜ã£ãŸè©±](https://slideck.io/github.com/yamap55/Slide/20160422/site_groovy.md) : 2016/04/22
     - [src](https://github.com/yamap55/Slide/blob/master/20160422/site_groovy.md)
-- [ƒ†[ƒUƒXƒNƒŠƒvƒg‚Ì‚·T‚ß](https://slideck.io/github.com/yamap55/Slide/20160513/user_script.md) : 2016/05/13
+- [ãƒ¦ãƒ¼ã‚¶ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®ã™ã‚ã‚](https://slideck.io/github.com/yamap55/Slide/20160513/user_script.md) : 2016/05/13
     - [src](https://github.com/yamap55/Slide/blob/master/20160513/user_script.md)
-    - [blog‹LŽ–](http://yamap55.hatenablog.com/entry/2016/05/23/011336)
-- [‘¶‚â‚µ‹ì“®•×‹­–@‚Ì‚·T‚ß](https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md) : 2016/05/27
+    - [blogè¨˜äº‹](http://yamap55.hatenablog.com/entry/2016/05/23/011336)
+- [è‰ç”Ÿã‚„ã—é§†å‹•å‹‰å¼·æ³•ã®ã™ã‚ã‚](https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md) : 2016/05/27
     - [src](https://github.com/yamap55/Slide/blob/master/20160527/grow_turf_driven.md)
-    - [TODO blog‹LŽ–](http://yamap55.hatenablog.com)
+    - [TODO blogè¨˜äº‹](http://yamap55.hatenablog.com)
 
 ----
 
-## ƒeƒ“ƒvƒŒ
+## ãƒ†ãƒ³ãƒ—ãƒ¬
 - []() : //
     - [src]()
-    - [TODO blog‹LŽ–](http://yamap55.hatenablog.com)
+    - [TODO blogè¨˜äº‹](http://yamap55.hatenablog.com)
