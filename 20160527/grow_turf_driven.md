@@ -29,12 +29,10 @@ https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md
 
 ## アジェンダ
 1. 草生やし駆動勉強法とは
-2. メリット
-3. デモ
-4. 作ったもの紹介
-5. Chromeの場合
-6. Firefoxの場合
-7. まとめ
+2. 草生えるタイミング
+3. 毎日コミットするために
+4. issues
+5. まとめ
 
 ---
 
@@ -44,6 +42,16 @@ GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 ---
 
 ![GitHub_Contributions](contributions.jpeg)
+
+こういう奴。
+
+---
+
+## 草が生えると
+- 嬉しい
+- テンション↑↑
+- 見栄えがいい
+- 凄い人に見える
 
 ---
 
@@ -64,10 +72,21 @@ GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 
 ---
 
+## 私がしたコミット
+- [ちょっとしたもの作ってみる](https://github.com/yamap55/guild-story2-search)
+- [「はじめての Spring Boot」を写経](https://github.com/yamap55/hajiboot)
+- [色んなSortを実装してみる](https://github.com/yamap55/SortSample)
+- [コードのスニペットをまとめてみる](https://github.com/yamap55/example)
+- [ちょっとした問題を解いてみる](https://github.com/yamap55/hackerrank)
+
+---
+
 ## サイクル
 とりあえず7日続ける。  
 ↓  
 続けたくなる  
+↓  
+やめられない  
 ↓  
 頑張って続ける
 
@@ -91,7 +110,7 @@ GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 ---
 
 ## issue立てるだけにならない？
-- なる。けど、問題ない。
+- なる。だけど、問題ない。
 
 ---
 
@@ -101,10 +120,28 @@ GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 
 ぶっちゃけissueを毎日立てるのも限界がある。  
 個人的な感覚だと3日が限界。ネタもなくなります。  
-無理やりissue立て続けても土日には消化せざるを得なくなる。
+無理やりissue立て続けても土日には何らかの活動をせざるを得なくなる。
 
 ---
 
-
+## あれ？さっきの画像、草途切れてなかった？
 
 ---
+
+![GitHub_Contributions](contributions2.jpeg)
+
+---
+
+こういう時もあります！（github外で活動してました←言い訳）
+
+---
+
+## まとめ
+- GitHubに草を生やすことで自分のテンション↑↑
+- やる気↑↑
+- 良い習慣Get！！
+-
+
+---
+
+ご清聴ありがとうございました。
