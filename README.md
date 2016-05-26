@@ -4,7 +4,7 @@
 - [ユーザスクリプトのすゝめ](https://slideck.io/github.com/yamap55/Slide/20160513/user_script.md) : 2016/05/13
     - [src](https://github.com/yamap55/Slide/blob/master/20160513/user_script.md)
     - [blog記事](http://yamap55.hatenablog.com/entry/2016/05/23/011336)
-- [草生やし駆動勉強法のすゝめ](https://slideck.io/github.com/yamap55/Slide/20160527/grow_turf_driven.md) : 2016/05/27
+- [草生やし駆動勉強法のすゝめ](https://slideck.io/github.com/yamap55/Slide/20160603/grow_turf_driven.md) : 2016/06/03
     - [src](https://github.com/yamap55/Slide/blob/master/20160527/grow_turf_driven.md)
     - [TODO blog記事](http://yamap55.hatenablog.com)
 
