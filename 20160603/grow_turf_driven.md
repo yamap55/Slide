@@ -47,6 +47,12 @@ GitHubのContributionsを緑色にしていく（=草を生やす）こと。
 
 ---
 
+![GitHub_Contributions](contributions_longest_streak.png)
+
+ちなみに、ちょっと前は連続記録なども表示されてました。（[5/20以前](https://github.com/blog/2173-more-contributions-on-your-profile)）
+
+---
+
 ## 草が生えると
 - 嬉しい
 - テンション↑↑
