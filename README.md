@@ -7,7 +7,9 @@
 - [草生やし駆動勉強法のすゝめ](https://slideck.io/github.com/yamap55/Slide/20160603/grow_turf_driven.md) : 2016/06/03
     - [src](https://github.com/yamap55/Slide/blob/master/20160527/grow_turf_driven.md)
     - [TODO blog記事](http://yamap55.hatenablog.com)
-
+- [デール・カーネギー・トレーニングに参加して](https://slideck.io/github.com/yamap55/Slide/20160624/dale_carnegie.md) : 2016/06/24
+    - [src](https://github.com/yamap55/Slide/blob/master/20160624/dale_carnegie.md)
+    - [TODO blog記事](http://yamap55.hatenablog.com)
 ----
 
 ## テンプレ
