@@ -81,7 +81,7 @@ https://slideck.io/github.com/yamap55/Slide/20160624/dale_carnegie.md
 ---
 
 ## 人間関係を強める原則
-- 批判避難をしない
+- 批判非難をしない
 - 感謝する
 - 強い欲求を起こさせる
 - 関心を寄せる
