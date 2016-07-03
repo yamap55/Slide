@@ -1,0 +1,136 @@
+# JavaScriptのObject、Function、prototype、thisについて試行錯誤した私的まとめ
+## はじめに
+私はWeb業界でプログラマとして生きていたので、何だかんだとJavaScriptを使っています。ただ、Object、Function、prototype、thisをなんとなく使っていました。  
+私は普段Javaを使っており、趣味でGroovyを使っています。
+それなりにObjectと関数（Function）についてはわかっているつもりでしたが、正直、JavaScriptのObjectとFunctionはよくわからない。
+
+特に以下の辺り。
+
+- 何故に、Functionで定義してるのにnewするのか。
+- 「javascript Object」で調べるとfunctionが出てくるのは何故？
+- 「Object」という型があるのに何故Functionを使うのか。
+- prototypeってどういうこと？
+- thisがうまく使えないんだけどｗｗｗ
+
+今回、アロー関数のthisでハマって色々調べたのでまとめます。  
+動作確認はChromeの開発者コンソールで行っており、そのままコピペで動作確認できるようにしています。
+
+上記の通り、私はJavaScriptに詳しい訳ではないのでツッコミください。
+
+## Object
+- よくあるJavaScriptのObject定義。
+
+```JavaScript
+var obj1 = new Object();
+obj1.hoge = "hoge";
+obj1.huga = function(){console.log("huga");};
+obj1.piyo = ()=>{console.log("piyo");};
+
+console.log(obj1.hoge); // hoge
+obj1.huga(); // huga
+obj1.piyo(); // piyo
+
+var obj2 = {};
+obj2.hoge = "hoge";
+obj2.huga = function(){console.log("huga");};
+obj2.piyo = ()=>{console.log("piyo");};
+
+console.log(obj2.hoge); // hoge
+obj2.huga(); // huga
+obj2.piyo(); // piyo
+
+var obj3 = {
+  hoge:"hoge",
+  huga:function() {console.log("huga");},
+  piyo:()=>{console.log("piyo");}
+}
+
+console.log(obj3.hoge); // hoge
+obj3.huga(); // huga
+obj3.piyo(); // piyo
+```
+
+ここまでは問題ない。
+
+---
+
+ちょっと調べると、JavaScriptはプロトタイプベースとか出てきて、「prototype」でメソッドを定義とか出てくる。
+そうかそうか「.」で定義するとかダサいのか。って実際に書いてみるとエラーになる。
+
+```javascript
+var obj = {};
+
+// Uncaught TypeError: Cannot set property 'hoge' of undefined(…)
+obj.prototype.hoge = "hoge";
+```
+
+よく「prototype」でメソッドを定義とかいっている記事を見るとfunctionでオブジェクトを定義している。  
+書いてみたら先に進んだけど呼び出したらエラー。
+
+```javascript
+var func = function(){};
+func.prototype.hoge = "hoge";
+console.log(func.hoge); // undefined
+```
+
+もっとよく見てみたらnewしている。関数をnewするってどういう事？って思いつつもとりあえず試す。。
+
+```javascript
+var func = function(){};
+func.prototype.hoge = "hoge";
+var obj = new func();
+console.log(obj.hoge); // hoge
+```
+
+何が起こってるのか理解したいけど、newやprototypeを調べるとカオスなのは既に経験済みなので型を調べてみる。  
+functionをnewするとobjectになるらしい。  
+ちなみにfunctionの型の事を関数オブジェクトと言うらしい。
+
+つまり、prototypeは関数オブジェクトにあって、オブジェクトにはない。（ちなみにprototypeはオブジェクト）
+
+```javascript
+var obj1 = {};
+console.log(typeof obj1); // object
+var func = function(){};
+console.log(typeof func); // function
+var obj2 = new func();
+console.log(typeof obj2); // object
+```
+
+関数といえばECMAScript6で追加されたアロー関数を使えばもっとかっこ良く書けるじゃない。と試すと失敗する。
+これはアロー関数の仕様。  
+新しい構文を使いからと言ってなんでもかんでもアロー関数に置き換えるとハマる。（どっかに書くだろうけど、thisの扱いも違う。）
+
+```javascript
+var func = ()=>"hoge";
+
+//Uncaught TypeError: Cannot set property 'hoge' of undefined(…)
+func.prototype.hoge = "hoge";
+```
+
+---
+
+関数オブジェクトって言うことはオブジェクトでもあるらしい。  
+っということは、メソッド割り当てる事もできる。
+
+```javascript
+var obj1 = function(){};
+obj1.hoge = "hoge";
+obj1.huga = function(){console.log("huga");};
+obj1.piyo = ()=>{console.log("piyo");};
+
+console.log(obj1.hoge); // hoge
+obj1.huga(); // huga
+obj1.piyo(); // piyo
+```
+
+
+
+```javascript
+```
+
+
+## 参考
+- [や...やっと理解できた！JavaScriptのプロトタイプチェーン](http://maeharin.hatenablog.com/entry/20130215/javascript_prototype_chain)
+- [オブジェクトリテラルのプロパティ/メソッドのいろんな書き方（ES6版](http://qiita.com/kura07/items/356bd37733f457d3177f)
+- [Google流 JavaScript におけるクラス定義の実現方法](http://www.yunabe.jp/docs/javascript_class_in_google.html)
