@@ -94,7 +94,8 @@ console.log(typeof obj2); // object
 
 ## わかりにくいところ？
 
-メソッド定義とクラス定義は同じfunctionを使用するのでこんな事ができてしまう。
+**メソッド定義とクラス定義は同じfunctionを使用する。**
+よって、こんな事ができてしまう。
 
 ```javascript
 var Func = function(){};
