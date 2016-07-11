@@ -148,6 +148,28 @@ JavaScriptの場合、{}やnew Object()と使用することでオブジェク�
 っという事なので、データをコンストラクタで渡してその操作手順をメソッドで定義する。
 つまり、クラスをnewしてインスタンスを使用すれば良いと。
 
+ECMAScript 2015（ECMAScript 6は通称。）でclassが追加される。
+```javascript
+class Human {
+  constructor(name) {
+    this.name = name;
+  }
+  hello() {
+    console.log('My name is ' + this.name);
+  }
+}
+obj = new Human('yamap_55');
+obj.hello(); // My name is yamap_55
+```
+
+これは新しいClassという概念が追加されたわけではなく、
+いい感じに書けるようになったというだけで、内部的にはprototypeを使用しているという事らしい。
+ただ、同名のclassを定義しようとしたらエラーとなったので、この辺りはいい感じ。
+
+```javascript
+class hoge{}
+class hoge{} // Uncaught TypeError: Identifier 'hoge' has already been declared
+```
 
 
 ## 参考
