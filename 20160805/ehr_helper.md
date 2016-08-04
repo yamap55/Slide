@@ -5,7 +5,7 @@ yamap_55
 ---
 
 以下でスライドを公開しています。
-https://slideck.io/github.com/yamap55/Slide/2016805/ehr_helper.md
+https://slideck.io/github.com/yamap55/Slide/20160805/ehr_helper.md
 
 ---
 
