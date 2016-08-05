@@ -34,7 +34,8 @@ https://github.com/mebix
 
 ## QiitaのOrganizationアカウントは申請中。
 
-↓予定地  
+↓予定地
+
 http://qiita.com/organizations/mebix
 
 ---
