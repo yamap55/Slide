@@ -65,7 +65,7 @@ https://slideck.io/github.com/yamap55/Slide/20160902/electron.md
 
 ## 最新の仕様（JavaScript）
 - ECMAScript2015（ES6）は「2015年6月17日」に公開
-  - Class、アロー関数、let、const...
+  - Class、アロー関数、let、const、Promise...
 - 2016（ES7）も策定中です。
 
 ---
