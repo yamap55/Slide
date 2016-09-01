@@ -75,3 +75,17 @@ https://slideck.io/github.com/yamap55/Slide/20160902/electron.md
 - border-radius、opacity、box-shadow...
 
 ---
+
+## デモ
+1. Hello World
+2. react + babel
+3. bulpでビルド
+
+---
+
+## まとめ
+- Web技術を使用してデスクトップアプリケーションが開発可能
+- 最新の仕様で開発可能
+- Nodeのライブラリで色々便利
+
+## ご静聴ありがとうございました。
