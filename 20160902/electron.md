@@ -4,8 +4,10 @@ yamap_55
 
 ---
 
-以下でスライドを公開しています。
-https://slideck.io/github.com/yamap55/Slide/20160902/electron.md
+- スライド
+  - https://slideck.io/github.com/yamap55/Slide/20160902/electron.md
+- デモ用リポジトリ
+  - https://github.com/yamap55/electron_example
 
 ---
 
