@@ -18,6 +18,9 @@
 - [EHR入力を楽にするChrome拡張作った！](https://slideck.io/github.com/yamap55/Slide/20160805/ehr_helper.md) : //
     - [src](https://github.com/yamap55/Slide/blob/master/20160805/ehr_helper.md)
     - [TODO blog記事](http://yamap55.hatenablog.com)
+- [Electronのすゝめ](https://slideck.io/github.com/yamap55/Slide/20160902/electron.md) : 2016/09/02
+  - [src](https://github.com/yamap55/Slide/blob/master/20160902/electron.md)
+  - [TODO blog記事](http://yamap55.hatenablog.com)
 
 ----
 
