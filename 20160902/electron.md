@@ -32,6 +32,15 @@ yamap_55
 
 ---
 
+## 事例
+- Visual Studio Code
+- Atom
+- Slack（デスクトップ版）
+- ChatWork（デスクトップ版）
+- Kobito for Windows
+
+---
+
 ## デスクトップアプリケーション
 - メインプロセスはNode.js
 - レンダリングプロセスはChromium
