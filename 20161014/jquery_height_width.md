@@ -128,6 +128,7 @@ if ( elem.getClientRects().length ) {
   - [V2最新](https://code.jquery.com/jquery-2.2.4.js)
   - [V3最新](https://code.jquery.com/jquery-3.1.1.js)
 - [jQueryのissues](https://github.com/jquery/jquery/issues/1724)
+- [サンプルコード](http://jsbin.com/vadopimani/1/edit?html,css,js,console,output)
 
 ---
 
