@@ -1,11 +1,11 @@
-# jQueryのheight(), width()は小数点以下が切り捨てられる
+# jQueryのheight(), width()は小数点以下の値を正しく扱わない
 社内勉強会（2016/10/14）
 yamap_55
 
 ---
 
 - スライド
-  - https://slideck.io/github.com/yamap55/Slide/20161006/jquery_height_width.md
+  - https://slideck.io/github.com/yamap55/Slide/20161014/jquery_height_width.md
 
 ---
 
@@ -29,12 +29,12 @@ jQuery3未満のheight()、width()メソッドは小数点以下の値を正し�
 
 ---
 
-## box1の高さを合わせたい
+## box1の高さをbox2の高さに合わせたい
 ![divの高さを合わせる](./pic1.png)
 
 ---
 
-## box2の高さを合わせる
+## height()で高さを合わせる
 ![divの高さを合わせる](./pic2.png)
 
 ---
