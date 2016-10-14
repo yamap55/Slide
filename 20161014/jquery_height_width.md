@@ -75,6 +75,19 @@ console.log($("#box99").width()); // 15
 
 ---
 
+## jQueryの中身
+
+```
+view-source:https://code.jquery.com/jquery-2.2.4.js
+```
+
+1. height() and width() // 9726行目
+2. jQuery.css("height") // 6170,6179,6217行目
+3. domのoffsetHeightから // 5961行目
+4. paddingとborderを引いている // 5931行目
+
+---
+
 ## domのoffsetHeightとは？
 
 >「width」「padding」「border」を足したピクセル単位の数値
@@ -97,6 +110,11 @@ console.log($("#box99").width()); // 15
 ---
 
 ## V3以降のコード
+```
+view-source:https://code.jquery.com/jquery-3.1.1.js
+```
+
+6331行目
 
 ```javascript
 // Support: IE <=11 only
