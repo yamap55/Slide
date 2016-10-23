@@ -32,19 +32,63 @@ yamap_55
 
 ---
 
-##
+## サンプル（@Data）
+- getterとsetterの自動生成
+  - 片方だけ必要なら「@Getter」、「@Setter」。
 
 ---
 
-##
+## サンプル（@Data）
+
+```java
+public class DataExample {
+	public static void main(String[] args) {
+		Bean bean = new Bean();
+		bean.setId(10);
+		int id = bean.getId(); // 10
+		bean.setName("ほげ");
+		String name = bean.getName(); // ほげ
+		bean.setList(new ArrayList<String>());
+		List<String> list = bean.getList(); // ArrayList
+	}
+}
+
+@Data
+class Bean {
+	private int id;
+	private String name;
+	private List<String> list;
+}
+```
 
 ---
 
-##
+## サンプル（@NoArgsConstructor、@AllArgsConstructor）
+- 引数なしコンストラクタを作成
+- 全てのフィールドを引数に持つコンストラクタを作成
 
 ---
 
-##
+## サンプル（@NoArgsConstructor、@AllArgsConstructor）
+
+```java
+public class ConstructorExample {
+	Hoge hoge = new Hoge(10); // 明示的に作成
+	Hoge hoge1 = new Hoge(); // @@NoArgsConstructor
+	Hoge hoge2 = new Hoge(10, "hoge", new ArrayList<String>()); // @AllArgsConstructor
+}
+
+@NoArgsConstructor
+@AllArgsConstructor
+class Hoge {
+	private int id;
+	private String name;
+	private List<String> list;
+
+	Hoge(int id) {
+	}
+}
+```
 
 ---
 
