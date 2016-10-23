@@ -4,8 +4,9 @@ yamap_55
 
 ---
 
-- スライド
-  - https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md
+## スライドとか
+- スライドは[ここ](https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md)で公開しています。
+- コードは[こちら](https://github.com/yamap55/work/blob/master/20161023_lombok/src/main/java/com/yamap55/lombok/slide/DataExample.java)
 
 ---
 
