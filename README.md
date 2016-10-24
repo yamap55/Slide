@@ -1,4 +1,6 @@
 ﻿# Slide
+- [lombokのすゝめ](https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md) : 2016/10/28
+    - [src](https://github.com/yamap55/Slide/blob/master/20161028/lombok.md)
 - [jQueryのheight(), width()は小数点以下の値を正しく扱わない](https://slideck.io/github.com/yamap55/Slide/20161014/jquery_height_width.md) : 2016/10/14
     - [src](https://github.com/yamap55/Slide/blob/master/20161014/jquery_height_width.md)
     - [TODO blog記事](http://yamap55.hatenablog.com)
