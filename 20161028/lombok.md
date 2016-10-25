@@ -101,6 +101,42 @@ class Hoge {
 
 ---
 
+##
+
+---
+
+## 使い方
+1. lombok.jarを取得
+  - https://projectlombok.org/download.html
+2. ↑を実行（Wクリック）
+  - IDEにlombokの設定を追加
+3. mavenやgradleで依存関係を追加
+
+---
+
+## maven,gradleの設定
+
+- maven
+
+```xml
+<dependencies>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.16.10</version>
+		<scope>provided</scope>
+	</dependency>
+</dependencies>
+```
+
+- gradle
+
+```groovy
+compileOnly "org.projectlombok:lombok:1.16.10"
+```
+
+---
+
 ## 参考URL
 - [JavaでIDEのアクセッサ生成よりlombokを使ったほうがいい理由](http://d.hatena.ne.jp/nowokay/20130730)
   - 日本で流行ったのはここから。
