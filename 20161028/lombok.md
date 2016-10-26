@@ -41,6 +41,10 @@ yamap_55
 
 ## サンプル（@Data）
 
+## TODO
+@Data = @ToString+@EqualsAndHashCode+@Getter/@Setter+@RequiredArgsConstructor
+
+
 ```java
 public class DataExample {
 	public static void main(String[] args) {
@@ -93,6 +97,75 @@ class Hoge {
 
 ---
 
+## サンプル（@ToString）
+- toStringを自動生成します
+
+---
+
+## サンプル（@ToString）
+
+```java
+public class ToStringExample {
+	public static void main(String[] args) {
+		Bean2 bean = new Bean2(10, "hoge", Arrays.asList("a","b"));
+		System.out.println(bean.toString()); // Bean2(id=10, name=hoge, list=[a, b])
+	}
+}
+
+@ToString
+@AllArgsConstructor
+class Bean2 {
+	private int id;
+	private String name;
+	private List<String> list;
+}
+```
+
+
+---
+
+## TODO
+- @EqualsAndHashCode
+- @Value @Dataの次が良いか？
+
+---
+
+##
+
+---
+
+## サンプル（val）
+- JavaScriptやC#のvar、Groovyのdefのような型的な奴
+
+---
+
+## サンプル（val）
+
+```java
+public class ValExample {
+	public static void main(String[] args) {
+
+		val str = "hoge";
+		val i = 42;
+		val list = new ArrayList<String>();
+
+		System.out.println(str);
+		System.out.println(i);
+		System.out.println(list);
+	}
+}
+```
+
+---
+
+## valの注意
+- 数年前のバージョンだと色々あったらしいです。
+  - Eclipseでコンパイルできるのにjavacではできない
+  - 謎のエラー
+- 少し使った限りでは再現せず。
+
+---
+
 ##
 
 ---
@@ -137,11 +210,31 @@ compileOnly "org.projectlombok:lombok:1.16.10"
 
 ---
 
+##
+
+---
+
+##
+
+---
+
+## まとめ
+- lombok便利！
+- 黒魔術なので使い所は要相談。
+
+---
+
+##
+
+---
+
 ## 参考URL
 - [JavaでIDEのアクセッサ生成よりlombokを使ったほうがいい理由](http://d.hatena.ne.jp/nowokay/20130730)
   - 日本で流行ったのはここから。
 - [Lombok 使い方メモ](http://qiita.com/opengl-8080/items/671ffd4bf84fe5e32557)
 - [Lombok](http://qiita.com/yyoshikaw/items/32a96332cc12854ca7a3)
+- [ScalaとLombokを比べた場合のメリットとデメリット](http://d.hatena.ne.jp/xuwei/20130823/1377231525)
+- [JavaでAndroid開発をするなら絶対に導入したいLombok - 超戦士が秘めたる13のパワー[劇場版]](http://qiita.com/oubakiou/items/65bd5e6805ecee0c142a)
 
 ---
 
