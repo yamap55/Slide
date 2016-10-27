@@ -1,5 +1,5 @@
 # lombokのすゝめ
-社内勉強会 #13（2016/10/28）  
+社内勉強会 #13（2016/10/28）
 yamap_55
 
 ---
@@ -33,33 +33,31 @@ yamap_55
 
 ---
 
-## サンプル（@Data）
-- getterとsetterの自動生成
-  - 片方だけ必要なら「@Getter」、「@Setter」。
+## サンプル（@Getter,@Setter）
+- getterとsetterを自動生成します。
 
 ---
 
-## サンプル（@Data）
-
-## TODO
-@Data = @ToString+@EqualsAndHashCode+@Getter/@Setter+@RequiredArgsConstructor
-
+## サンプル（@Getter,@Setter）
 
 ```java
-public class DataExample {
+public class GetterSetterExample {
+
 	public static void main(String[] args) {
-		Bean bean = new Bean();
+		Bean1 bean = new Bean1();
 		bean.setId(10);
-		int id = bean.getId(); // 10
 		bean.setName("ほげ");
-		String name = bean.getName(); // ほげ
-		bean.setList(new ArrayList<String>());
-		List<String> list = bean.getList(); // ArrayList
+		bean.setList(Arrays.asList("a", "b", "c"));
+
+		System.out.println(bean.getId()); // 10
+		System.out.println(bean.getName()); // ほげ
+		System.out.println(bean.getList()); // [a, b, c]
 	}
 }
 
-@Data
-class Bean {
+@Getter
+@Setter
+class Bean1 {
 	private int id;
 	private String name;
 	private List<String> list;
@@ -69,8 +67,8 @@ class Bean {
 ---
 
 ## サンプル（@NoArgsConstructor、@AllArgsConstructor）
-- 引数なしコンストラクタを作成
-- 全てのフィールドを引数に持つコンストラクタを作成
+- 引数なしコンストラクタを自動生成作成します。
+- 全てのフィールドを引数に持つコンストラクタを自動作成します。
 
 ---
 
@@ -98,7 +96,7 @@ class Hoge {
 ---
 
 ## サンプル（@ToString）
-- toStringを自動生成します
+- toStringを自動生成します。
 
 ---
 
@@ -120,17 +118,111 @@ class Bean2 {
 	private List<String> list;
 }
 ```
+---
 
+## サンプル（@EqualsAndHashCode）
+- フィールドをいい感じに比較するequalsとhashcodeを自動生成します。
 
 ---
 
-## TODO
-- @EqualsAndHashCode
-- @Value @Dataの次が良いか？
+## サンプル（@EqualsAndHashCode）
+
+```java
+public class EqualsToHashCodeExample {
+
+	public static void main(String[] args) {
+		Bean4 bean1 = new Bean4(10, "ほげ", Arrays.asList("a", "b", "c"));
+		Bean4 bean2 = new Bean4(10, "ほげ", Arrays.asList("a", "b", "c"));
+
+		System.out.println(bean1.equals(bean2)); // true
+	}
+}
+
+@AllArgsConstructor
+@EqualsAndHashCode
+class Bean4 {
+	private int id;
+	private String name;
+	private List<String> list;
+}
+```
 
 ---
 
-##
+## サンプル（@Data）
+- @ToString、@EqualsAndHashCode、@Getter、@Setter、@RequiredArgsConstructorを同時につけたと同じ。
+
+---
+
+## サンプル（@Data）
+
+```java
+public class DataExample {
+	public static void main(String[] args) {
+		Bean bean = new Bean();
+		bean.setId(10);
+		bean.setName("ほげ");
+		bean.setList(Arrays.asList("a", "b", "c"));
+
+		System.out.println(bean.getId()); // 10
+		System.out.println(bean.getName()); // ほげ
+		System.out.println(bean.getList()); // [a, b, c]
+		System.out.println(bean); // Bean(id=10, name=ほげ, list=[a, b, c])
+
+		Bean bean2 = new Bean();
+		bean2.setId(10);
+		bean2.setName("ほげ");
+		bean2.setList(Arrays.asList("a", "b", "c"));
+
+		System.out.println(bean.equals(bean2));
+	}
+}
+
+@Data
+class Bean {
+	private int id;
+	private String name;
+	private List<String> list;
+}
+```
+
+---
+
+## サンプル（@Value）
+- @Dataのイミュータブル版
+- @AllArgsConstructorと同様に全てのフィールドを引数に持つコンストラクタを自動生成します。
+- getterのみ自動生成され、setterは生成されない。
+- フィールドは全てfinal。
+
+---
+
+## サンプル（@Value）
+
+```java
+public class ValueExample {
+	public static void main(String[] args) {
+		Bean5 bean = new Bean5(10, "ほげ", Arrays.asList("a", "b", "c"));
+		// new Bean5(); 未定義
+		// bean.setId(10); 未定義
+
+		System.out.println(bean.getId()); // 10
+		System.out.println(bean.getName()); // ほげ
+		System.out.println(bean.getList()); // [a, b, c]
+		System.out.println(bean); // Bean(id=10, name=ほげ, list=[a, b, c])
+
+		Bean5 bean2 = new Bean5(10, "ほげ", Arrays.asList("a", "b", "c"));
+
+		System.out.println(bean.equals(bean2)); // true
+	}
+}
+
+@Value
+class Bean5 {
+	private int id;
+	private String name;
+	private List<String> list;
+}
+```
 
 ---
 
@@ -166,15 +258,15 @@ public class ValExample {
 
 ---
 
-##
-
----
-
-##
-
----
-
-##
+## 他のアノテーション例
+- @NonNull
+  - 引数に付与し、nullだったら「ぬるぽ」を投げてくれる。
+- @SneakyThrows
+  - チェック例外を無視可能。
+- @Synchronized
+  - 排他制御。
+- @Log
+  - logという名前のロガー自動生成。
 
 ---
 
@@ -187,9 +279,7 @@ public class ValExample {
 
 ---
 
-## maven,gradleの設定
-
-- maven
+## mavenの設定
 
 ```xml
 <dependencies>
@@ -202,7 +292,7 @@ public class ValExample {
 </dependencies>
 ```
 
-- gradle
+## gradleの設定
 
 ```groovy
 compileOnly "org.projectlombok:lombok:1.16.10"
@@ -210,21 +300,15 @@ compileOnly "org.projectlombok:lombok:1.16.10"
 
 ---
 
-##
-
----
-
-##
+## maven,gradleのスコープ
+- provided、compileOnlyとなっている。
+- コンパイル時に自動生成されるため、classになった後はlombok.jarは不要。
 
 ---
 
 ## まとめ
 - lombok便利！
 - 黒魔術なので使い所は要相談。
-
----
-
-##
 
 ---
 
