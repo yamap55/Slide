@@ -6,7 +6,7 @@ yamap_55
 
 ## スライドとか
 - スライドは[ここ](https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md)で公開しています。
-- コードは[こちら](https://github.com/yamap55/work/blob/master/20161023_lombok/src/main/java/com/yamap55/lombok/slide/DataExample.java)
+- コードは[こちら](https://github.com/yamap55/work/tree/master/20161023_lombok/src/main/java/com/yamap55/lombok/slide)
 
 ---
 
@@ -29,16 +29,16 @@ yamap_55
 
 [引用元](https://www.suzukikenichi.com/blog/google%E3%81%AF%E3%80%8C%E3%81%8A%E6%B1%BA%E3%81%BE%E3%82%8A%E3%80%8D%E3%81%8C%E5%AB%8C%E3%81%https://www.suzukikenichi.com/blog/google%E3%81%AF%E3%80%8C%E3%81%8A%E6%B1%BA%E3%81%BE%E3%82%8A%E3%80%8D%E3%81%8C%E5%AB%8C%E3%81%84/84/)
 
-- そこから、定型的なソースコード、断片的な意味で使われる。
+- 定型的なソースコード、断片的な意味で使われる。
 
 ---
 
-## サンプル（@Getter,@Setter）
+## @Getter,@Setter
 - getterとsetterを自動生成します。
 
 ---
 
-## サンプル（@Getter,@Setter）
+## @Getter,@Setter
 
 ```java
 public class GetterSetterExample {
@@ -66,13 +66,13 @@ class Bean1 {
 
 ---
 
-## サンプル（@NoArgsConstructor、@AllArgsConstructor）
+## @NoArgsConstructor、@AllArgsConstructor
 - 引数なしコンストラクタを自動生成作成します。
 - 全てのフィールドを引数に持つコンストラクタを自動作成します。
 
 ---
 
-## サンプル（@NoArgsConstructor、@AllArgsConstructor）
+## @NoArgsConstructor、@AllArgsConstructor
 
 ```java
 public class ConstructorExample {
@@ -95,12 +95,12 @@ class Hoge {
 
 ---
 
-## サンプル（@ToString）
+## @ToString
 - toStringを自動生成します。
 
 ---
 
-## サンプル（@ToString）
+## @ToString
 
 ```java
 public class ToStringExample {
@@ -120,12 +120,12 @@ class Bean2 {
 ```
 ---
 
-## サンプル（@EqualsAndHashCode）
+## @EqualsAndHashCode
 - フィールドをいい感じに比較するequalsとhashcodeを自動生成します。
 
 ---
 
-## サンプル（@EqualsAndHashCode）
+## @EqualsAndHashCode
 
 ```java
 public class EqualsToHashCodeExample {
@@ -149,12 +149,12 @@ class Bean4 {
 
 ---
 
-## サンプル（@Data）
+## @Data
 - @ToString、@EqualsAndHashCode、@Getter、@Setter、@RequiredArgsConstructorを同時につけたと同じ。
 
 ---
 
-## サンプル（@Data）
+## @Data
 
 ```java
 public class DataExample {
@@ -188,7 +188,7 @@ class Bean {
 
 ---
 
-## サンプル（@Value）
+## @Value
 - @Dataのイミュータブル版
 - @AllArgsConstructorと同様に全てのフィールドを引数に持つコンストラクタを自動生成します。
 - getterのみ自動生成され、setterは生成されない。
@@ -196,7 +196,7 @@ class Bean {
 
 ---
 
-## サンプル（@Value）
+## @Value
 
 ```java
 public class ValueExample {
@@ -226,12 +226,12 @@ class Bean5 {
 
 ---
 
-## サンプル（val）
+## val
 - JavaScriptやC#のvar、Groovyのdefのような型的な奴
 
 ---
 
-## サンプル（val）
+## val
 
 ```java
 public class ValExample {
@@ -291,6 +291,8 @@ public class ValExample {
 	</dependency>
 </dependencies>
 ```
+
+---
 
 ## gradleの設定
 
