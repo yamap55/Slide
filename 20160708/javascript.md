@@ -1,6 +1,6 @@
 # JavaScriptのObject、Functionについて
 
-社内勉強会（2016/07/08）
+社内勉強会 #5 （2016/07/08）  
 yamap_55
 
 ---
