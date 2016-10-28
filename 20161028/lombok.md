@@ -325,6 +325,7 @@ compileOnly "org.projectlombok:lombok:1.16.10"
 - 言語仕様で@Getter,@Setter,@AllArgsConstructor,valは対応済み。
 - @EqualsAndHashCode、@ToStringは標準ライブラリに含まれています。
 - 他にも標準ライブラリに多数存在。（[Package groovy.transform](http://docs.groovy-lang.org/latest/html/gapi/groovy/transform/package-summary.html)）
+- GroovyConsoleで変換後のコードも確認可能。
 
 ---
 
@@ -370,6 +371,7 @@ assert bean3.toString() == "Bean(20, ふが)"
 - [Lombok](http://qiita.com/yyoshikaw/items/32a96332cc12854ca7a3)
 - [ScalaとLombokを比べた場合のメリットとデメリット](http://d.hatena.ne.jp/xuwei/20130823/1377231525)
 - [JavaでAndroid開発をするなら絶対に導入したいLombok - 超戦士が秘めたる13のパワー[劇場版]](http://qiita.com/oubakiou/items/65bd5e6805ecee0c142a)
+- [書きかけのLombok解説](https://gist.github.com/Getaji/cee34b8b91393ad1cdaf)
 
 ---
 
