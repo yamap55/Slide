@@ -6,7 +6,10 @@ yamap_55
 
 ## スライドとか
 - スライドは[ここ](https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md)で公開しています。
+  - タイトルが大文字に強制変換。。。
 - コードは[こちら](https://github.com/yamap55/work/tree/master/20161023_lombok/src/main/java/com/yamap55/lombok/slide)
+- 間違えやツッコミがありましたら口頭、[Twitter](https://twitter.com/yamap_55)、[pull request](https://github.com/yamap55/Slide/edit/master/20161028/lombok.md)などお気軽にどうぞ。
+
 
 ---
 
@@ -276,6 +279,8 @@ public class ValExample {
 2. ↑を実行（Wクリック）
   - IDEにlombokの設定を追加
 3. mavenやgradleで依存関係を追加
+4. eclipse:eclipseやgradle eclipseなど
+5. IDEにインポート
 
 ---
 
@@ -310,7 +315,51 @@ compileOnly "org.projectlombok:lombok:1.16.10"
 
 ## まとめ
 - lombok便利！
-- 黒魔術なので使い所は要相談。
+- ただ、黒魔術なので使い所は要相談。
+  - @Getter,@Setter,@ToString位は簡単に導入できそう。
+- valとか使うならJavaを使う必要はない気も。
+
+---
+
+## ちなみにGroovyでは
+- 言語仕様で@Getter,@Setter,@AllArgsConstructor,valは対応済み。
+- @EqualsAndHashCode、@ToStringは標準ライブラリに含まれています。
+- 他にも標準ライブラリに多数存在。（[Package groovy.transform](http://docs.groovy-lang.org/latest/html/gapi/groovy/transform/package-summary.html)）
+
+---
+
+## ちなみにGroovyでは
+
+```groovy
+import groovy.transform.ToString
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
+@ToString
+class Bean {
+  int id
+  String name
+}
+
+// Getter, Setter
+def bean = new Bean()
+bean.id = 10
+bean.name = "ほげ"
+
+// @ToString
+assert bean.toString() == "Bean(10, ほげ)"
+
+def bean2 = new Bean()
+bean2.id = 10
+bean2.name = "ほげ"
+
+// @EqualsAndHashCode
+assert bean == bean2
+
+// AllArgsConstructor
+def bean3 = new Bean([id:20,name:"ふが"])
+assert bean3.toString() == "Bean(20, ふが)"
+```
 
 ---
 
