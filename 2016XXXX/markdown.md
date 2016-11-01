@@ -1,4 +1,4 @@
-# Markdownののすゝめ
+# Markdownのすゝめ
 社内勉強会 #XX （2016/XX/XX）
 
 yamap_55
