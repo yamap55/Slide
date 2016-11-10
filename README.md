@@ -1,4 +1,6 @@
 ﻿# Slide
+- [Java Casual #2 の参加報告](https://github.com/yamap55/work/blob/master/20161107_java_casual/memo.md) : 2016/11/10
+  - [まとめ](https://slideck.io/github.com/yamap55/work/20161107_java_casual/matome.md)
 - [Markdownのすゝめ](https://slideck.io/github.com/yamap55/Slide/20161104/markdown.md) : 2016/11/04
     - [src](https://github.com/yamap55/Slide/blob/master/20161104/markdown.md)
 - [lombokのすゝめ](https://slideck.io/github.com/yamap55/Slide/20161028/lombok.md) : 2016/10/28
