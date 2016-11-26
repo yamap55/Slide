@@ -18,7 +18,7 @@ yamap_55
 ---
 
 ## Firefoxの拡張機能だよね？
-それらは「Selenium　IDE」や「Selenium Builder」です。
+それらは「Selenium IDE」や「Selenium Builder」です。
 
 ---
 
