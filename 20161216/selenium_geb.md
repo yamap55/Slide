@@ -35,7 +35,7 @@ yamap_55
 ---
 
 ## 参考
-- [Seleniumのコード](https://github.com/yamap55/work/blob/master/20161216_selenium/geb.groovy)
+- [Seleniumのコード](https://github.com/yamap55/work/blob/master/20161216_selenium/selenium.groovy)
 - [gebのコード](https://github.com/yamap55/work/blob/master/20161216_selenium/geb.groovy)
 
 ---
