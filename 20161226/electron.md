@@ -10,6 +10,15 @@ yamap_55
 
 ---
 
+## 自己紹介
+![icon](./icon.gif)
+- twitter : yamap_55
+- Javaっ子。
+- Groovy好き
+- 最近JavaScriptが好き
+
+---
+
 ## Electron概要
 - デスクトップアプリケーションの開発/実行フレームワーク
 - マルチプラットフォーム
@@ -68,6 +77,8 @@ yamap_55
 
 ## マルチプラットフォーム
 - Node.js、Chromiumが共にマルチプラットフォーム
+- 基本的にはWindows、Mac、Linuxでそのまま動く
+  - メニューとか一部動かない部分もあるらしい
 
 ---
 
