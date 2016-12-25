@@ -93,27 +93,8 @@ yamap_55
 ## 既存の技術がそのまま利用可能
 - 新しく覚えることが少ない
 - Chromiumなので、**最新の仕様で動作**
+  - HTML5、ES2015、2016、CSS3
 - Webと違ってブラウザ毎の動作確認不要
-
----
-
-## 最新の仕様（HTML5）
-- 勧告されたのは「2014年10月28日」
-- canvas、video、LocalStorage、form周り、metaタグ...
-- 非推奨になったタグなど
-
----
-
-## 最新の仕様（JavaScript）
-- ECMAScript2015（ES6）は「2015年6月17日」に公開
-  - Class、アロー関数、let、const、Promise...
-- 2016（ES7）も策定中です。
-
----
-
-## 最新の仕様（CSS）
-- CSS3は徐々に勧告中
-- border-radius、opacity、box-shadow...
 
 ---
 
