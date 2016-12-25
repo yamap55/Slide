@@ -1,13 +1,12 @@
-# Electronのすゝめ
-社内勉強会 #9 （2016/09/02）
+# Electronを触ってみた
+[We Are JavaScripters! @2nd](https://wajs.connpass.com/event/46636/) （2016/12/26）
 yamap_55
 
 ---
 
-- スライド
-  - https://slideck.io/github.com/yamap55/Slide/20160902/electron.md
-- デモ用リポジトリ
-  - https://github.com/yamap55/electron_example
+## スライドとか
+- スライドは[ここ](https://slideck.io/github.com/yamap55/Slide/20161226/electron.md)で公開しています。
+- 間違えやツッコミがありましたら口頭、[Twitter](https://twitter.com/yamap_55)、[pull request](https://github.com/yamap55/Slide/edit/master/20161226/electron.md)などお気軽にどうぞ。
 
 ---
 
@@ -28,7 +27,26 @@ yamap_55
 
 ---
 
+## Repository
+
+![github](./pic2.jpeg)
+
+---
+
+## 3ヶ月前
+
 ![github](./pic1.jpeg)
+
+---
+
+## GitHubのリポジトリスター数ランキング
+## 17位！（2016/12/26 1:46時点）
+
+- https://github.com/search?q=stars:%3E1&s=stars&type=Repositories
+
+---
+
+![github](./pic3.jpeg)
 
 ---
 
