@@ -93,7 +93,7 @@ yamap_55
 ## 既存の技術がそのまま利用可能
 - 新しく覚えることが少ない
 - Chromiumなので、**最新の仕様で動作**
-  - HTML5、ES2015、2016、CSS3
+  - HTML5、ES2015、2016、CSS3、WebComponents（[参考](http://sourcechord.hatenablog.com/entry/2016/12/25/131247)）など
 - Webと違ってブラウザ毎の動作確認不要
 
 ---
