@@ -1,7 +1,8 @@
-
 # 何かしなきゃと思っているあなたにGroovy
 [ビール片手にLT&納涼会 2017](https://jjug.doorkeeper.jp/events/63719) （2017/08/23）
 yamap_55
+
+---
 
 ## 自己紹介
 ![icon](../pic/icon.gif)
@@ -10,6 +11,8 @@ yamap_55
 - Javaっ子。
 - Groovy好き
 - 7月に転職
+
+---
 
 ## 本LTのターゲット
 -
@@ -20,14 +23,22 @@ yamap_55
 - 何かしなきゃと
 - 今日、先輩に無理やり連れてこられた
 
+---
+
 ## 1から1000までの数値が欲しい
 Excel起動しちゃう人
 
+---
+
 ## Groovyの7つの使い所
+
+---
 
 ## オススメ
 - 凄い人がシェルとかperlとか？でやってるどうでもいい事をプログラムで。
 - スクリプトで。
+
+---
 
 ## 業務内のちょっとした事をGroovyで。
 - 凄い人は黒い画面でワンライナーでやっちゃうんだろうな
@@ -36,19 +47,27 @@ Excel起動しちゃう人
 - テストデータとか
 - Excelを読んでファイルを作るとか
 
+---
+
 ## 凄い人になる第一歩
 - Javaの知識だけで動きます。
 - 簡単に改良できます。
 - ライブラリ簡単に使えます。
 
+---
+
 ## 簡単にレベルアップ
 - 普段使っているJava、既に身につけているものの延長
 - 簡単に力が伸びる
+
+---
 
 ## 簡単？
 - Javaが大体そのまま動く
   - 8になってから凄く言いにくい
 - Groovyでどう書くのかわからなかったらJavaでかけば良い
+
+---
 
 ## Javaのこういうの面倒くさい
 - セミコロン
@@ -58,8 +77,12 @@ Excel起動しちゃう人
 - ファイル操作
 - 外部ライブラリ使用
 
+---
+
 ## こういうメソッド欲しい
 - 結構な割合でGroovyでは実装されている
+
+---
 
 ## マイナーじゃね？
 - 意外と使われている。
@@ -70,13 +93,19 @@ Excel起動しちゃう人
 - 先月の[JJUG ナイトセミナー](https://jjug.doorkeeper.jp/events/63161)
 ![Groovy](https://image.slidesharecdn.com/mybatiswebapplication-170726111305/95/mybatis-web-application-27-638.jpg?cb=1501067651)
 
+---
+
 ## Javaをスクリプトとして使う？
+
+---
 
 ## File読み込み
 ## 全部読む
 ```groovy
 new File("test.txt").text
 ```
+
+---
 
 ## 一行づつ読む
 ```groovy
@@ -85,6 +114,8 @@ new File("test.txt").eachLine {
 }
 ```
 
+---
+
 ## CSVを読む
 ```csv
 columnA,columnB,columnC
@@ -92,6 +123,8 @@ hoge1,huga1,piyo1
 hoge2,huga2,piyo2
 hoge3,huga3,piyo3
 ```
+
+---
 
 ## CSVを読む
 ```groovy
@@ -105,6 +138,8 @@ data.each {
 }
 ```
 
+---
+
 ## HTTPアクセス
 ```groovy
 @Grab("org.codehaus.groovy.modules.http-builder:http-builder:0.7.1")
@@ -116,10 +151,14 @@ http.get([path : "/events/63719"]) { res, reader ->
 }
 ```
 
+---
+
 ## コマンド実行
 ```groovy
 println "ls".execute().text
 ```
+
+---
 
 ## SQL実行
 ```groovy
@@ -135,6 +174,8 @@ db.executeUpdate("insert into sample(id) values (99)")
 println db.rows("select * from sample")
 ```
 
+---
+
 ## Excel
 ```groovy
 @Grapes([
@@ -142,8 +183,6 @@ println db.rows("select * from sample")
   @Grab("org.jggug.kobo:gexcelapi:0.3"),
 ])
 import org.jggug.kobo.gexcelapi.GExcel
-
-println "start"
 
 def path = $/C:\work\hoge.xlsx/$
 def book = GExcel.open(path)
@@ -153,17 +192,15 @@ sheet.rows.each {
 }
 ```
 
+---
+
 ## 実績
 - 前職
   - 組み込みで使われてた
 - 現職
   - メインの言語ではないがバッチ処理やスクリプトで使われている
 
-## 実績
-- 前職
-  - 年収1.5倍
-- 現職
-  - +60万
+---
 
 ## 何かやらなきゃ！っと焦っていて何もしていないあなた。
 ## 既にあるJavaをスクリプトとして使ってみませんか？
@@ -172,7 +209,18 @@ sheet.rows.each {
 ## 多分Groovy界隈の人はきっと色々呟いていてくれるはずです。
 ## 少なくても私はGroovyに大きな一歩を踏み出す勇気をもらいました。
 
+---
+
 ## Groovyが業務で使用されることはないかもしれません。
+
+---
+
 ## ただ、一歩を踏み出したいあなたの背中を押してくれます。
+
+---
+
 ## Groovyを触ってみてください。
+
+---
+
 ## ご清聴ありがとうございました。
