@@ -1,5 +1,6 @@
 # 何かしなきゃと思っているあなたにGroovy
 [ビール片手にLT&納涼会 2017](https://jjug.doorkeeper.jp/events/63719) （2017/08/23）
+
 yamap_55
 
 ---
@@ -10,66 +11,72 @@ yamap_55
 - Twitter : yamap_55
 - Javaっ子。
 - Groovy好き
-- 7月に転職
+- 7月に転職しました。
 
 ---
 
 ## 本LTのターゲット
--
-
-
-- Javaしか使えない人
-  - JJUGだし、Javaは使えるよね。。。
-- 何かしなきゃと
-- 今日、先輩に無理やり連れてこられた
+- 業務は問題なくこなせる
+- けど、これでいいのかな？何かしなきゃって思っている人。
 
 ---
 
-## 1から1000までの数値が欲しい
-Excel起動しちゃう人
+## 何かしなきゃ
+- なんでもいい。でも、やりたい事特にない。
 
 ---
 
-## Groovyの7つの使い所
+## 何か作る？
+- ネタがない
 
 ---
 
-## オススメ
-- 凄い人がシェルとかperlとか？でやってるどうでもいい事をプログラムで。
-- スクリプトで。
+## 普段やっていること楽にしてみる
 
 ---
 
-## 業務内のちょっとした事をGroovyで。
-- 凄い人は黒い画面でワンライナーでやっちゃうんだろうな
-  - 持っている力（Java力）を使いましょう
-- いっぱいあるファイルの特定のレコードをXXする
-- テストデータとか
-- Excelを読んでファイルを作るとか
+## 何使う？
+- 新しい事覚えるの辛い。
+  - 時間もない。
+- 楽したい。
 
 ---
 
-## 凄い人になる第一歩
-- Javaの知識だけで動きます。
-- 簡単に改良できます。
-- ライブラリ簡単に使えます。
+## Groovyどうですか？
 
 ---
 
-## 簡単にレベルアップ
-- 普段使っているJava、既に身につけているものの延長
-- 簡単に力が伸びる
+## 新しいこと覚えるの辛い
+- Javaの知識だけでOK
 
 ---
 
-## 簡単？
-- Javaが大体そのまま動く
-  - 8になってから凄く言いにくい
-- Groovyでどう書くのかわからなかったらJavaでかけば良い
+## HelloWorld.groovy
+
+```Groovy
+public class HelloWorld {
+  public static void main(String[] args){
+    System.out.println("Hello World.");
+  }
+}
+```
 
 ---
 
-## Javaのこういうの面倒くさい
+## 楽したい
+- Javaと同じじゃ楽じゃない。
+
+---
+
+## HelloWorld.groovy
+
+```Groovy
+println "Hello World."
+```
+
+---
+
+## Javaの面倒な所
 - セミコロン
 - public static void main
 - 例外
@@ -79,36 +86,11 @@ Excel起動しちゃう人
 
 ---
 
-## こういうメソッド欲しい
-- 結構な割合でGroovyでは実装されている
+## 全部解決
 
 ---
 
-## マイナーじゃね？
-- 意外と使われている。
-- Gradle
-- Jenkins
-- 各種設定ファイル
-- 裏では結構使われている
-- 先月の[JJUG ナイトセミナー](https://jjug.doorkeeper.jp/events/63161)
-![Groovy](https://image.slidesharecdn.com/mybatiswebapplication-170726111305/95/mybatis-web-application-27-638.jpg?cb=1501067651)
-
----
-
-## 勝手にインストールできない
-- groovy-all.jar というjar一個あれば大丈夫。
-  - 通常はインストール時についてくるけど、mavenなどで落としてきてそれを使えばOK。
-
----
-
-## 例
-```
-java -jar groovy-all-2.4.12.jar hello.groovy
-```
-
----
-
-## Javaをスクリプトとして使う？
+## 普段やっていること楽にしてみる
 
 ---
 
@@ -189,7 +171,7 @@ println db.rows("select * from sample")
 
 ---
 
-## Excel
+## Excel操作
 ```groovy
 @Grapes([
   @GrabResolver(name="bintray", root="http://dl.bintray.com/nobeans/maven"),
@@ -207,32 +189,50 @@ sheet.rows.each {
 
 ---
 
-## 実績
-- 前職
-  - 組み込みで使われてた
-- 現職
-  - メインの言語ではないがバッチ処理やスクリプトで使われている
+## Groovyって流行ってるの？
 
 ---
 
-## 何かやらなきゃ！っと焦っていて何もしていないあなた。
-## 既にあるJavaをスクリプトとして使ってみませんか？
-## 一歩先に進んでみませんか？
-## その時にGroovyは強い味方です。
-## 多分Groovy界隈の人はきっと色々呟いていてくれるはずです。
-## 少なくても私はGroovyに大きな一歩を踏み出す勇気をもらいました。
+## 流行ってない
 
 ---
 
-## Groovyが業務で使用されることはないかもしれません。
+## でも、意外と使われている。
+- Gradle
+- Jenkins
+- 各種設定ファイル
+- 裏では結構使われている
 
 ---
 
-## ただ、一歩を踏み出したいあなたの背中を押してくれます。
+## 先月の[JJUG ナイトセミナー](https://jjug.doorkeeper.jp/events/63161)でも
+
+![Groovy](https://image.slidesharecdn.com/mybatiswebapplication-170726111305/95/mybatis-web-application-27-638.jpg?cb=1501067651)
+
+---
+
+## 勝手にインストールできない
+- groovy-all.jar 1個あれば大丈夫。
+  - 通常はインストール時についてくるけど、mavenなどで落としてきてそれを使えばOK。
+
+---
+
+## 例
+```
+java -jar groovy-all-2.4.12.jar hello.groovy
+```
+
+---
+
+## 何かやらなきゃ！でも。。。というあなた。
 
 ---
 
 ## Groovyを触ってみてください。
+
+---
+
+## 一歩を踏み出したいあなたの背中を押してくれます。
 
 ---
 
