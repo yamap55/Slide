@@ -1,4 +1,6 @@
 ﻿# Slide
+- [何かしなきゃと思っているあなたにGroovy](http://slideck.io/github.com/yamap55/Slide/20170823/firstGroovy.md) : 2017/08/23
+  - [src](https://github.com/yamap55/Slide/blob/master/20170823/firstGroovy.md)
 - [Java Casual #2 の参加報告](https://github.com/yamap55/work/blob/master/20161107_java_casual/memo.md) : 2016/11/10
   - [まとめ](http://slideck.io/github.com/yamap55/work/20161107_java_casual/matome.md)
 - [Markdownのすゝめ](http://slideck.io/github.com/yamap55/Slide/20161104/markdown.md) : 2016/11/04
