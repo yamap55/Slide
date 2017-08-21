@@ -173,7 +173,7 @@ println "ls".execute().text
 
 ---
 
-## SQL実行
+## DB接続
 ```groovy
 @Grapes([
   @Grab("com.h2database:h2:1.4.196"),
@@ -192,8 +192,8 @@ println db.rows("select * from sample")
 ## Excel
 ```groovy
 @Grapes([
-  @GrabResolver( name='kobo-maven-repo', root='https://github.com/kobo/maven-repo/raw/master/release' ),
-  @Grab("org.jggug.kobo:gexcelapi:0.3"),
+  @GrabResolver(name="bintray", root="http://dl.bintray.com/nobeans/maven"),
+  @Grab("org.jggug.kobo:gexcelapi:0.5"),
 ])
 import org.jggug.kobo.gexcelapi.GExcel
 
