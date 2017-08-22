@@ -113,6 +113,14 @@ new File("test.txt").eachLine {
 
 ---
 
+## ファイル書き込み
+
+```groovy
+new File("text.txt") << "hogehoge"
+```
+
+---
+
 ## CSVを読む
 - こんなファイル
 
@@ -204,6 +212,7 @@ sheet.rows.each {
 ## でも、意外と使われている。
 - Gradle
 - Jenkins
+- Spock
 - 各種設定ファイル
 - 裏では結構使われている
 
