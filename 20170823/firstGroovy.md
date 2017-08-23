@@ -138,6 +138,20 @@ new File("text.txt") << "hogehoge"
 
 ---
 
+## HTTPアクセス
+```groovy
+println new URL("https://jjug.doorkeeper.jp/events/63719").text
+```
+
+---
+
+## コマンド実行
+```groovy
+println "ls".execute().text
+```
+
+---
+
 ## CSVを読む
 - こんなファイル
 
@@ -160,26 +174,6 @@ def data = new CsvParser().parse(csv.text, separator: ',')
 data.each {
   println "${it.columnA} : ${it.columnB} : ${it.columnC}"
 }
-```
-
----
-
-## HTTPアクセス
-```groovy
-@Grab("org.codehaus.groovy.modules.http-builder:http-builder:0.7.1")
-import groovyx.net.http.HTTPBuilder
-
-def http = new HTTPBuilder("https://jjug.doorkeeper.jp")
-http.get([path : "/events/63719"]) { res, reader ->
-  println(reader)
-}
-```
-
----
-
-## コマンド実行
-```groovy
-println "ls".execute().text
 ```
 
 ---
