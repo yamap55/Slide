@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/reveal.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/theme/black.min.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/css/zenburn.min.css">
+
+    <script>
+      // リクエストパラメータを取得
+      const getRequestParameters = () => {
+        return location.search.substring(1).split('&').reduce((acc, cur) => {
+          var element = cur.split("=");
+          acc[decodeURIComponent(element[0])] = decodeURIComponent(element[1]);
+          return acc;
+        }, {});
+      };
+
+      window.addEventListener("load", function(){
+        if (document.location.search.length < 1) {
+          // TODO アラートでも出す？
+          return
+        }
+        const parameters = getRequestParameters();
+        const markdownUrl = "//raw.githubusercontent.com/yamap55/Slide/master/"+parameters["slide"];
+        // const markdownUrl = "//raw.githubusercontent.com/yamap55/Slide/master/20170823/firstGroovy.md";
+
+        const slideSection = document.createElement("section");
+        slideSection.dataset.markdown = markdownUrl;
+        slideSection.dataset.separator = "\n---\n$";
+        slideSection.dataset.separatorVertical = "\n--\n";
+        slideSection.setAttribute("id", "slide");
+        const slides = document.getElementById("slides");
+        slides.appendChild(slideSection);
+        Reveal.initialize({
+          dependencies: [
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/markdown/marked.js' },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/markdown/markdown.min.js' },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/notes/notes.min.js', async: true },
+            { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          ]
+        }, false);
+        // TODO ページのタイトルを変更。 document.title = "title";
+        // markdownの1行目取得とか？
+      });
+      </script>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/pdf.min.css' : '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides" id="slides">
+      </div>
+    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/js/reveal.min.js"></script>
+  </body>
+</html>
