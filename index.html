@@ -28,7 +28,7 @@
           return
         }
         const parameters = getRequestParameters();
-        const markdownUrl = "//raw.githubusercontent.com/yamap55/Slide/master/"+parameters["slide"];
+        const markdownUrl = parameters["slide"];
         // const markdownUrl = "//raw.githubusercontent.com/yamap55/Slide/master/20170823/firstGroovy.md";
 
         const slideSection = document.createElement("section");
