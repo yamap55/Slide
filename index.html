@@ -16,7 +16,7 @@
       // リクエストパラメータを取得
       const getRequestParameters = () => {
         return location.search.substring(1).split('&').reduce((acc, cur) => {
-          var element = cur.split("=");
+          const element = cur.split("=");
           acc[decodeURIComponent(element[0])] = decodeURIComponent(element[1]);
           return acc;
         }, {});
@@ -24,20 +24,19 @@
 
       window.addEventListener("load", function(){
         if (document.location.search.length < 1) {
-          // TODO アラートでも出す？
+          alert("URLの末尾にマークダウンファイルのPATHを指定してください。例 : 「?slide=20170827/example.md」")
           return
         }
         const parameters = getRequestParameters();
         const markdownUrl = parameters["slide"];
-        // const markdownUrl = "//raw.githubusercontent.com/yamap55/Slide/master/20170823/firstGroovy.md";
+        if (!markdownUrl) {
+          alert("URLの末尾にマークダウンファイルのPATHを指定してください。例 : 「?slide=20170827/example.md」")
+          return
+        }
 
-        const slideSection = document.createElement("section");
-        slideSection.dataset.markdown = markdownUrl;
-        slideSection.dataset.separator = "^\r?\n---\r?\n$";
-        slideSection.dataset.separatorVertical = "^\r?\n--\r?\n$";
-        slideSection.setAttribute("id", "slide");
-        const slides = document.getElementById("slides");
-        slides.appendChild(slideSection);
+        // Slide指定
+        document.getElementById("slide").dataset.markdown = markdownUrl;
+
         Reveal.initialize({
           dependencies: [
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/markdown/marked.js' },
@@ -46,8 +45,9 @@
             { src: '//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/plugin/highlight/highlight.min.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
           ]
         }, false);
-        // TODO ページのタイトルを変更。 document.title = "title";
-        // markdownの1行目取得とか？
+
+        // タイトル設定
+        document.title = document.getElementsByTagName("h1")[0].innerText;
       });
       </script>
 
@@ -63,6 +63,7 @@
   <body>
     <div class="reveal">
       <div class="slides" id="slides">
+        <section data-separator="^\r?\n---\r?\n$" data-separatorVertical="^\r?\n--\r?\n$" id="slide" />
       </div>
     </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/reveal.js/3.5.0/lib/js/head.min.js"></script>
