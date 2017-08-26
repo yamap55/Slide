@@ -46,8 +46,10 @@
           ]
         }, false);
 
-        // タイトル設定
-        document.title = document.getElementsByTagName("h1")[0].innerText;
+        Reveal.addEventListener( 'ready', function( event ) {
+          // タイトル設定
+          document.title = document.getElementsByTagName("h1")[0].innerText;
+        } );
       });
       </script>
 
