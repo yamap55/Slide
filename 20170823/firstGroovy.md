@@ -6,7 +6,7 @@ yamap_55
 ---
 
 ## 自己紹介
-![icon](/Slide/pic/icon.gif)
+![icon](../pic/icon.gif)
 
 - Twitter : yamap_55
 - Javaっ子。
