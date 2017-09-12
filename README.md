@@ -8,7 +8,7 @@
 - [Electronを触ってみた](http://yamap55.github.io/Slide/index.html?slide=20161226/electron.md)
   - [src](https://github.com/yamap55/Slide/blob/master/20161226/electron.md)
 - [SeleniumとGebとPageObjectパターンについて（その1）](http://yamap55.github.io/Slide/index.html?slide=20161216/selenium_geb.md)
-  - [src](https://github.com/yamap55/Slide/blob/master/20161216/selenium_geb)
+  - [src](https://github.com/yamap55/Slide/blob/master/20161216/selenium_geb.md)
 - [Seleniumのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20161126/selenium.md)
   - [src](https://github.com/yamap55/Slide/blob/master/20161126/selenium.md)
 - [自己紹介](http://yamap55.github.io/Slide/index.html?slide=20161126/self_introduction.md)
@@ -23,7 +23,6 @@
   - [src](https://github.com/yamap55/Slide/blob/master/20161028/gas.md)
 - [jQueryのheight(), width()は小数点以下の値を正しく扱わない](http://yamap55.github.io/Slide/index.html?slide=20161014/jquery_height_width.md) : 2016/10/14
   - [src](https://github.com/yamap55/Slide/blob/master/20161014/jquery_height_width.md)
-  - [TODO blog記事](http://yamap55.hatenablog.com)
 - [ES2015について](http://yamap55.github.io/Slide/index.html?slide=20160930/es2015.md) : 2016/09/30
   - [src](https://github.com/yamap55/Slide/blob/master/20160930/es2015.md)
 - [Electronのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20160902/electron.md) : 2016/09/02
