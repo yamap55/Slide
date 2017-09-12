@@ -1,6 +1,18 @@
 ﻿# Slide
 - [何かしなきゃと思っているあなたにGroovy](http://yamap55.github.io/Slide/index.html?slide=20170823/firstGroovy.md) : 2017/08/23
   - [src](https://github.com/yamap55/Slide/blob/master/20170823/firstGroovy.md)
+- [Electronについて](http://yamap55.github.io/Slide/index.html?slide=20170427/electron.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20170427/electron.md)
+- [はじめてのMac](http://yamap55.github.io/Slide/index.html?slide=20170113/first_mac.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20170113/first_mac.md)
+- [Electronを触ってみた](http://yamap55.github.io/Slide/index.html?slide=20161226/electron.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20161226/electron.md)
+- [SeleniumとGebとPageObjectパターンについて（その1）](http://yamap55.github.io/Slide/index.html?slide=20161216/selenium_geb.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20161216/selenium_geb)
+- [Seleniumのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20161126/selenium.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20161126/selenium.md)
+- [自己紹介](http://yamap55.github.io/Slide/index.html?slide=20161126/self_introduction.md)
+  - [src](https://github.com/yamap55/Slide/blob/master/20161126/self_introduction.md)
 - Java Casual #2 の参加報告 : 2016/11/10
   - [まとめ](https://github.com/yamap55/work/blob/master/20161107_java_casual/memo.md)
 - [Markdownのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20161104/markdown.md) : 2016/11/04
