@@ -156,30 +156,114 @@
 - リリースモデル
 - **☆Java9での機能追加**
 - 余談
+---
+
+## Java9での機能追加 1
+- REPL導入（JShell）
+- モジュール化（Jigsaw）
+- ライブラリ改善
+  - Collection初期化、Stream機能拡張
 
 ---
 
-## リリースモデル
-- 6ヶ月毎に機能リリース
-- 3ヶ月毎にメンテナンス/セキュリティリリース
-- サポート期間は次の機能リリースまで
-- 3年毎に長期サポート付きのLTSリリース
+## Java9での機能追加 2
+- セキュリティ強化
+  - ALPN対応、DRBG追加、SHA-3対応（1は非対応
+- 付属ツールの刷新
+  - jcmd（診断ツール）、jhsdb（診断ツール）、jaot（事前コンパイル）など
+- G1 GCやコンパイラなどの性能改善
+  - G1 GCがデフォルトされたので、省メモリ環境では辛い。
+  - → 今までとと同じパラレルGCするようなオプションを付ける。
 
 ---
 
-## リリースモデル
-- LTSリリースはOracle JDKのみ
-- Oracle JDKは商用及びサポート顧客向け
+## 今日は以下を紹介
+- REPL導入（JShell）
+- ライブラリ改善
+  - Collection初期化、Stream機能拡張
+- モジュール化（Jigsaw）
+
+---
+
+## REPL（JShell）
+- JavaのREPL（Read-Eval-Print Loop）ツール
+- REPL = れぷる
+- 教育分野ではREPLツールがある環境が人気
+- REPLがないために、Javaの人気低下
+- Web上でも試せる
+  - https://tryjshell.org
+
+---
+
+## コマンド
+- /help
+- /exit
+- /list
+- /vars
+- などが便利
+
+---
+
+## 補完機能
+- コード補完
+  - Tab
+- import補完
+  - Shift-Tab i
+- 変数定義補完
+  - Shift-Tab v
+
+- OpenJDKコミッターの吉田真也さんが深く？関わった事もあって、日本ではよく資料があがってる。
+- JShell
+- 「Hello World」が簡単に。
+
+---
+
+## ライブラリ改善
+- CollectionのFactory
+- StreamAPIの強化
+- その他
+
+---
+
+## CollectionのFactory
+
+---
+
+## 今まで
+- Arrays.asList("a","b","c");
+- Collections.unmodifiableSet(new HashSet<>(Arrays.asList("a","b","c")));
+- new HashMap<>(){{put("k1","v1");put("k2","v2")}};
+
+---
+
+## これから
+- List.of("a","b","c");
+- Set.of("a","b","c");
+- Map.of("k1","v1","k","v")
+
+---
+
+## 特徴
+- immutable
+- フェイルセーフ
+  - 例 : nullは不可
+  - 例 : Set#ofで重複
+- 最適化
+  - 要素数が少ない場合には別の実装になっている
+
+---
+
+## StreamAPIの強化
+- 条件を満たしたら終了などが可能に。
+  - dropWhile、takewhile
+
+```java
+IntStream.iterate(0,i->i+1).takeWhile(i -> i < 100).forEach(System.out::println)
+```
 
 ---
 
 ##
-
----
-
-## REPL導入
-- JShell
-- 「Hello World」が簡単に。
 
 ---
 
@@ -202,6 +286,7 @@
 ## 参考
 - [Java 9 and Future #jjug](https://www.slideshare.net/YujiKubota/java9-and-future-jjug)
 - [Java SE 9/EE 8リリースイベント 兼 JavaOne 2017 報告会 @ 東京 #jjug #j1jp](https://togetter.com/li/1163158)
+- [JJUG JavaOne 2017 報告会のJigsawデモコード](https://github.com/ykubota/jigsaw-sample_jp)
 
 - [新しいリリースモデルはJavaを使う人 全員要注目だった](http://d.hatena.ne.jp/nowokay/20171007#1507284356)
 - [Oracle Java SEサポート・ロードマップ](http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html)
