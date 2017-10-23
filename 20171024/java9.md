@@ -1,6 +1,6 @@
 文字コード自動変換されないためのダミー文字列
 ああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテスト
-
+ああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテストああああああテストテストテスト
 
 # Java9について
 エンジニア勉強会 （2017/10/24）
@@ -20,6 +20,12 @@
 - リリースモデル
 - Java9での機能追加
 - 余談
+
+---
+
+先日、2017/10/21に開催された
+[Java SE 9/EE 8リリースイベント 兼 JavaOne 2017 報告会 @ 東京](https://jjug.doorkeeper.jp/events/66256)の内容を元に作成されています。
+[YouTubeに動画](https://www.youtube.com/watch?v=XT2tIh9r6Eo)もありますので、詳しく知りたい方はご確認ください。
 
 ---
 
@@ -219,13 +225,13 @@
 ---
 
 ## ライブラリ改善
-- CollectionのFactory
+- CollectionのFactory追加
 - StreamAPIの強化
 - その他
 
 ---
 
-## CollectionのFactory
+## CollectionのFactory追加
 
 ---
 
@@ -239,35 +245,155 @@
 ## これから
 - List.of("a","b","c");
 - Set.of("a","b","c");
-- Map.of("k1","v1","k","v")
+- Map.of("k1","v1","k","v");
 
 ---
 
 ## 特徴
 - immutable
 - フェイルセーフ
-  - 例 : nullは不可
-  - 例 : Set#ofで重複
+  - 例 : nullで例外
+  - 例 : Set#ofで重複で例外
 - 最適化
   - 要素数が少ない場合には別の実装になっている
 
 ---
 
 ## StreamAPIの強化
+- Stream.dropWhile、takewhile
+- Stream.ofNullable
+- Stream.iterate
+
+---
+
+## 例 : Stream.takewhile
 - 条件を満たしたら終了などが可能に。
-  - dropWhile、takewhile
 
 ```java
-IntStream.iterate(0,i->i+1).takeWhile(i -> i < 100).forEach(System.out::println)
+IntStream.iterate(0,i->i+1).takeWhile(i -> i < 100).forEach(System.out::println);
 ```
 
 ---
 
-##
+## モジュール化（Jigsaw）
+
+[https://github.com/ykubota/jigsaw-sample_jp](https://github.com/ykubota/jigsaw-sample_jp)
 
 ---
 
-##
+## 元の構成
+
+---
+
+```
+src
+|-- com
+|   `-- example
+|       `-- server
+|           |-- internal
+|           |   `-- 内部API.java
+|           |-- music
+|           |   `-- 音楽API.java
+|           `-- open
+|               `-- 公開API.java
+|-- net
+|   `-- example
+|       `-- client
+|           |-- 公開APIを呼び出す.java
+|           `-- 内部APIを呼び出す.java
+`-- org
+    `-- example
+        `-- music
+            `-- 音楽をかける.java
+```
+
+---
+
+```
+% javac -d build -cp . $(find src -name "*java")
+% java -cp build net.example.client.公開APIを呼び出す
+公開API経由で内部APIを実行
+% java -cp build org.example.music.音楽をかける
+♪～
+# 本来は呼ばせたくない
+% java -cp build net.example.client.内部APIを呼び出す
+内部APIを実行
+```
+
+---
+
+## モジュール化
+
+---
+
+```
+src/
+|-- server
+|   |-- com
+|   |   `-- example
+|   |       `-- server
+|   |           |-- internal
+|   |           |   `-- 内部API.java
+|   |           |-- music
+|   |           |   `-- 音楽API.java
+|   |           `-- open
+|   |               `-- 公開API.java
+|   `-- module-info.java
+|-- client
+|   |-- net
+|   |   `-- example
+|   |       `-- client
+|   |           `-- 公開APIを呼び出す.java
+|   `-- module-info.java
+`-- music
+    |-- org
+    |   `-- example
+    |       `-- music
+    |           `-- 音楽をかける.java
+    `-- module-info.java
+```
+
+---
+
+```
+% javac -d mods --module-source-path src -m server
+% javac -d mods --module-source-path src -m client
+% javac -d mods --module-source-path src -m music
+```
+
+---
+
+```
+% java -p mods -m client/net.example.client.公開APIを呼び出す
+公開API経由で内部APIを実行
+% java -p mods -m music/org.example.music.音楽をかける
+♪～
+```
+
+---
+
+## エラー（公開されていないAPIにアクセス）
+
+```
+% javac -p mods -d mods/client $(find 01_内部APIの呼び出し/src/client -name "*java")
+01_内部APIの呼び出し/src/client/net/example/client/内部APIを呼び出す.java:3: エラー: パッケージcom.example.server.internalは表示不可です
+import com.example.server.internal.内部API;
+                         ^
+  (パッケージcom.example.server.internalはモジュールserverで宣言されていますが、エクスポートされていません)
+エラー1個
+```
+---
+
+## エラー（依存性未定義）
+
+```
+% javac -p mods -d mods/music $(find 02_モジュール依存忘れ/src/music -name "*java")
+02_モジュール依存忘れ/src/music/org/example/music/音楽をかける.java:3: エラー: パッケージcom.example.server.musicは表示不可です
+import com.example.server.music.音楽API;
+                         ^
+  (パッケージcom.example.server.musicはモジュールserverで宣言されていますが、モジュールmusicに読み込まれていません)
+エラー1個
+```
 
 ---
 
@@ -280,14 +406,12 @@ IntStream.iterate(0,i->i+1).takeWhile(i -> i < 100).forEach(System.out::println)
 
 ![version](./version.png)
 
-
 ---
 
 ## 参考
 - [Java 9 and Future #jjug](https://www.slideshare.net/YujiKubota/java9-and-future-jjug)
 - [Java SE 9/EE 8リリースイベント 兼 JavaOne 2017 報告会 @ 東京 #jjug #j1jp](https://togetter.com/li/1163158)
 - [JJUG JavaOne 2017 報告会のJigsawデモコード](https://github.com/ykubota/jigsaw-sample_jp)
-
 - [新しいリリースモデルはJavaを使う人 全員要注目だった](http://d.hatena.ne.jp/nowokay/20171007#1507284356)
 - [Oracle Java SEサポート・ロードマップ](http://www.oracle.com/technetwork/jp/java/eol-135779-ja.html)
 - [Faster and Easier Use and Redistribution of Java SE](https://orablogs-jp.blogspot.jp/2017/09/faster-and-easier-use-and.html)
