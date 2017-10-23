@@ -25,6 +25,12 @@
 
 ---
 
+↓で公開しています。
+http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md
+https://github.com/yamap55/Slide/blob/master/20171024/java9.md
+
+---
+
 ## 祝 Java SE 9 リリース
 - 2017/09/21にJava SE 9がリリース
 - Java SE 8が2014/03/18なので3年半ぶり。
@@ -50,7 +56,7 @@
 
 ---
 
-## 元々7で入る機能予定
+## 元々7で入る機能予定が出揃った
 - Project Coin
 - Project Lambda
 - Project Jigsaw
