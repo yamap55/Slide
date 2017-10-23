@@ -19,9 +19,9 @@
 
 ---
 
-先日、2017/10/21に開催された
-[Java SE 9/EE 8リリースイベント 兼 JavaOne 2017 報告会 @ 東京](https://jjug.doorkeeper.jp/events/66256)の内容を元に作成されています。
-[YouTubeに動画](https://www.youtube.com/watch?v=XT2tIh9r6Eo)もありますので、詳しく知りたい方はご確認ください。
+- 先日、2017/10/21に開催された「
+[Java SE 9/EE 8リリースイベント 兼 JavaOne 2017 報告会 @ 東京](https://jjug.doorkeeper.jp/events/66256)」の内容を元に作成されています。
+- [YouTubeに動画](https://www.youtube.com/watch?v=XT2tIh9r6Eo)もありますので、詳しく知りたい方はご確認ください。
 
 ---
 
@@ -132,7 +132,7 @@
 ## Oracle JDK
 - Oracle JDKはOracle DBのような位置づけになる予定
 - 評価、開発では無料で使用できるが、無償で使いたい、今までと同じようにJDKを使いたいならばOpenJDK。
-- **ただし、サポートは短い。**
+- **ただし、Open JDKはサポートは短い。**
 
 ---
 
@@ -158,6 +158,7 @@
 - リリースモデル
 - **☆Java9での機能追加**
 - 余談
+
 ---
 
 ## Java9での機能追加 1
@@ -214,10 +215,6 @@
 - 変数定義補完
   - Shift-Tab v
 
-- OpenJDKコミッターの吉田真也さんが深く？関わった事もあって、日本ではよく資料があがってる。
-- JShell
-- 「Hello World」が簡単に。
-
 ---
 
 ## ライブラリ改善
@@ -234,14 +231,14 @@
 ## 今まで
 - Arrays.asList("a","b","c");
 - Collections.unmodifiableSet(new HashSet<>(Arrays.asList("a","b","c")));
-- new HashMap<>(){{put("k1","v1");put("k2","v2")}};
+- new HashMap<>(){{put("k1","v1");put("k2","v2");}};
 
 ---
 
 ## これから
 - List.of("a","b","c");
 - Set.of("a","b","c");
-- Map.of("k1","v1","k","v");
+- Map.of("k1","v1","k2","v2");
 
 ---
 
@@ -378,6 +375,7 @@ import com.example.server.internal.内部API;
   (パッケージcom.example.server.internalはモジュールserverで宣言されていますが、エクスポートされていません)
 エラー1個
 ```
+
 ---
 
 ## エラー（依存性未定義）
