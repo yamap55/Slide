@@ -26,8 +26,9 @@
 ---
 
 ↓で公開しています。
-http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md
-https://github.com/yamap55/Slide/blob/master/20171024/java9.md
+
+- http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md
+- https://github.com/yamap55/Slide/blob/master/20171024/java9.md
 
 ---
 
