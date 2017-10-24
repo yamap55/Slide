@@ -1,5 +1,5 @@
 ﻿# Slide
-- [Java 9について](http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md)
+- [Java SE 9とJavaの今後について](http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md)
   - ほぼ[JJUGのセッション](https://www.youtube.com/watch?v=XT2tIh9r6Eo)のまとめ
 - [何かしなきゃと思っているあなたにGroovy](http://yamap55.github.io/Slide/index.html?slide=20170823/firstGroovy.md) : 2017/08/23
   - [src](https://github.com/yamap55/Slide/blob/master/20170823/firstGroovy.md)
