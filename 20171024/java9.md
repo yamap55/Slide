@@ -152,6 +152,12 @@ https://github.com/yamap55/Slide/blob/master/20171024/java9.md
 
 ---
 
+## 移行について
+- [Migration Guide](https://docs.oracle.com/javase/9/migrate/toc.htm)の提供あり
+- [日本語訳](https://k--kato.github.io/migrating2Jdk9/)もある
+
+---
+
 ## サポートの注意
 - JDK8のサポートは2018/9まで
 - JDK9は2018/3まで
