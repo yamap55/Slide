@@ -188,7 +188,10 @@
 
 ## [Scratch](https://scratch.mit.edu/)
 ![Scratch](./pic6.png)
-- [作品](https://scratch.mit.edu/projects/204748305/)
+
+--
+
+- [触ってみた](https://scratch.mit.edu/projects/204748305/)
 
 ---
 
