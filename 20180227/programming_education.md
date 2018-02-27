@@ -192,7 +192,7 @@
 
 --
 
-- [触ってみたa](https://scratch.mit.edu/projects/204748305/)
+- [触ってみた](https://scratch.mit.edu/projects/204748305/)
 
 ---
 
