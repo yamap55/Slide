@@ -1,5 +1,5 @@
 # Slide
-- [小学生のプログラミング教育必修化](http://yamap55.github.io/Slide/index.html?slide=20180227/programming_education.md) : 2018/0227/
+- [小学生のプログラミング教育必修化](http://yamap55.github.io/Slide/index.html?slide=20180227/programming_education.md) : 2018/02/27
     - [src](https://github.com/yamap55/Slide/blob/master/20180227/programming_education.md)
     - [TODO blog記事](http://yamap55.hatenablog.com)
 - [Java SE 9とJavaの今後について](http://yamap55.github.io/Slide/index.html?slide=20171024/java9.md)
