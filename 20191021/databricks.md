@@ -24,7 +24,7 @@
 
 ## 1. 概要
 
----
+--
 
 ### 概要
 - Databricks社が運営
@@ -33,7 +33,7 @@
 - 最近は[Azure版](https://azure.microsoft.com/ja-jp/services/databricks/)が強い？
     - SEOの問題か検索でよく出てくる
 
----
+--
 
 ### 運営元
 - Databricks社
@@ -45,7 +45,7 @@
 
 ## 2. 詳細
 
----
+--
 
 ### 環境系
 - 環境構築が簡単
@@ -55,14 +55,14 @@
 - spark configや環境変数は設定可能
 - クラスタの状態やログなどを画面表示
 
----
+--
 
 ### コード系
 - Notebook形式
 - Python, Scala, R, SQLなどに対応
 - コード補完なども少しは
 
----
+--
 
 ### その他
 - Sparkの最新機能がいち早く使用可能
@@ -71,7 +71,7 @@
 - Notebookの定期実行可能
 - APIが充実
 
----
+--
 
 ### お値段
 - 無料版はあるがお試しスペック
@@ -113,7 +113,7 @@
 
 ## 5. デメリット
 
----
+--
 
 ## デメリット
 - 日本語が化ける
@@ -155,13 +155,13 @@
 
 ## 6. おまけ
 
----
+--
 
 ### Chrome拡張
 - 幾つかChrome拡張あります
 - https://chrome.google.com/webstore/search/databricks?hl=ja
 
----
+--
 
 ### 参考
 - [公式ドキュメント](https://docs.databricks.com/index.html)
