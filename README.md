@@ -1,4 +1,6 @@
 # Slide
+- [LTのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20191115/lt.md) : 2019/11/15
+    - [src](https://github.com/yamap55/Slide/blob/master/20191115/lt.md)
 - [Databricksとは](http://yamap55.github.io/Slide/index.html?slide=20191021/databricks.md) : 2019/10/21
     - [src](https://github.com/yamap55/Slide/blob/master/20191021/databricks.md)
 - [小学生のプログラミング教育必修化](http://yamap55.github.io/Slide/index.html?slide=20180227/programming_education.md) : 2018/02/27
