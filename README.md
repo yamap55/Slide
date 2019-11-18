@@ -1,4 +1,6 @@
 # Slide
+- [DockerとVSCodeだけで開発環境を作る](http://yamap55.github.io/Slide/index.html?slide=20191122/vscode-remote-containers.md) : 2019/11/15
+    - [src](https://github.com/yamap55/Slide/blob/master/20191122/vscode-remote-containers.md)
 - [LTのすゝめ](http://yamap55.github.io/Slide/index.html?slide=20191115/lt.md) : 2019/11/15
     - [src](https://github.com/yamap55/Slide/blob/master/20191115/lt.md)
 - [Databricksとは](http://yamap55.github.io/Slide/index.html?slide=20191021/databricks.md) : 2019/10/21
