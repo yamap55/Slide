@@ -43,6 +43,7 @@
 - その環境で開発
 - その環境でデバック
 - ローカルは綺麗なまま
+- VSCodeの拡張もコンテナに押し付ける
 
 ---
 
@@ -71,6 +72,13 @@ git clone https://github.com/Microsoft/vscode-remote-try-cpp
 - プロジェクトがVSCodeに限定される
   - PyCharm使いはそれはそれで設定可能っぽい
 - ローカルにインストールとか古いという意識を持たなければ
+
+---
+
+## 参考
+- [公式ドキュメント](https://code.visualstudio.com/docs/remote/remote-overview)
+- サンプルリポジトリ
+- [Dockerで立ち上げた開発環境をVS Codeで開く!](https://qiita.com/yoskeoka/items/01c52c069123e0298660)
 
 ---
 
