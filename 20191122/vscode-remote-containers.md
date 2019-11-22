@@ -21,10 +21,12 @@
 - バージョン
 - 仮想環境
 - ライブラリ
+- エディタ
 
 --
 
-### それぞれ管理するツールとかあるのがまた面倒
+### 例えば
+- Python2？3？
 - virtualenv
 - pyenv
 - pipenv
@@ -61,6 +63,28 @@ git clone https://github.com/Microsoft/vscode-remote-try-cpp
 ---
 
 ## デモ
+
+<aside class="notes">
+1. サンプルをClone
+2. VSCodeを開く
+    - goの拡張機能は入っていないので、関数コメントとかでない
+3. 拡張機能インストール
+    - Remote - Containers
+4. 左下のアイコンからCloneしたフォルダ開く
+    - `C:\github\vscode-remote\vscode-remote-try-go`
+5. 挙動確認
+    - goの関数コメントが出る
+        - コンテナ内のVSCodeで拡張機能を入れている
+    - F2で変数名変えてもいい感じに変わる
+    - server.goでF5してlocalhost:9000で起動する
+6. dockerのプロセス確認
+    - `docker ps`
+7. 設定ファイル確認
+    - `.devcontainer/devcontainer.json` & `Dockerfile`
+    - goで少し見せた後、Pythonを見せる
+    - go閉じたらコンテナ落ちてる事を確認（`docker ps`）
+    - pythonでextensions, settings, postCreateCommandを見せる
+</aside>
 
 ---
 
