@@ -1,4 +1,6 @@
 # Slide
+- [Apache Groovyの紹介](http://yamap55.github.io/Slide/index.html?slide=20200117/groovy.md) : 2020/01/17
+    - [src](https://github.com/yamap55/Slide/blob/master/20200117/groovy.md)
 - [最近行った開発環境の整備について](http://yamap55.github.io/Slide/index.html?slide=20191224/development_environment.md) : 2019/12/24
     - [src](https://github.com/yamap55/Slide/blob/master/20191224/development_environment.md)
 - [DockerとVSCodeだけで開発環境を作る](http://yamap55.github.io/Slide/index.html?slide=20191122/vscode-remote-containers.md) : 2019/11/15
