@@ -17,7 +17,7 @@
 - 昨年11/13に正式サービス化
 - 旧名 : GitHub Package Registry
 - GitHub Actionsの影に隠れてあまり話題になってない
-- npm,gem,mvn,gradle,docker,dotcetをサポート
+- npm,gem,mvn,gradle,docker,dotnet cliをサポート
 
 ---
 
