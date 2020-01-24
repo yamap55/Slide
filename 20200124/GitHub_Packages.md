@@ -24,14 +24,15 @@
 ## メリット
 - 既存のサービスと遜色なく使える
 - GitHubのサービスなのでGitHubと相性抜群
-- privateリポジトリの場合はGitHubとセットなので有利
-  - DockerHubなど外部サービスは別途費用がかかる
+- privateリポジトリの場合は費用面で優しい
+  - GitHubとセット
+  - DockerHubなど外部サービスは別途費用が必要
 
 ---
 
 ## デメリット
 - 世界に公開するとなると既存サービスの方が有利
-  - 各ツールでデフォルトとなっているため
+  - リポジトリの追加など別途設定が必要
 - ドキュメントは充実しているが、中途半端に日本語になっていてわかりづらい
 - 公式以外は情報があまりない
 - 検索すると古い情報が出てくるので注意
@@ -40,6 +41,7 @@
 
 ## docker
 - docker login
+    - githubのtokenが必要
 - docker build
 - docker push
 
@@ -66,6 +68,18 @@ docker pull docker.pkg.github.com/yamap55/github-package-registry-sample/sample-
 ```
 FROM docker.pkg.github.com/yamap55/github-package-registry-sample/sample-img:1.0
 ```
+
+---
+
+## docker 以外
+- [ドキュメント](https://help.github.com/en/github/managing-packages-with-github-packages/using-github-packages-with-your-projects-ecosystem)見てやってみて！
+
+---
+
+## まとめ
+- 簡単に使えて便利
+- privateリポジトリの場合に有用
+- package本体とコード（リポジトリ）が紐づくのはわかりやすい
 
 ---
 
