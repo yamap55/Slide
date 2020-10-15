@@ -2,7 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
-| [Pylance について](http://yamap55.github.io/Slide/index.html?slide=20201020/pylance.md) | 2020/10/20 | [src](https://github.com/yamap55/Slide/blob/master/20201020/pylance.md) | |
+| [Pylance について](http://yamap55.github.io/Slide/index.html?slide=20201027/pylance.md) | 2020/10/27 | [src](https://github.com/yamap55/Slide/blob/master/20201027/pylance.md) | |
 | [Pylanceについて](http://yamap55.github.io/Slide/index.html?slide=20201009/pylance.md) | 2020/10/09 | [src](https://github.com/yamap55/Slide/blob/master/20201009/pylance.md) |  |
 | [Class設計とかオブジェクト指向とか](http://yamap55.github.io/Slide/index.html?slide=20200626/class_design.md) | 2020/06/26 | [src](https://github.com/yamap55/Slide/blob/master/20200626/class_design.md) |  |
 | [GitHub Packagesの紹介](http://yamap55.github.io/Slide/index.html?slide=20200124/GitHub_Packages.md) | 2020/01/24 | [src](https://github.com/yamap55/Slide/blob/master/20200124/GitHub_Packages.md) |  |
