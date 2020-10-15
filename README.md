@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [エンジニアは独学が必要か？そしてそれは可能か。人生のイベントでどう変わるか](http://yamap55.github.io/Slide/index.html?slide=20201016/slide.md) | 2020/10/16 | [src](https://github.com/yamap55/Slide/blob/master/20201016/slide.md) | |
 | [Pylance について](http://yamap55.github.io/Slide/index.html?slide=20201027/pylance.md) | 2020/10/27 | [src](https://github.com/yamap55/Slide/blob/master/20201027/pylance.md) | |
 | [Pylanceについて](http://yamap55.github.io/Slide/index.html?slide=20201009/pylance.md) | 2020/10/09 | [src](https://github.com/yamap55/Slide/blob/master/20201009/pylance.md) |  |
 | [Class設計とかオブジェクト指向とか](http://yamap55.github.io/Slide/index.html?slide=20200626/class_design.md) | 2020/06/26 | [src](https://github.com/yamap55/Slide/blob/master/20200626/class_design.md) |  |
