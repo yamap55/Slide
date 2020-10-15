@@ -38,7 +38,7 @@
 
 ## 最近話題になった記事
 
-![エンジニアに独学を期待するのはもう時代遅れだと思う。](image1.png)
+![エンジニアに独学を期待するのはもう時代遅れだと思う。](20201016/image1.png)
 <span style="font-size:small">https://cloverstudioceo.hatenablog.com/entry/2020/10/13/065658</span>
 
 --
@@ -109,7 +109,7 @@
 
 ## ブコメ
 
-![はてなブックマークコメント](image2.png)
+![はてなブックマークコメント](20201016/image2.png)
 <span style="font-size:small">https://b.hatena.ne.jp/entry/s/cloverstudioceo.hatenablog.com/entry/2020/10/13/065658</span>
 
 ---
