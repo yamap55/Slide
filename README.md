@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [Python標準ライブラリを知る会](http://yamap55.github.io/Slide/index.html?slide=20201029/python_standard_library_1.md) | 2020/10/29 | [src](https://github.com/yamap55/Slide/blob/master/20201029/python_standard_library_1.md) | 担当分（20分想定） |
 | [Python標準ライブラリを知る会](http://yamap55.github.io/Slide/index.html?slide=20201029/introduction.md) | 2020/10/29 | [src](https://github.com/yamap55/Slide/blob/master/20201029/introduction.md) | 会の説明（5分想定） |
 | [エンジニアは独学が必要か？そしてそれは可能か。人生のイベントでどう変わるか](http://yamap55.github.io/Slide/index.html?slide=20201016/slide.md) | 2020/10/16 | [src](https://github.com/yamap55/Slide/blob/master/20201016/slide.md) | |
 | [Pylance について](http://yamap55.github.io/Slide/index.html?slide=20201027/pylance.md) | 2020/10/27 | [src](https://github.com/yamap55/Slide/blob/master/20201027/pylance.md) | |
