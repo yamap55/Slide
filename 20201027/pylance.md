@@ -50,6 +50,34 @@
 - 現在は Python 拡張と Pylance は別の拡張機能だが、将来は統合される予定
 - 言語サーバーも統合される予定
 
+--
+
+## [公式ドキュメントの記載](https://github.com/microsoft/pylance-release#features)
+
+- Python拡張に含まれている機能も？
+
+--
+
+<style>
+</style>
+<span style="font-size:80%">
+<ul>
+<li>Docstrings</li>
+<li>タイプ情報付きの署名ヘルプ</li>
+<li>パラメータの提案</li>
+<li>コード補完</li>
+<li>自動インポート（およびインポートコードアクションの追加と削除）</li>
+<li>コードエラーと警告の入力時のレポート（診断）</li>
+<li>コードの概要</li>
+<li>コードナビゲーション</li>
+<li>型チェックモード</li>
+<li>ネイティブマルチルートワークスペースのサポート</li>
+<li>IntelliCodeの互換性</li>
+<li>JupyterNotebooksの互換性</li>
+<li>セマンティックハイライト</li>
+</ul>
+</span>
+
 ---
 
 ## 言語サーバとは？
