@@ -44,6 +44,7 @@
 - インストールされた標準ライブラリから適切と思われるモジュールを提案
 - 型チェック診断も 2 段階で可能
 - IntelliCode、Jupyter Notebooks と互換あり
+- シンタックスハイライト（の強化）
 
 --
 
@@ -54,7 +55,7 @@
 
 ## [公式ドキュメントの記載](https://github.com/microsoft/pylance-release#features)
 
-- Python拡張に含まれている機能も？
+- Python 拡張に含まれている機能も？
 
 --
 
