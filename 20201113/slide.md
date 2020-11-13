@@ -106,7 +106,7 @@ python main.py
 
 ### Slack
 
-![slack](20201113/img1.png)
+![slack](img1.png)
 
 ---
 
