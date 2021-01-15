@@ -55,7 +55,7 @@ d = {}
 for s in l:
   k, v = f(s)
   d[k] = v
-assert d == print(d) # {'aa': 'aaa', 'bb': 'bbb'}
+assert d == {"aa": "aaa", "bb": "bbb"}
 ```
 
 --
@@ -70,7 +70,7 @@ def f(s):
   return k:v # ここ！
 
 d = {f(s) for s in l}
-assert d == print(d) # {'aa': 'aaa', 'bb': 'bbb'}
+assert d == {"aa": "aaa", "bb": "bbb"}
 ```
 
 ※構文エラーです
