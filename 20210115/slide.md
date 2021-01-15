@@ -87,12 +87,14 @@ def f(s):
   return k, v
 
 d = dict([f(s) for s in l])
-assert d == print(d) # {'aa': 'aaa', 'bb': 'bbb'}
+assert d == {"aa": "aaa", "bb": "bbb"}
 ```
 
 --
 
 ### 補足
+
+- https://docs.python.org/ja/3/library/stdtypes.html#dict
 
 ```python
 l = [("a","b"), ("c","d")]
