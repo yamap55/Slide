@@ -105,7 +105,7 @@ assert d == {"a": "b", "c": "d"}
 ## 詳細？
 
 - `{s:s for s in l}` という「構文」なので関数で返すことはできないと思われる
-- 最適解の通り関数ではTupleを返してそのListをdictに変換すると思われる
+- 最適解の通り関数では Tuple を返してその List を dict に変換すると思われる
 
 ※裏付けできていないので誰か教えて！
 
@@ -113,11 +113,11 @@ assert d == {"a": "b", "c": "d"}
 
 ## 参考とか
 
-- Twitterで悩んだ時のお話
+- Twitter で悩んだ時のお話
   - https://twitter.com/yamap_55/status/1344640076513304584
-- 日本語版Stack Overflowで聞いてみた
+- 日本語版 Stack Overflow で聞いてみた
   - https://ja.stackoverflow.com/questions/73132/
-- PEPの記載
+- PEP の記載
   - https://www.python.org/dev/peps/pep-0274/
 
 ---
