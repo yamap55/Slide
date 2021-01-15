@@ -63,7 +63,7 @@ assert d == {"aa": "aaa", "bb": "bbb"}
 ### イメージ
 
 ```python
-l = ['a', 'b']
+l = ["a", "b"]
 def f(s):
   k = s * 2
   v = s * 3
@@ -80,7 +80,7 @@ assert d == {"aa": "aaa", "bb": "bbb"}
 ## 最適解と思われるコード
 
 ```python
-l = ['a', 'b']
+l = ["a", "b"]
 def f(s):
   k = s * 2
   v = s * 3
