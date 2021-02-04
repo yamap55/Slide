@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [競プロはじめました](http://yamap55.github.io/Slide/index.html?slide=20210205/slide.md) | 2021/02/05 | [src](https://github.com/yamap55/Slide/blob/master/20210205/slide.md) | LT |
 | [年末年始やったこと](http://yamap55.github.io/Slide/index.html?slide=20210122/slide.md) | 2021/01/22 | [src](https://github.com/yamap55/Slide/blob/master/20210122/slide.md) | LT |
 | [Python の辞書内包表記で困った事](http://yamap55.github.io/Slide/index.html?slide=20210115/slide.md) | 2021/01/15 | [src](https://github.com/yamap55/Slide/blob/master/20210115/slide.md) | LT |
 | [slackbot ライブラリの中身を見てみた](http://yamap55.github.io/Slide/index.html?slide=20201113/slide.md) | 2020/11/13 | [src](https://github.com/yamap55/Slide/blob/master/20201113/slide.md) | LT |
