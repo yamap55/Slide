@@ -17,7 +17,7 @@
 
 ## アジェンダ
 
-- このLTで言いたいこと
+- この LT で言いたいこと
 - 競プロとは
 - デモ
 - あるコンテストの結果
@@ -26,7 +26,7 @@
 
 ---
 
-## このLTで言いたいこと
+## この LT で言いたいこと
 
 --
 
@@ -49,11 +49,12 @@
 
 --
 
-詳細はGoogle先生に聞いてください
+詳細は Google 先生に聞いてください
 
 ---
 
 ## デモ
+
 説明とか見飽きている気がするので。
 
 --
@@ -75,23 +76,24 @@
 --
 
 ## 私の成績
+
 https://atcoder.jp/users/yamap55/history
 
 --
 
-![AtCoder Beginner Contest 189](20210205/img1.png)
+![AtCoder Beginner Contest 189](img1.png)
 
 [AtCoder Beginner Contest 189](https://atcoder.jp/contests/abc189)
 
 --
 
-### 100分かけて1問正解
+### 100 分かけて 1 問正解
 
 --
 
 ### 解けた問題
 
-> 3文字の文字列が与えられるのでそれが全て等しいか確認せよ
+> 3 文字の文字列が与えられるのでそれが全て等しいか確認せよ
 
 例: 「SSS」とか
 
@@ -101,7 +103,7 @@ https://atcoder.jp/users/yamap55/history
 
 --
 
-- Webで入力して回答はしんどい
+- Web で入力して回答はしんどい
 - テストケース試すのも面倒
 - 補完、インデントとか
 
