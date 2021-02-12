@@ -9,7 +9,7 @@
   }
 </style>
 
-# GitHub の Dependabot が良いよ
+# GitHub の Dependabot が良い
 
 ### yamap55
 
