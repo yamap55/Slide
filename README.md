@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [データベースのCHECK制約とは](http://yamap55.github.io/Slide/index.html?slide=20210219/slide.md) | 2021/02/19 | [src](https://github.com/yamap55/Slide/blob/master/20210219/slide.md) | LT |
 | [GitHub の Dependabot が良い](http://yamap55.github.io/Slide/index.html?slide=20210212/slide.md) | 2021/02/12 | [src](https://github.com/yamap55/Slide/blob/master/20210212/slide.md) | LT |
 | [競プロはじめました](http://yamap55.github.io/Slide/index.html?slide=20210205/slide.md) | 2021/02/05 | [src](https://github.com/yamap55/Slide/blob/master/20210205/slide.md) | LT |
 | [年末年始やったこと](http://yamap55.github.io/Slide/index.html?slide=20210122/slide.md) | 2021/01/22 | [src](https://github.com/yamap55/Slide/blob/master/20210122/slide.md) | LT |
