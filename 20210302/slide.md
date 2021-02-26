@@ -79,8 +79,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 ## ポイント
 
 - 絶対必要なものだけ
-  - font,icon,色などは要検討
-- 開発者が良いと思ったのは取り入れる
+  - font,icon,色など個人の好みは設定しない
+- 開発者が良いと思ったのはチームで検討して取り入れる
 
 ---
 
@@ -170,6 +170,39 @@ https://github.com/yamap55/python_repository_simple/blob/master/pytest.ini
 
 ## GitHub Actions
 
+https://github.com/yamap55/python_repository_simple/tree/master/.github/workflows
+
+--
+
+## ポイント
+- push時にCIで実行
+- PRの画面から遷移しなくてすむように[reviewdog](https://github.com/reviewdog/reviewdog)を活用
+
+---
+
+## Dependabot
+
+https://github.com/yamap55/python_repository_simple/blob/master/.github/dependabot.yml
+
+--
+
+## ポイント
+- ライブラリのバージョンはアップデータ忘れがち
+- 脆弱性など大きな障害に繋がる前にこまめなアップデートを行う
+
+## Docker Compose
+
+https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.yml
+
+--
+
+## ポイント
+- RDBなど何らかのアプリケーションが追加される事が多いのでcomposeで構築
+- 環境変数はほぼ必ず使用されるので `.env` で管理
+
+---
+
+
 ☆★☆★ここから！！！！！☆★☆★
 
 - VSCode
@@ -184,6 +217,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/pytest.ini
 - GitHub Actions
 dependabot.yml
 DockerCompose
+VSCode拡張機能
 
 ---
 
@@ -191,7 +225,10 @@ DockerCompose
 - pip
 - pyproject.toml
   - flake8が非対応
-
+- shell, dockerfileなどのlinter追加
+  - shellcheck, hadolintなど
+- dockerfileに対してDependabot設定
+- 拡張機能
 
 ## ある日のつぶやき
 
