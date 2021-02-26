@@ -9,7 +9,7 @@
   }
 </style>
 
-# ShellCheckの紹介
+# ShellCheck の紹介
 
 ### yamap55
 
@@ -18,8 +18,9 @@
 ## アジェンダ
 
 - はじめに
-- ShellCheckとは
+- ShellCheck とは
 - 使い方
+- メモ的な話
 - まとめ
 
 ---
@@ -28,11 +29,11 @@
 
 --
 
-## Shellわかりますか？
+## Shell わかりますか？
 
 --
 
-## Shellをサクッと書けますか？
+## Shell をサクッと書けますか？
 
 --
 
@@ -40,14 +41,13 @@
 
 --
 
-## そこでShellCheck
+## そこで ShellCheck
 
 https://github.com/koalaman/shellcheck
 
-
 ---
 
-## ShellCheckとは
+## ShellCheck とは
 
 --
 
@@ -55,10 +55,10 @@ https://github.com/koalaman/shellcheck
 
 --
 
-## VSCode Extension版のデモ
+## VSCode Extension 版のデモ
 
-https://github.com/timonwong/vscode-shellcheck
-https://user-images.githubusercontent.com/29582865/106907134-c299c000-66b2-11eb-8d8b-ea1bd898cb3a.gif
+- https://github.com/timonwong/vscode-shellcheck
+- https://user-images.githubusercontent.com/29582865/106907134-c299c000-66b2-11eb-8d8b-ea1bd898cb3a.gif
 
 --
 
@@ -78,19 +78,35 @@ https://gist.github.com/nicerobot/53cee11ee0abbdc997661e65b348f375#file-_shellch
 
 --
 
-- あらゆるインストール方法がREADMEに書いてある
+- あらゆるインストール方法が README に書いてある
   - https://github.com/koalaman/shellcheck#installing
-- VSCodeなどのエディタ
+- VSCode などのエディタ
 - CI
-- [Web版](https://www.shellcheck.net/)
+- [Web 版](https://www.shellcheck.net/)
 
 ---
 
 ## メモ的な話
-- VSCode拡張にはQuick Fix機能がある
+
+--
+
+- 基本的にファイルを指定して実行する
+- 特定のフォルダ以下全てのシェルに実行等はできないので find と組み合わせる
+  - Shell は拡張子や shebang が一意に定まらないため
+
+```bash
+find . -type d -name node_modules -prune -o type '*.sh' -print | xargs shellcheck
+```
+
+- https://github.com/koalaman/shellcheck/issues/143
+- https://github.com/koalaman/shellcheck/wiki/Recursiveness
+
+--
+
+- VSCode 拡張には Quick Fix 機能がある
   - まだお試し中らしい
   - https://github.com/timonwong/vscode-shellcheck#experimental-quick-fix
-- コードフォーマットはshfmtというのがある
+- コードフォーマットは shfmt というのがある
   - https://github.com/mvdan/sh
 - 作者の名前が「koalaman」となかなか愉快
   - https://github.com/koalaman
@@ -98,8 +114,9 @@ https://gist.github.com/nicerobot/53cee11ee0abbdc997661e65b348f375#file-_shellch
 ---
 
 ## まとめ
+
 - よくわからないものは外部ツールに頼る
-- shellを少しでも使うならShellCheckを使う
+- shell を少しでも使うなら ShellCheck を使う
 - ドキュメントたくさん書いてあると嬉しい
 
 ---
