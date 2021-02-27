@@ -140,6 +140,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/.flake8
 - PylanceはVS Codeの拡張機能なのでCIでの実行はPyrightを使用
 - Stubを入れる
 - まだ、すべては強制できない
+  - https://github.com/yamap55/python_repository_simple/blob/master/pyrightconfig.json
 
 --
 
@@ -202,6 +203,16 @@ https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.y
 
 ---
 
+## ログ設定
+
+https://github.com/yamap55/python_repository_simple/blob/master/logging.conf
+
+--
+
+## ポイント
+- 後回しにされがちなので最初に定義
+- 形式はini形式だが、yamlやdictはお好み？
+  - dictを使用するほうが新しいとのこと
 
 ☆★☆★ここから！！！！！☆★☆★
 
@@ -221,6 +232,10 @@ VS Code拡張機能
 
 ---
 
+## やっていないこと
+- docstringのbuild
+- 
+
 ## 改善点
 - pip
 - pyproject.toml
@@ -229,6 +244,7 @@ VS Code拡張機能
   - shellcheck, hadolintなど
 - dockerfileに対してDependabot設定
 - 拡張機能
+- textlint
 
 ---
 
