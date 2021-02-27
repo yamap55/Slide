@@ -30,7 +30,7 @@
 --
 
 - Pythonでシステムを作る際の開発環境を紹介
-- PJメンバはシステム開発経験は少ない事を想定
+- PJメンバーはシステム開発経験が少ない事を想定
   - 環境構築の難易度は低い
   - PJとしての統一を優先
   - 自由度は低い
@@ -51,7 +51,7 @@ https://github.com/yamap55/python_repository_simple
 - その環境で開発
 - その環境でデバック
 - ローカルは綺麗なまま
-- VSCodeの設定、拡張機能も統一
+- VS Codeの設定、拡張機能も統一
 
 --
 
@@ -63,15 +63,15 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 
 ## 環境構築に時間をかけない
 
-- Git, VSCodeだけあればよい
-- VSCodeの設定や拡張機能も設定済み
+- Git, VS Codeだけあればよい
+- VS Codeの設定や拡張機能も設定済み
 - Lint, Pytestも動く
 
 --
 
 ## 個人の好みの部分は設定可能
 
-- `.vscode/setting.json` は.gitignoreに含めている
+- `.VS Code/setting.json` は .gitignore に含めている
 - 拡張機能もローカルのものが使用可能
 
 --
@@ -79,7 +79,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 ## ポイント
 
 - 絶対必要なものだけ
-  - font,icon,色など個人の好みは設定しない
+  - font、icon、色など個人の好みは設定しない
 - 開発者が良いと思ったのはチームで検討して取り入れる
 
 ---
@@ -137,9 +137,9 @@ https://github.com/yamap55/python_repository_simple/blob/master/.flake8
 ## ポイント
 
 - Pylanceの補完が便利なので型は基本
-- PylanceはVSCodeの拡張機能なのでCIでの実行はPyrightを使用
+- PylanceはVS Codeの拡張機能なのでCIでの実行はPyrightを使用
 - Stubを入れる
-- まだ全ては強制できない
+- まだ、すべては強制できない
 
 --
 
@@ -187,8 +187,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/.github/dependab
 --
 
 ## ポイント
-- ライブラリのバージョンはアップデータ忘れがち
-- 脆弱性など大きな障害に繋がる前にこまめなアップデートを行う
+- ライブラリのバージョンはアップデートを忘れがち
+- 脆弱性など大きな障害が発生する前にこまめなアップデートを行う
 
 ## Docker Compose
 
@@ -197,7 +197,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.y
 --
 
 ## ポイント
-- RDBなど何らかのアプリケーションが追加される事が多いのでcomposeで構築
+- RDBなど何らかのアプリケーションを追加する事が多いのでcomposeで構築
 - 環境変数はほぼ必ず使用されるので `.env` で管理
 
 ---
@@ -205,7 +205,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.y
 
 ☆★☆★ここから！！！！！☆★☆★
 
-- VSCode
+- VS Code
   - 設定
   - 拡張機能
 - devcontainer
@@ -217,7 +217,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.y
 - GitHub Actions
 dependabot.yml
 DockerCompose
-VSCode拡張機能
+VS Code拡張機能
 
 ---
 
