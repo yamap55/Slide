@@ -18,10 +18,9 @@
 ## アジェンダ
 
 - はじめに
-- CHECK 制約とは
-- 試してみた
-- 実装状況
-- 思った事
+- 各個別設定を紹介
+- やっていないこと
+- 改善点
 
 ---
 
@@ -71,7 +70,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 
 ## 個人の好みの部分は設定可能
 
-- `.VS Code/setting.json` は .gitignore に含めている
+- `.vscode/setting.json` は .gitignore に含めている
 - 拡張機能もローカルのものが使用可能
 
 --
@@ -81,6 +80,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 - 絶対必要なものだけ
   - font、icon、色など個人の好みは設定しない
 - 開発者が良いと思ったのはチームで検討して取り入れる
+- Python3.8
 
 ---
 
@@ -162,10 +162,12 @@ https://github.com/yamap55/python_repository_simple/blob/master/pytest.ini
 
 ## ポイント
 
+- 設定は設定ファイルに記載
 - カバレッジ
   - pytest-cov
 - 遅いテストを意識
 - CIで実行
+- ここでは設定していないが、WarningをErrorと扱う事も検討したほうが良い
 
 ---
 
@@ -234,7 +236,7 @@ VS Code拡張機能
 
 ## やっていないこと
 - docstringのbuild
-- 
+
 
 ## 改善点
 - pip
