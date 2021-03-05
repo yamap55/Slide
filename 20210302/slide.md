@@ -9,7 +9,7 @@
   }
 </style>
 
-# Pythonの開発環境
+# Python の開発環境
 
 ### yamap55
 
@@ -28,10 +28,10 @@
 
 --
 
-- Pythonでシステムを作る際の開発環境を紹介
-- PJメンバーはシステム開発経験が少ない事を想定
+- Python でシステムを作る際の開発環境を紹介
+- PJ メンバーはシステム開発経験が少ない事を想定
   - 環境構築の難易度は低い
-  - PJとしての統一を優先
+  - PJ としての統一を優先
   - 自由度は低い
 
 --
@@ -46,11 +46,11 @@ https://github.com/yamap55/python_repository_simple
 
 --
 
-- Dockerで開発環境作成
+- Docker で開発環境作成
 - その環境で開発
 - その環境でデバック
 - ローカルは綺麗なまま
-- VS Codeの設定、拡張機能も統一
+- VS Code の設定、拡張機能も統一
 
 --
 
@@ -62,9 +62,9 @@ https://github.com/yamap55/python_repository_simple/blob/master/.devcontainer/de
 
 ## 環境構築に時間をかけない
 
-- Git, VS Codeだけあればよい
-- VS Codeの設定や拡張機能も設定済み
-- Lint, Pytestも動く
+- Git, VS Code だけあればよい
+- VS Code の設定や拡張機能も設定済み
+- Lint, Pytest も動く
 
 --
 
@@ -93,12 +93,13 @@ https://github.com/yamap55/python_repository_simple/blob/master/.flake8
 ## ポイント
 
 - 設定は設定ファイルに記載
-- docstringを強制
+- 指摘を残さないように設定
+- docstring を強制
   - flake8-docstrings
 - ダブルクォート
   - flake8-quotes
 - ファイル保存時に強制起動
-- CIで実行
+- CI で実行
 
 ---
 
@@ -108,10 +109,10 @@ https://github.com/yamap55/python_repository_simple/blob/master/.flake8
 
 ## ポイント
 
-- 基本はblackに従う
-- 1行の文字数だけ緩和
+- 基本は black に従う
+- 1 行の文字数だけ緩和
 - ファイル保存時に強制起動
-- CIで実行
+- CI で実行
   - チェックだけ
 
 ---
@@ -130,26 +131,27 @@ https://github.com/yamap55/python_repository_simple/blob/master/.flake8
 ## Pyright
 
 - 型チェック
-- PylanceはPyrightを内包
+- Pylance は Pyright を内包
 
 --
 
 ## ポイント
 
-- Pylanceの補完が便利なので型は基本
-- PylanceはVS Codeの拡張機能なのでCIでの実行はPyrightを使用
-- Stubを入れる
+- Pylance の補完が便利なので型は基本
+- Pylance は VS Code の拡張機能なので CI での実行は Pyright を使用
+- Stub を入れる
 - まだ、すべては強制できない
   - https://github.com/yamap55/python_repository_simple/blob/master/pyrightconfig.json
+- 指摘を残さないように設定
 
 --
 
 ## Stub？
 
-- Pythonは動的型付け言語
+- Python は動的型付け言語
 - 型が指定されていないライブラリは多い
 - 型を定義可能
-- pandasやnumpyもある
+- pandas や numpy もある
   - https://github.com/predictive-analytics-lab/data-science-types
 
 ---
@@ -166,8 +168,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/pytest.ini
 - カバレッジ
   - pytest-cov
 - 遅いテストを意識
-- CIで実行
-- ここでは設定していないが、WarningをErrorと扱う事も検討したほうが良い
+- CI で実行
+- ここでは設定していないが、Warning を Error と扱う事も検討したほうが良い
 
 ---
 
@@ -178,8 +180,9 @@ https://github.com/yamap55/python_repository_simple/tree/master/.github/workflow
 --
 
 ## ポイント
-- push時にCIで実行
-- PRの画面から遷移しなくてすむように[reviewdog](https://github.com/reviewdog/reviewdog)を活用
+
+- push 時に CI で実行
+- PR の画面から遷移しなくてすむように[reviewdog](https://github.com/reviewdog/reviewdog)を活用
 
 ---
 
@@ -190,6 +193,7 @@ https://github.com/yamap55/python_repository_simple/blob/master/.github/dependab
 --
 
 ## ポイント
+
 - ライブラリのバージョンはアップデートを忘れがち
 - 脆弱性など大きな障害が発生する前にこまめなアップデートを行う
 
@@ -200,7 +204,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.y
 --
 
 ## ポイント
-- RDBなど何らかのアプリケーションを追加する事が多いのでcomposeで構築
+
+- RDB など何らかのアプリケーションを追加する事が多いので compose で構築
 - 環境変数はほぼ必ず使用されるので `.env` で管理
 
 ---
@@ -212,41 +217,27 @@ https://github.com/yamap55/python_repository_simple/blob/master/logging.conf
 --
 
 ## ポイント
+
 - 後回しにされがちなので最初に定義
-- 形式はini形式だが、yamlやdictはお好み？
-  - dictを使用するほうが新しいとのこと
-
-☆★☆★ここから！！！！！☆★☆★
-
-- VS Code
-  - 設定
-  - 拡張機能
-- devcontainer
-- Lint
-  - flake8
-  - black
-  - pyright
-- Pytest
-- GitHub Actions
-dependabot.yml
-DockerCompose
-VS Code拡張機能
+- 形式は ini 形式だが、yaml や dict はお好み？
+  - dict を使用するほうが新しいとのこと
 
 ---
 
 ## やっていないこと
-- docstringのbuild
 
+- docstring の build
 
 ## 改善点
+
 - pip
 - pyproject.toml
-  - flake8が非対応
-- shell, dockerfileなどのlinter追加
-  - shellcheck, hadolintなど
-- dockerfileに対してDependabot設定
-- 拡張機能
+  - flake8 が非対応
+- shell, dockerfile などの linter 追加
+  - shellcheck, hadolint など
+- dockerfile に対して Dependabot 設定
 - textlint
+- VS Code 拡張機能の選別
 
 ---
 
