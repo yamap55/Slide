@@ -197,6 +197,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/.github/dependab
 - ライブラリのバージョンはアップデートを忘れがち
 - 脆弱性など大きな障害が発生する前にこまめなアップデートを行う
 
+---
+
 ## Docker Compose
 
 https://github.com/yamap55/python_repository_simple/blob/master/docker-compose.yml
@@ -227,6 +229,8 @@ https://github.com/yamap55/python_repository_simple/blob/master/logging.conf
 ## やっていないこと
 
 - docstring の build
+
+---
 
 ## 改善点
 
