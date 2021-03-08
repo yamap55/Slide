@@ -44,6 +44,8 @@ https://github.com/yamap55/python_repository_simple
 
 ## devcontainer
 
+- [以前の資料](http://yamap55.github.io/Slide/index.html?slide=20191122/vscode-remote-containers.md)
+
 --
 
 - Docker で開発環境作成
