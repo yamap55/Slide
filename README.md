@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [PostgreSQLのデフォルトLOCALEの話](http://yamap55.github.io/Slide/index.html?slide=20210319/slide.md) | 2021/03/19 | [src](https://github.com/yamap55/Slide/blob/master/20210319/slide.md) | LT, [blog](https://yamap55.hatenablog.com/entry/2021/03/13/145223) |
 | [Python の開発環境](http://yamap55.github.io/Slide/index.html?slide=20210309/slide.md) | 2021/03/09 | [src](https://github.com/yamap55/Slide/blob/master/20210309/slide.md) |  |
 | [ShellCheckの紹介](http://yamap55.github.io/Slide/index.html?slide=20210226/slide.md) | 2021/02/26 | [src](https://github.com/yamap55/Slide/blob/master/20210226/slide.md) | LT |
 | [データベースのCHECK制約とは](http://yamap55.github.io/Slide/index.html?slide=20210219/slide.md) | 2021/02/19 | [src](https://github.com/yamap55/Slide/blob/master/20210219/slide.md) | LT |
