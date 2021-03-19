@@ -9,9 +9,7 @@
   }
 </style>
 
-# PostgreSQLのデフォルトLOCALEの話
-
-### yamap55
+# PostgreSQL で日本語ソート結果がおかしかったので調べた話
 
 ---
 
@@ -56,7 +54,7 @@ select * from hoge order by value;
 
 ```
 postgres=# select * from hoge order by value;
- id |   value    
+ id |   value
 ----+------------
   1 | あ
   3 | い
@@ -67,11 +65,11 @@ postgres=# select * from hoge order by value;
 
 --
 
-## LOCALEの確認
+## LOCALE の確認
 
 ```
 postgres=# SHOW LC_COLLATE;
- lc_collate 
+ lc_collate
 ------------
  en_US.utf8
 (1 row)
@@ -81,7 +79,7 @@ postgres=# SHOW LC_COLLATE;
 
 ## LC_COLLATE？
 
-> LC_COLLATE	文字列の並び換え順
+> LC_COLLATE 文字列の並び換え順
 
 https://www.postgresql.jp/document/12/html/locale.html
 
@@ -112,7 +110,6 @@ docker run -d --name postgres_2 postgres_i
 docker exec -it postgres_2 psql -U postgres
 ```
 
-
 --
 
 ## SQL
@@ -134,7 +131,7 @@ select * from hoge order by value;
 
 ```
 postgres=# select * from hoge order by value;
- id |   value    
+ id |   value
 ----+------------
   1 | あ
   2 | あ（ほげ）
@@ -145,11 +142,11 @@ postgres=# select * from hoge order by value;
 
 --
 
-## LOCALEの確認
+## LOCALE の確認
 
 ```
 postgres=# SHOW LC_COLLATE;
- lc_collate  
+ lc_collate
 -------------
  ja_JP.UTF-8
 (1 行)
@@ -163,7 +160,7 @@ postgres=# SHOW LC_COLLATE;
 
 - ちょっと使うだけでもしっかり設定しよう
 - 日本という環境は不利
-- 詳細はblogに書いた
+- 詳細は blog に書いた
   - https://yamap55.hatenablog.com/entry/2021/03/13/145223
 
 ---
@@ -172,7 +169,7 @@ postgres=# SHOW LC_COLLATE;
 
 --
 
-## MySQLの場合
+## MySQL の場合
 
 --
 
@@ -222,7 +219,7 @@ mysql> select * from hoge;
 
 --
 
-## 確認1
+## 確認 1
 
 ```
 mysql> status
@@ -237,7 +234,7 @@ Conn.  characterset:	latin1
 
 --
 
-## 確認2
+## 確認 2
 
 ```
 mysql> SHOW VARIABLES LIKE "char%";
@@ -261,11 +258,13 @@ mysql> SHOW VARIABLES LIKE "char%";
 ## クライアント側で変更できるらしい
 
 - 接続前
+
 ```
 docker exec -it mysql_1 mysql -u root -p -h 127.0.0.1 -D mysql -pmysql --default-character-set=utf8mb4
 ```
 
 - 接続後
+
 ```
 SET character_set_client = utf8mb4;
 SET character_set_results = utf8mb4;
@@ -273,7 +272,7 @@ SET character_set_results = utf8mb4;
 
 --
 
-## 再度確認1
+## 再度確認 1
 
 ```
 mysql> status
@@ -287,7 +286,7 @@ Conn.  characterset:	utf8mb4
 
 --
 
-## 再度確認2
+## 再度確認 2
 
 ```
 mysql> SHOW VARIABLES LIKE "char%";
@@ -312,7 +311,7 @@ mysql> SHOW VARIABLES LIKE "char%";
 
 - だめでした
 - サーバ側の設定を変更する必要があり（知ってた）
-- [DockerのMySQLコンテナを日本語対応させる - Qiita](https://qiita.com/zongxiaojie/items/6b593ec4ce5e85bb342c)
+- [Docker の MySQL コンテナを日本語対応させる - Qiita](https://qiita.com/zongxiaojie/items/6b593ec4ce5e85bb342c)
   - 試してない
 
 ---
