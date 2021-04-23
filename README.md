@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| Python の dataclass について | 2021/04/23 | [src](https://github.com/yamap55/Slide/blob/master/20210423/) | LT |
 | [Python の import について](http://yamap55.github.io/Slide/index.html?slide=20210326/slide.md) | 2021/03/26 | [src](https://github.com/yamap55/Slide/blob/master/20210326/slide.md) | LT, [リポジトリ](https://github.com/yamap55/python_import_sample),[関連blog](https://yamap55.hatenablog.com/entry/2021/03/24/230419) |
 | [PostgreSQLのデフォルトLOCALEの話](http://yamap55.github.io/Slide/index.html?slide=20210319/slide.md) | 2021/03/19 | [src](https://github.com/yamap55/Slide/blob/master/20210319/slide.md) | LT, [blog](https://yamap55.hatenablog.com/entry/2021/03/13/145223) |
 | [Python の開発環境](http://yamap55.github.io/Slide/index.html?slide=20210309/slide.md) | 2021/03/09 | [src](https://github.com/yamap55/Slide/blob/master/20210309/slide.md) |  |
