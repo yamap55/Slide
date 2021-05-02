@@ -119,4 +119,5 @@ TODO:
 
 - 現場で役立つシステム設計の原則
   - https://www.amazon.co.jp/dp/B073GSDBGT/
-
+- 作者による本への質問や回答
+  - https://www.slideshare.net/masuda220/ss-79304804
