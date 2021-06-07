@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [システム設計勉強会第 4 回](http://yamap55.github.io/Slide/index.html?slide=20210608/slide.md) | 2021/06/08 | [src](https://github.com/yamap55/Slide/blob/master/20210608/slide.md) |  |
 | [システム設計勉強会第 1 回](http://yamap55.github.io/Slide/index.html?slide=20210511/slide.md) | 2021/05/11 | [src](https://github.com/yamap55/Slide/blob/master/20210511/slide.md) |  |
 | Python の dataclass について | 2021/04/23 | [src](https://github.com/yamap55/Slide/blob/master/20210423/) | LT |
 | [Python の import について](http://yamap55.github.io/Slide/index.html?slide=20210326/slide.md) | 2021/03/26 | [src](https://github.com/yamap55/Slide/blob/master/20210326/slide.md) | LT, [リポジトリ](https://github.com/yamap55/python_import_sample),[関連blog](https://yamap55.hatenablog.com/entry/2021/03/24/230419) |
