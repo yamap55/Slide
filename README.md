@@ -2,7 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
-| [GitHub Packages](http://yamap55.github.io/Slide/index.html?slide=20210702/slide.md) | 20210702 | [src](https://github.com/yamap55/Slide/blob/master/20210702/slide.md) | LT, [20200124](http://yamap55.github.io/Slide/index.html?slide=20200124/GitHub_Packages.md)のアップデート |
+| [GitHub Packages](http://yamap55.github.io/Slide/index.html?slide=20210702/slide.md) | 2021/07/02 | [src](https://github.com/yamap55/Slide/blob/master/20210702/slide.md) | LT, [20200124](http://yamap55.github.io/Slide/index.html?slide=20200124/GitHub_Packages.md)のアップデート |
 | [システム設計勉強会第 7 回](http://yamap55.github.io/Slide/index.html?slide=20210629/slide.md) | 2021/06/29 | [src](https://github.com/yamap55/Slide/blob/master/20210629/slide.md) |  |
 | [システム設計勉強会第 4 回](http://yamap55.github.io/Slide/index.html?slide=20210608/slide.md) | 2021/06/08 | [src](https://github.com/yamap55/Slide/blob/master/20210608/slide.md) |  |
 | [システム設計勉強会第 1 回](http://yamap55.github.io/Slide/index.html?slide=20210511/slide.md) | 2021/05/11 | [src](https://github.com/yamap55/Slide/blob/master/20210511/slide.md) |  |
