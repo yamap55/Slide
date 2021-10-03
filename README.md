@@ -2,6 +2,8 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [Flutterはじめました（パート2）](http://yamap55.github.io/Slide/index.html?slide=20211004/slide.md) | 2021/10/04 | [src](https://github.com/yamap55/Slide/blob/master/20211004/slide.md) | LT, [リポジトリ](https://github.com/yamap55/flutter_sample) |
+| [Flutterはじめました（パート1）](http://yamap55.github.io/Slide/index.html?slide=20210927/slide.md) | 2021/09/27 | [src](https://github.com/yamap55/Slide/blob/master/20210927/slide.md) | LT, [リポジトリ](https://github.com/yamap55/flutter_sample) |
 | [GitHub ActionsとGitHub Pagesの連携がすごい](http://yamap55.github.io/Slide/index.html?slide=20210831/slide.md) | 2021/08/31 | [src](https://github.com/yamap55/Slide/blob/master/20210831/slide.md) | [blog](https://yamap55.hatenablog.com/entry/2021/08/21/010529) |
 | [flake8-bugbear](http://yamap55.github.io/Slide/index.html?slide=20210806/slide.md) | 2021/08/06 | [src](https://github.com/yamap55/Slide/blob/master/20210806/slide.md) |  |
 | [GitHub Packages](http://yamap55.github.io/Slide/index.html?slide=20210702/slide.md) | 2021/07/02 | [src](https://github.com/yamap55/Slide/blob/master/20210702/slide.md) | LT, [20200124](http://yamap55.github.io/Slide/index.html?slide=20200124/GitHub_Packages.md)のアップデート |
