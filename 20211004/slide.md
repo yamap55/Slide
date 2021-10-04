@@ -12,7 +12,7 @@
   }
 </style>
 
-# Flutterはじめました（パート2）
+# Flutter はじめました（パート 2）
 
 ---
 
@@ -31,9 +31,9 @@
 
 --
 
-このLTはFlutterをはじめた私が継続して学ぶため、経過報告を行うものです
+この LT は Flutter をはじめた私が継続して学ぶため、経過報告を行うものです
 
-（LT駆動開発）
+（LT 駆動開発）
 
 --
 
@@ -58,20 +58,20 @@ https://github.com/yamap55/flutter_sample
 
 --
 
-## Devcontainerを使う！！
+## Devcontainer を使う！！
 
 --
 
-## Devcontainerとは
+## Devcontainer とは
 
-- VS Code, Dockerさえあれば全て環境を整えられる凄いやつ
+- VS Code, Docker さえあれば全て環境を整えられる凄いやつ
 
 --
 
 ## Base Image
 
-- 基本となるBaseImageから組み立てるには知識が足りない
-- Flutterを触るために作るので何が必要なのか知らない
+- 基本となる BaseImage から組み立てるには知識が足りない
+- Flutter を触るために作るので何が必要なのか知らない
 
 --
 
@@ -113,23 +113,23 @@ https://github.com/yamap55/flutter_sample
 
 - あんまり進んでいない
   - あまり時間とれてない
-- 最初のページのSTEP4まで
+- 最初のページの STEP4 まで
 
 --
 
 ## 詳細
 
 - 最初のページ表示
-- Hello World表示
+- Hello World 表示
 - 依存ライブラリ追加
 - ステートフルウィジェットを追加
-- 無限にスクロールするListViewを作成
+- 無限にスクロールする ListView を作成
 
 --
 
 ## 感想
 
-- 私はあまりWidgetには興味がない様子
+- 私はあまり Widget には興味がない様子
   - あまりわかっていないからかも？
 - バックエンドのロジックは楽しそう
 - よくわからないままやるの楽しい
@@ -141,16 +141,17 @@ https://github.com/yamap55/flutter_sample
 --
 
 ## 割当タスク
+
 - 実はタスクが割り当てられている
-- タスクの内容はCIによるbuild & deploy
+- タスクの内容は CI による build & deploy
 
 --
 
 ## 進捗
 
-- ローカルでbuild
-- Docker上のapacheで動かせた！
-- つまり、CIでbuildできればimage作れそう
+- ローカルで build
+- Docker 上の apache で動かせた！
+- つまり、CI で build できれば image 作れそう
 
 ---
 
@@ -160,14 +161,14 @@ https://github.com/yamap55/flutter_sample
 
 ## build
 
-- とりあえずbuildはできた
+- とりあえず build はできた
 - https://github.com/yamap55/flutter_sample/actions/runs/1300602296
 
 --
 
-## 便利なGitHub Actionsあった
+## 便利な GitHub Actions あった
 
-- Flutterの環境整えてくれる凄いやつ
+- Flutter の環境整えてくれる凄いやつ
 - https://github.com/marketplace/actions/flutter-action
 - https://github.com/subosito/flutter-action
 
@@ -175,9 +176,9 @@ https://github.com/yamap55/flutter_sample
 
 ## 次回予告
 
-- GitHub Pagesにデプロイ
-- Docker Imageをビルド
-- Docker ImageをGitHub Packagesにpush
+- GitHub Pages にデプロイ
+- Docker Image をビルド
+- Docker Image を GitHub Packages に push
 - チュートリアルをもう少し進める
   - 具体的な数字はなしで。。。
 
@@ -189,10 +190,10 @@ https://github.com/yamap55/flutter_sample
 
 - [リポジトリ](https://github.com/yamap55/flutter_sample)
 - [Develop Flutter in a VS Code devcontainer](https://dev.to/matsp/develop-flutter-in-a-vs-code-devcontainer-350g)
-- 使用しているImage
+- 使用している Image
   - https://hub.docker.com/r/matspfeiffer/flutter
   - https://github.com/matsp/docker-flutter
-- 今後移行したいImage
+- 今後移行したい Image
   - https://github.com/cirruslabs/docker-images-flutter
   - https://hub.docker.com/r/cirrusci/flutter/
 - [公式チュートリアル](https://flutter.dev/docs/get-started/codelab)
