@@ -31,24 +31,87 @@
 
 --
 
+## CI とは
 > 継続的インテグレーション、CI（continuous integration）とは、すべての開発者の作業コピーを定期的に共有されたメインラインにマージすることである。
 
-> 継続的デリバリー（continuous delivery、CD）とは、チームが短いサイクルでソフトウェアを生産し、いつでも確実にソフトウェアをリリースできるようにし、ソフトウェアをリリースする際には、手動で行うソフトウェアエンジニアリングのアプローチである。
-
-※[継続的インテグレーション](https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)、[継続的デリバリー](https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC)
+- [継続的インテグレーション](https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%82%A4%E3%83%B3%E3%83%86%E3%82%B0%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3)
+- 短期間でメインのラインにマージする
 
 --
 
-- ソフトウエア開発において、
+## CD とは
+> 継続的デリバリー（continuous delivery、CD）とは、チームが短いサイクルでソフトウェアを生産し、いつでも確実にソフトウェアをリリースできるようにし、ソフトウェアをリリースする際には、手動で行うソフトウェアエンジニアリングのアプローチである。
 
+- [継続的デリバリー](https://ja.wikipedia.org/wiki/%E7%B6%99%E7%B6%9A%E7%9A%84%E3%83%87%E3%83%AA%E3%83%90%E3%83%AA%E3%83%BC)
+- 継続的デプロイともいう
+- 短期間でデプロイする
+
+--
+
+### なぜ短期間なのか
+
+- 差分の把握が容易
+- 変更量が少ない
+- 問題特定の難易度が低い
+
+--
+
+### 短期間で行うためには
+
+- レビューやテスト、マージを迅速に行う必要がある
+- 自動化
 
 ---
 
-## ツールの紹介
+## CIツールの紹介
+
+--
+
+### パイプライン
+
+- CIを行うための一連の流れ
+- リポジトリへのコミットがトリガーとして処理を行う
+- 静的解析、テスト、ビルド、デプロイなど
+
+--
+
+### 代表的なCIツール
+
+- [Jenkins](https://www.jenkins.io/)
+- [CircleCI](https://circleci.com/)
+- [Travis CI](https://travis-ci.org/)
+- [GitHub Actions](https://github.co.jp/features/actions)
+
+--
+
+### モバイル系
+
+- [Bitrise](https://www.bitrise.io/)
+  - モバイルアプリ開発だと良く名前が出てくる
+- [Codemagic](https://codemagic.io/start/)
+  - Flutterに強い
+
+--
+
+### その他
+- [GitLab](https://docs.gitlab.com/ee/ci/)
+- AWS
+  - CodePipeline, CodeBuild, CodeDeploy
+- Azure
+  - Azure DevOps, Pipelines
+- GCP
+  - Cloud Build
 
 ---
 
 ## GitHub Actions概要
+
+--
+
+## 強味
+- GitHubとの連携
+- 後発
+- Microsoftの子会社
 
 ---
 
