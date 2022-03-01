@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [LT のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20220301/slide.md) | 2022/03/01 | [src](https://github.com/yamap55/Slide/blob/master/20220301/slide.md) | LT |
 | [pipからPoetryに移行した話](http://yamap55.github.io/Slide/index.html?slide=20220214/slide.md) | 2022/02/14 | [src](https://github.com/yamap55/Slide/blob/master/20220214/slide.md) | LT |
 | [筋トレ（？）を 400 日行った話](http://yamap55.github.io/Slide/index.html?slide=20220117/slide.md) | 2022/01/17 | [src](https://github.com/yamap55/Slide/blob/master/20220117/slide.md) | LT |
 | [PySpark でハマった件について](http://yamap55.github.io/Slide/index.html?slide=20211108/slide.md) | 2021/11/08 | [src](https://github.com/yamap55/Slide/blob/master/20211108/slide.md) | LT |
