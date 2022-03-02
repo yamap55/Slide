@@ -1,6 +1,7 @@
 # Slide
 
 | タイトル | 日付 | コード | 備考 |
+| [CI/CDとGitHub Actions](http://yamap55.github.io/Slide/index.html?slide=20220303/slide.md) | 2022/03/03 | [src](https://github.com/yamap55/Slide/blob/master/20220303/slide.md) |  |
 |---|---|---|---|
 | [LT のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20220301/slide.md) | 2022/03/01 | [src](https://github.com/yamap55/Slide/blob/master/20220301/slide.md) | LT |
 | [pipからPoetryに移行した話](http://yamap55.github.io/Slide/index.html?slide=20220214/slide.md) | 2022/02/14 | [src](https://github.com/yamap55/Slide/blob/master/20220214/slide.md) | LT |
