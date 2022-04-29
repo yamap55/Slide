@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "ics.japanese-proofreading"
+        "ics.japanese-proofreading",
+        "mushan.vscode-paste-image"
     ]
 }
