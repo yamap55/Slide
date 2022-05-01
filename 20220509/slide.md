@@ -97,19 +97,36 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 
 --
 
-- GitHubは0.1%程度で発生する場合があると報告している。
-- その場合に
+- GitHubは0.1%程度で発生する場合があると報告している
+  - GPLのコードも含む
+- 既存コードが補完された場合に、既存コードと気づく事ができない
+- 準拠するどころか、コードのライセンスを確認することもできない
 
 ---
 
 ## 業務利用は可能？
 
+--
+
+### 現状は難しい
+
+- 補完コードのライセンス問題
+- [補完前のコードはGitHubに送信される](https://copilot.github.com/#faq-how-is-the-data-that-github-copilot-collects-used)
+
+---
+
+### 今後の改善は期待できる
+
+- 上記の問題をGitHubは把握しており、改善すると記載がある
+- [有料で商用版を考えている](https://copilot.github.com/#faq-will-there-be-a-paid-version)らしいので期待
+
 ---
 
 ## 参考
 
-- https://fossa.com/blog/analyzing-legal-implications-github-copilot/
-- https://ainow.ai/2021/09/03/257207/
+- [公式サイト](https://copilot.github.com/)
+- [Analyzing the Legal Implications of GitHub Copilot](https://fossa.com/blog/analyzing-legal-implications-github-copilot/)
+- [GitHubのAI Copilotを使ったら、訴えられるかも](https://ainow.ai/2021/09/03/257207/)
 
 ---
 
