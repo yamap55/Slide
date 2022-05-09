@@ -67,6 +67,15 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 
 --
 
+## VS Code で使う場合
+
+1. [公式サイト](https://copilot.github.com/) から登録（GitHub アカウント）
+2. [GitHub Copilot の拡張機能](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) を VS Code に追加
+
+※簡単！
+
+--
+
 ## デモ！
 
 ---
