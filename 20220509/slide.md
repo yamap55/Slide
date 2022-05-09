@@ -9,20 +9,20 @@
   }
 </style>
 
-# GitHub Copilotに未来を感じた話
+# GitHub Copilot に未来を感じた話
 
 ---
 
 ## アジェンダ
 
-1. GitHub Copilotとは
+1. GitHub Copilot とは
 2. ライセンス問題
 3. 業務利用は可能？
 4. まとめ
 
 ---
 
-## GitHub Copilotとは
+## GitHub Copilot とは
 
 --
 
@@ -34,13 +34,13 @@
 
 ![AIペアプログラマー GitHub Copilotを使用すると、エディター内で行全体または関数全体の提案を取得できます。](2022-04-30-22-00-25.png)
 
-※Google翻訳
+※Google 翻訳
 
 --
 
-- GitHubが開発した、コードを補完してくれるツール
+- GitHub が開発した、コードを補完してくれるツール
 - 精度が半端ない
-- 2021/06/29に公開
+- 2021/06/29 に公開
 - 「Technical Preview」というステータス
 
 --
@@ -61,22 +61,21 @@
 
 ## どこで使える？
 
-> Visual Studio Code、Neovim、およびJetBrains IntelliJ IDEA、Android Studio、PyCharmなどのIntelliJベースのIDEをサポートしています。
+> Visual Studio Code、Neovim、および JetBrains IntelliJ IDEA、Android Studio、PyCharm などの IntelliJ ベースの IDE をサポートしています。
 
 https://copilot.github.com/#faq-what-development-environments-are-supported
-
 
 ---
 
 ## ライセンス問題
 
 公開当初、精度がすごいことからかなり話題になったが、それと共にライセンス違反では？という懸念があがっていた。  
-これによりGitHubからの移行したPJもある。
+これにより GitHub からの移行した PJ もある。
 
 --
 
 - [学習は公開コードが使用されている](https://copilot.github.com/#faq-what-data-has-github-copilot-been-trained-on)
-  - GitHub上のpublicのコードを含む
+  - GitHub 上の public のコードを含む
   - コードの著作者に許可をとっていないのに学習に使用してよいのか？
 - [補完されるコードに既存コードがそのまま含まれている場合がある](https://copilot.github.com/#faq-does-github-copilot-recite-code-from-the-training-set)
   - 既存コードのライセンスを守る必要があるのでは？
@@ -87,7 +86,7 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 
 --
 
-- [少なくてもGitHub上にあるコードは利用規約で許可している](https://docs.github.com/ja/site-policy/github-terms/github-terms-of-service#g-intellectual-property-notice)
+- [少なくても GitHub 上にあるコードは利用規約で許可している](https://docs.github.com/ja/site-policy/github-terms/github-terms-of-service#g-intellectual-property-notice)
 - その他の公開コードについては不明
   - だが、流石にこの辺りは考慮していると思われるが。。。
 
@@ -97,8 +96,8 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 
 --
 
-- GitHubは0.1%程度で発生する場合があると報告している
-  - GPLのコードも含む
+- GitHub は 0.1%程度で発生する場合があると報告している
+  - GPL のコードも含む
 - 既存コードが補完された場合に、既存コードと気づく事ができない
 - 準拠するどころか、コードのライセンスを確認することもできない
 
@@ -111,13 +110,13 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 ### 現状は難しい
 
 - 補完コードのライセンス問題
-- [補完前のコードはGitHubに送信される](https://copilot.github.com/#faq-how-is-the-data-that-github-copilot-collects-used)
+- [補完前のコードは GitHub に送信される](https://copilot.github.com/#faq-how-is-the-data-that-github-copilot-collects-used)
 
 ---
 
 ### 今後の改善は期待できる
 
-- 上記の問題をGitHubは把握しており、改善すると記載がある
+- 上記の問題を GitHub は把握しており、改善すると記載がある
 - [有料で商用版を考えている](https://copilot.github.com/#faq-will-there-be-a-paid-version)らしいので期待
 
 ---
@@ -126,7 +125,7 @@ https://copilot.github.com/#faq-what-development-environments-are-supported
 
 - [公式サイト](https://copilot.github.com/)
 - [Analyzing the Legal Implications of GitHub Copilot](https://fossa.com/blog/analyzing-legal-implications-github-copilot/)
-- [GitHubのAI Copilotを使ったら、訴えられるかも](https://ainow.ai/2021/09/03/257207/)
+- [GitHub の AI Copilot を使ったら、訴えられるかも](https://ainow.ai/2021/09/03/257207/)
 
 ---
 
