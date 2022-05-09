@@ -65,6 +65,10 @@
 
 https://copilot.github.com/#faq-what-development-environments-are-supported
 
+--
+
+## デモ！
+
 ---
 
 ## ライセンス問題
