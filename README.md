@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [GitHub Copilot に未来を感じた話](http://yamap55.github.io/Slide/index.html?slide=20220524/slide.md) | 2022/05/24 | [src](https://github.com/yamap55/Slide/blob/master/20220524/slide.md) | [2022/05/24](http://yamap55.github.io/Slide/index.html?slide=20220509/slide.md)とほぼ同じ |
 | [競技プログラミングの使い方](http://yamap55.github.io/Slide/index.html?slide=20220523/slide.md) | 2022/05/23 | [src](https://github.com/yamap55/Slide/blob/master/20220523/slide.md) | LT |
 | [GitHub Copilot に未来を感じた話](http://yamap55.github.io/Slide/index.html?slide=20220509/slide.md) | 2022/05/09 | [src](https://github.com/yamap55/Slide/blob/master/20220509/slide.md) | LT |
 | [CI/CDとGitHub Actions](http://yamap55.github.io/Slide/index.html?slide=20220303/slide.md) | 2022/03/03 | [src](https://github.com/yamap55/Slide/blob/master/20220303/slide.md) |  |
