@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [SQL用Linter「SQLFluff」](http://yamap55.github.io/Slide/index.html?slide=20220705/slide.md) | 2022/07/05 | [src](https://github.com/yamap55/Slide/blob/master/20220705/slide.md) | LT |
 | [客先常駐ってどうなの？](http://yamap55.github.io/Slide/index.html?slide=20220606/slide.md) | 2022/06/06 | [src](https://github.com/yamap55/Slide/blob/master/20220606/slide.md) | LT |
 | [Output するということ](http://yamap55.github.io/Slide/index.html?slide=20220530/slide.md) | 2022/05/30 | [src](https://github.com/yamap55/Slide/blob/master/20220530/slide.md) | LT |
 | [GitHub Copilot に未来を感じた話](http://yamap55.github.io/Slide/index.html?slide=20220524/slide.md) | 2022/05/24 | [src](https://github.com/yamap55/Slide/blob/master/20220524/slide.md) | [2022/05/09](http://yamap55.github.io/Slide/index.html?slide=20220509/slide.md)とほぼ同じ |
