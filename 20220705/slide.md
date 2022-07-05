@@ -9,71 +9,80 @@
   }
 </style>
 
-# SQL用Linter「SQLFluff」
+# SQL 用 Linter「SQLFluff」
 
 ---
 
 ## アジェンダ
 
-1. Linterとは
-2. SQLFluffとは
+1. Linter とは
+2. SQLFluff とは
 3. デモ
-4. VS Code拡張機能
+4. VS Code 拡張機能
 5. だめなところ
 6. まとめ
 
 ---
 
-## Linterとは
+## Linter とは
 
 --
 
-> Linterは、プログラミングエラー、バグ、スタイルエラー、疑わしい構成にフラグを立てるために使用される静的コード解析ツールです。
+> Linter は、プログラミングエラー、バグ、スタイルエラー、疑わしい構成にフラグを立てるために使用される静的コード解析ツールです。
 
 https://en.wikipedia.org/wiki/Lint_(software)
 
 --
 
 ## もっと簡単に。
+
 - インデントや改行、スペースなど、どうでも良いけど気になるポイントを合わせる
 - より良い書き方、セキュリティリスクのある書き方を指摘
 
 --
 
-## Pythonだと
+## Python だと
 
 - [flake8](https://flake8.pycqa.org/en/latest/)
 - [pylint](https://pylint.pycqa.org/en/latest/)
 
 ---
 
-## SQLFluffとは
+## SQLFluff とは
 
 --
 
-## SQLのLinter
-- SQLのLinter
-- Jinjaやdbtでも動作するとのこと
+## SQL の Linter
+
+- SQL の Linter
+- Jinja や dbt でも動作するとのこと
   - ~~よく知らない~~
 - 自動修正機能もあり
-  - autoformatter機能
+  - autoformatter 機能
 - 方言に対応
+
+--
+
+## 開発も活発
+
+- https://docs.sqlfluff.com/en/stable/
+- https://github.com/sqlfluff/sqlfluff
 
 --
 
 ## [方言対応](https://github.com/sqlfluff/sqlfluff#dialects-supported)
 
 ```
-ANSI SQL, BigQuery, ClickHouse, Databricks, Db2, Exasol, Hive, MySQL, Oracle, PostgreSQL, Redshift, Snowflake, SOQL, SparkSQL, SQLite, Teradata, Transact-SQL 
+ANSI SQL, BigQuery, ClickHouse, Databricks, Db2, Exasol, Hive, MySQL, Oracle, PostgreSQL, Redshift, Snowflake, SOQL, SparkSQL, SQLite, Teradata, Transact-SQL
 ```
 
 --
 
-## 指摘は65種類
+## 指摘は 66 種類
 
 https://docs.sqlfluff.com/en/stable/rules.html
 
-※2022/07/04時点の最新である1.0.0の場合
+※2022/07/05 時点の最新である 1.1.0 の場合
 
 --
 
@@ -92,7 +101,7 @@ https://docs.sqlfluff.com/en/stable/rules.html
 
 ---
 
-## VS Code拡張機能
+## VS Code 拡張機能
 
 --
 
@@ -101,8 +110,8 @@ https://docs.sqlfluff.com/en/stable/rules.html
 - 更新されていない
   - https://marketplace.visualstudio.com/items?itemName=dorzey.vscode-sqlfluff
   - https://github.com/sqlfluff/vscode-sqlfluff
-- fixが動かない
-- forkされた拡張機能が乱立
+- fix が動かない
+- fork された拡張機能が乱立
   - https://marketplace.visualstudio.com/search?term=sqlfluff&target=VSCode&category=All%20categories&sortBy=Relevance
 
 --
@@ -111,8 +120,7 @@ https://docs.sqlfluff.com/en/stable/rules.html
 
 - [VS Code MarketPlace](https://marketplace.visualstudio.com/items?itemName=RobertOstermann.vscode-sqlfluff-extended)
 - [GitHub](https://github.com/RobertOstermann/vscode-sqlfluff-extended)
-- まだまだなので色々Issue建てて報告してる
-
+- まだまだなので色々 Issue 建てて報告してる
 
 ---
 
@@ -123,23 +131,24 @@ https://docs.sqlfluff.com/en/stable/rules.html
 ## 重い
 
 - 重すぎる
-- 500行くらい、指摘が大量のSQLだとかなり時間がかかる
-- 1つ修正する度に1から全部実行している？？
-- 18ファイルを一括置換して全部fixしたら一生返ってこなかった
+- 500 行くらい、指摘が大量の SQL だとかなり時間がかかる
+- 1 つ修正する度に 1 から全部実行している？？
+- 18 ファイルを一括置換して全部 fix したら一生返ってこなかった
 
 --
 
-## fixしても1回で修正されないことがある
+## fix しても 1 回で修正されないことがある
 
-- 複数回実行すればOK
+- 複数回実行すれば OK
 - 多分順番にルールを適用させているため
 
 --
 
 ## なんでイマイチなの？
-- SQLは1970年代に誕生
-- 1986年に規格制定
-- 35年の歴史でなぜまともなLinterがないのか！
+
+- SQL は 1970 年代に誕生
+- 1986 年に規格制定
+- 35 年の歴史でなぜまともな Linter がないのか！
 
 ---
 
@@ -147,10 +156,9 @@ https://docs.sqlfluff.com/en/stable/rules.html
 
 --
 
-- LinterとFormatterが1つになっているのは良い
+- Linter と Formatter が 1 つになっているのは良い
 - 事実上標準なので使った方が良い
-- 他のLinterに慣れていると不満はある
-
+- 他の Linter に慣れていると不満はある
 
 ---
 
@@ -158,7 +166,7 @@ https://docs.sqlfluff.com/en/stable/rules.html
 
 - [SQLFluff](https://www.sqlfluff.com/)
 - [SQLFluff（GitHub）](https://github.com/sqlfluff/sqlfluff)
-- [VS Code拡張機能](https://marketplace.visualstudio.com/items?itemName=RobertOstermann.vscode-sqlfluff-extended)
+- [VS Code 拡張機能](https://marketplace.visualstudio.com/items?itemName=RobertOstermann.vscode-sqlfluff-extended)
 
 ---
 
