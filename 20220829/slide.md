@@ -15,12 +15,10 @@
 
 ## アジェンダ
 
-1. はじめに
-2. 環境変数とは
-3. PATH とは
-4. ユーザ環境変数の PATH
-5. Linux の環境変数関連コマンド
-6. 最後に
+1. namedtupleとは？
+2. typing.NamedTuple
+3. dataclassとの使い分け
+4. 使い分け
 
 ---
 
