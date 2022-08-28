@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [namedtuple使ってみた](http://yamap55.github.io/Slide/index.html?slide=20220829/slide.md) | 2022/08/29 | [src](https://github.com/yamap55/Slide/blob/master/20220829/slide.md) | LT |
 | [環境変数について少し調べた](http://yamap55.github.io/Slide/index.html?slide=20220822/slide.md) | 2022/08/22 | [src](https://github.com/yamap55/Slide/blob/master/20220822/slide.md) | LT |
 | [SQL用Linter「SQLFluff」](http://yamap55.github.io/Slide/index.html?slide=20220705/slide.md) | 2022/07/05 | [src](https://github.com/yamap55/Slide/blob/master/20220705/slide.md) | LT |
 | [客先常駐ってどうなの？](http://yamap55.github.io/Slide/index.html?slide=20220606/slide.md) | 2022/06/06 | [src](https://github.com/yamap55/Slide/blob/master/20220606/slide.md) | LT |
