@@ -18,7 +18,7 @@
 1. namedtupleとは？
 2. typing.NamedTuple
 3. dataclassとの使い分け
-4. 使い分け
+4. 言いたいこと
 
 ---
 
