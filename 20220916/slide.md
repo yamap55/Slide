@@ -10,7 +10,8 @@
 </style>
 
 # ローカル環境に依存しない開発環境
-「VS Code Remote Containers」の話
+- 「VS Code Remote Containers」の話
+- 「Cloud IDE」の話
 
 ---
 
@@ -19,9 +20,8 @@
 1. 自己紹介
 2. はじめに
 3. VS Code Remote Containers
-4. デモ
-5. クラウドIDE
-6. まとめ
+4. クラウドIDE
+5. まとめ
 
 ---
 
@@ -81,17 +81,26 @@
 
 --
 
+## Dockerとは
+<img src="./docker.jpg" style="width:10%;" alt="docker"/>
+
+- ホストマシン上にコンテナという単位の実行環境が作られてアプリケーションを開発・配置・実行するためのプラットフォーム
+- ザックリいうとアプリケーション専用の隔離された仮想環境
+  - ※厳密な説明ではないです
+
+--
+
 ## サンプルも豊富
 
 ```
-git clone https://github.com/Microsoft/vscode-remote-try-node
-git clone https://github.com/Microsoft/vscode-remote-try-python
-git clone https://github.com/Microsoft/vscode-remote-try-go
-git clone https://github.com/Microsoft/vscode-remote-try-java
-git clone https://github.com/Microsoft/vscode-remote-try-dotnetcore
-git clone https://github.com/Microsoft/vscode-remote-try-php
-git clone https://github.com/Microsoft/vscode-remote-try-rust
-git clone https://github.com/Microsoft/vscode-remote-try-cpp
+https://github.com/Microsoft/vscode-remote-try-node
+https://github.com/Microsoft/vscode-remote-try-python
+https://github.com/Microsoft/vscode-remote-try-go
+https://github.com/Microsoft/vscode-remote-try-java
+https://github.com/Microsoft/vscode-remote-try-dotnetcore
+https://github.com/Microsoft/vscode-remote-try-php
+https://github.com/Microsoft/vscode-remote-try-rust
+https://github.com/Microsoft/vscode-remote-try-cpp
 ```
 
 --
@@ -112,7 +121,7 @@ git clone https://github.com/Microsoft/vscode-remote-try-cpp
 - プロジェクトがVS Codeに限定される
   - 最近、[他のエディタでも使えるようになった様子](https://github.com/devcontainers/cli)ではある
 
----
+--
 
 ## デモ
 
@@ -168,7 +177,7 @@ https://github.com/Microsoft/vscode-remote-try-go
 
 --
 
-## decontainerの設定はそのままCodeSpacesに利用可能
+## devcontainerの設定はそのままCodeSpacesに利用可能
 
 - リポジトリから1クリックで開発環境にアクセス
 - 新規作成でもワンクリック。
@@ -178,20 +187,29 @@ https://github.com/Microsoft/vscode-remote-try-go
 
 ## デモ
 
+--
+
+## 注意
+
+- お金はかかる
+  - 4core,8GB $0.36/h
+- 個人での利用はβ版
+
 ---
 
 ## まとめ
 
-- 開発者差分がでない
 - 開発環境作成に時間がかからない
-- 使わないという選択肢はないと思う
-- 開発環境はローカルに作らなくてよいようにしたい
+- 開発者差分がでない
+- ローカル環境に構築→コンテナ利用→Cloud IDE
+- 今後開発環境はローカルに作らなくてよいようにしたい
 
 ---
 
 ## 参考
-- [公式ドキュメント](https://code.visualstudio.com/docs/remote/remote-overview)
-- [公式サンプルリポジトリ](https://github.com/search?q=org%3Amicrosoft+vscode-remote-try&type=all)
+- [VS Code Remote Containersドキュメント](https://code.visualstudio.com/docs/remote/remote-overview)
+- [VS Code Remote Containersサンプルリポジトリ](https://github.com/search?q=org%3Amicrosoft+vscode-remote-try&type=all)
+- [Codespaces](https://github.co.jp/features/codespaces)
 
 ---
 
