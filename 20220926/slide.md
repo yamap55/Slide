@@ -9,17 +9,16 @@
   }
 </style>
 
-# Python3.11の話
+# Python 3.11について雑に話す
 
 ---
 
 ## アジェンダ
 
-1. 自己紹介
-2. はじめに
-3. VS Code Remote Containers
-4. クラウドIDE
-5. まとめ
+1. はじめに
+2. 高速化
+3. その他
+4. まとめ
 
 ---
 
@@ -72,11 +71,10 @@
 
 ---
 
-## 例外グループとexcept*
+## その他
 
---
-
-## 複数の関係のない例外をまとめてexcept
+- [What’s New In Python 3.11](https://docs.python.org/3.11/whatsnew/3.11.html)
+- [Python3.11の新機能 (まとめ)](https://qiita.com/ksato9700/items/e2356ea9c19c3ff8a467)
 
 ---
 
