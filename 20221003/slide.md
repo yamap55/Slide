@@ -9,7 +9,7 @@
   }
 </style>
 
-# Windowsユーザ必須Cliborの紹介
+# Windowsユーザ必見Cliborの紹介
 
 ※クリップボード拡張 + α
 

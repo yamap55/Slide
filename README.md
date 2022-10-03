@@ -2,8 +2,9 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [Windowsユーザ必見Cliborの紹介](http://yamap55.github.io/Slide/index.html?slide=20221003/slide.md) | 2022/10/03 | [src](https://github.com/yamap55/Slide/blob/master/20221003/slide.md) | LT |
 | [Python 3.11について雑に話す](http://yamap55.github.io/Slide/index.html?slide=20220926/slide.md) | 2022/09/26 | [src](https://github.com/yamap55/Slide/blob/master/20220926/slide.md) | LT |
-| [ローカル環境に依存しない開発環境を作る](http://yamap55.github.io/Slide/index.html?slide=20220916/slide.md) | 2022/09/16 | [src](https://github.com/yamap55/Slide/blob/master/20220916/slide.md) | LT |
+| [ローカル環境に依存しない開発環境を作る](http://yamap55.github.io/Slide/index.html?slide=20220916/slide.md) | 2022/09/16 | [src](https://github.com/yamap55/Slide/blob/master/20220916/slide.md) | LT（[イベントページ](https://churadata.connpass.com/event/256485/)） |
 | [namedtuple使ってみた](http://yamap55.github.io/Slide/index.html?slide=20220829/slide.md) | 2022/08/29 | [src](https://github.com/yamap55/Slide/blob/master/20220829/slide.md) | LT |
 | [環境変数について少し調べた](http://yamap55.github.io/Slide/index.html?slide=20220822/slide.md) | 2022/08/22 | [src](https://github.com/yamap55/Slide/blob/master/20220822/slide.md) | LT |
 | [SQL用Linter「SQLFluff」](http://yamap55.github.io/Slide/index.html?slide=20220705/slide.md) | 2022/07/05 | [src](https://github.com/yamap55/Slide/blob/master/20220705/slide.md) | LT |
