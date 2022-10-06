@@ -81,3 +81,12 @@
 ```
 | [](http://yamap55.github.io/Slide/index.html?slide=) | // | [src](https://github.com/yamap55/Slide/blob/master/) |  |
 ```
+
+## PDF出力
+
+- URL末尾に「&print-pdf」を付与して表示。
+  - 例 : http://yamap55.github.io/Slide/index.html?slide=20220916/slide.md&print-pdf
+- ブラウザの印刷設定
+- PDFに保存、背景のグラフィックにチェック
+  - 横向きになっていない場合には横向きに変更
+- 保存
