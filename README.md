@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [Oracle CloudでMinecraftのサーバを構築した件](http://yamap55.github.io/Slide/index.html?slide=20221031/slide.md) | 2022/10/31 | [src](https://github.com/yamap55/Slide/blob/master/20221031/slide.md) | LT |
 | [Windowsユーザ必見Cliborの紹介](http://yamap55.github.io/Slide/index.html?slide=20221003/slide.md) | 2022/10/03 | [src](https://github.com/yamap55/Slide/blob/master/20221003/slide.md) | LT |
 | [Python 3.11について雑に話す](http://yamap55.github.io/Slide/index.html?slide=20220926/slide.md) | 2022/09/26 | [src](https://github.com/yamap55/Slide/blob/master/20220926/slide.md) | LT |
 | [ローカル環境に依存しない開発環境を作る](http://yamap55.github.io/Slide/index.html?slide=20220916/slide.md) | 2022/09/16 | [src](https://github.com/yamap55/Slide/blob/master/20220916/slide.md) | LT（[イベントページ](https://churadata.connpass.com/event/256485/)） |
