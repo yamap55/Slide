@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [やる気が出ないときにどうするか](http://yamap55.github.io/Slide/index.html?slide=20221121/slide.md) | 2022/11/21 | [src](https://github.com/yamap55/Slide/blob/master/20221121/slide.md) | LT |
 | [VS Codeのオススメ設定](http://yamap55.github.io/Slide/index.html?slide=20221113/slide.md) | 2022/11/13 | [src](https://github.com/yamap55/Slide/blob/master/20221113/slide.md) | LT |
 | [新PCを購入した話](http://yamap55.github.io/Slide/index.html?slide=20221106/slide.md) | 2022/11/06 | [src](https://github.com/yamap55/Slide/blob/master/20221106/slide.md) | LT |
 | [Oracle CloudでMinecraftのサーバを構築した件](http://yamap55.github.io/Slide/index.html?slide=20221031/slide.md) | 2022/10/31 | [src](https://github.com/yamap55/Slide/blob/master/20221031/slide.md) | LT |
