@@ -1,3 +1,6 @@
 {
-  "japanese-proofreading.textlint.全角文字と半角文字の間": false
+  "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+  "cSpell.words": [
+    "yamap"
+  ]
 }
