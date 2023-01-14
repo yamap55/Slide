@@ -2,7 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
-| [LT のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230114/slide.md) | 2023/01/14 | [src](https://github.com/yamap55/Slide/blob/master/20230114/slide.md) | LT |
+| [LT のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230114/lt_slide.md) | 2023/01/14 | [src](https://github.com/yamap55/Slide/blob/master/20230114/lt_slide.md) | LT |
 | [心理的安全性](http://yamap55.github.io/Slide/index.html?slide=20221206/slide.md) | 2022/12/06 | [src](https://github.com/yamap55/Slide/blob/master/20221206/slide.md) | LT |
 | [LT会を90回以上継続した話](http://yamap55.github.io/Slide/index.html?slide=20221128/slide.md) | 2022/11/28 | [src](https://github.com/yamap55/Slide/blob/master/20221128/slide.md) | LT, [blog](https://yamap55.hatenablog.com/entry/2022/12/02/000000) |
 | [やる気が出ないときにどうするか](http://yamap55.github.io/Slide/index.html?slide=20221121/slide.md) | 2022/11/21 | [src](https://github.com/yamap55/Slide/blob/master/20221121/slide.md) | LT |
