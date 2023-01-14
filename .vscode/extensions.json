@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "ics.japanese-proofreading",
-        "mushan.vscode-paste-image"
+        "mushan.vscode-paste-image",
+        "evilz.vscode-reveal"
     ]
 }
