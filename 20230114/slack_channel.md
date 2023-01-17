@@ -32,7 +32,7 @@
 
 `#news_emoji` と `#news_public_channel` に今すぐjoin！
 
---- 
+---
 
 ## #news_emoji
 
@@ -105,9 +105,20 @@ https://slack.com/intl/ja-jp/blog/developers/make-work-flow-faster-with-slacks-n
 
 触ってみたかっただけ
 
+--
+
+## りぽじとり
+
+- https://github.com/yamap55/slack-channel-monitor
+- https://github.com/yamap55/slack-emoji-monitor
+
+※PR、Issueはお気軽に！
+
 ---
 
 ## 今後の予定
+
+※Slackの新プラットフォームに興味ありあり
 
 --
 
@@ -115,6 +126,8 @@ https://slack.com/intl/ja-jp/blog/developers/make-work-flow-faster-with-slacks-n
 
 - Notionとの連携
 - GASとの連携
+
+※ネタがあれば教えてください
 
 ---
 
