@@ -9,7 +9,7 @@
   }
 </style>
 
-# #news_emoji と #news_public_channel
+## #news_emoji と #news_public_channel
 
 ※Slackチャンネル宣伝
 
@@ -90,7 +90,8 @@
 
 2022年9月に「Slack 新プラットフォームの開発者用オープンベータ版が利用可能」という発表があった
 
-https://slack.com/intl/ja-jp/blog/developers/make-work-flow-faster-with-slacks-new-platform
+- [Slack 新プラットフォームの開発者用オープンベータ版が利用可能に](https://slack.com/intl/ja-jp/blog/developers/make-work-flow-faster-with-slacks-new-platform)
+- [APIドキュメント](https://api.slack.com/future)
 
 --
 
