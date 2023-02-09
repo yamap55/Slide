@@ -3,7 +3,7 @@
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
 | [ドキュメントメンテナンスのはなし](http://yamap55.github.io/Slide/index.html?slide=20230209/slide.md) | 2023/02/09 | [src](https://github.com/yamap55/Slide/blob/master/20230209/slide.md) | LT |
-| [Slack絵文字のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230126/slide.md) | 2023/02/02 | [src](https://github.com/yamap55/Slide/blob/master/20230126/slide.md) | LT |
+| [Slack絵文字のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230121/slide.md) | 2023/02/02 | [src](https://github.com/yamap55/Slide/blob/master/20230121/slide.md) | LT |
 | [#news_emoji と #news_public_channel](http://yamap55.github.io/Slide/index.html?slide=20230114/slack_channel.md) | 2023/01/14 | [src](https://github.com/yamap55/Slide/blob/master/20230114/slack_channel.md) | LT |
 | [LT のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230114/lt_slide.md) | 2023/01/14 | [src](https://github.com/yamap55/Slide/blob/master/20230114/lt_slide.md) | LT |
 | [心理的安全性](http://yamap55.github.io/Slide/index.html?slide=20221206/slide.md) | 2022/12/06 | [src](https://github.com/yamap55/Slide/blob/master/20221206/slide.md) | LT |
