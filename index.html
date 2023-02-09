@@ -55,7 +55,7 @@
                     return h1.innerText
                 } else {
                     // h1が存在しない場合にはh2を代用
-                    document.getElementsByTagName("h2")[0].innerText
+                    return document.getElementsByTagName("h2")[0].innerText
                 }
             } catch {
                 return ""
