@@ -47,8 +47,21 @@
           ]
         }, false);
         Reveal.addEventListener("ready", (event) => {
-          // タイトル設定
-          document.title = document.getElementsByTagName("h1")[0].innerText;
+            // タイトル設定
+          const getTitle = () => {
+            try {
+                const h1 = document.getElementsByTagName("h1")[0];
+                if (h1) {
+                    return h1.innerText
+                } else {
+                    // h1が存在しない場合にはh2を代用
+                    document.getElementsByTagName("h2")[0].innerText
+                }
+            } catch {
+                return ""
+            }
+          }
+          document.title = getTitle()
 
           // fix img.src to relative path from index.html
           const url = location.href.replace(/\?.*$/,"");
