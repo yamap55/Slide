@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [バージョニングについて](http://yamap55.github.io/Slide/index.html?slide=20230323/slide.md) | 2023/03/23 | [src](https://github.com/yamap55/Slide/blob/master/20230323/slide.md) | LT |
 | [データ可視化ツールMetabase](http://yamap55.github.io/Slide/index.html?slide=20230216/slide.md) | 2023/02/16 | [src](https://github.com/yamap55/Slide/blob/master/20230216/slide.md) | LT |
 | [ドキュメントメンテナンスのはなし](http://yamap55.github.io/Slide/index.html?slide=20230209/slide.md) | 2023/02/09 | [src](https://github.com/yamap55/Slide/blob/master/20230209/slide.md) | LT |
 | [Slack絵文字のすゝめ](http://yamap55.github.io/Slide/index.html?slide=20230121/slide.md) | 2023/02/02 | [src](https://github.com/yamap55/Slide/blob/master/20230121/slide.md) | LT |
