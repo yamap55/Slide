@@ -132,19 +132,7 @@ https://logmi.jp/tech/articles/325715
 
 --
 
-私は彼は好きだ  
-正しくないこともない  
-見れる  
-ＡＢＣ  
-
---
-
 <img src="2023-03-30-10-53-17.png" style="width:100%;" alt="textlint sample"/>
-
---
-
-Helllo
-I habe a pen.
 
 --
 
@@ -212,9 +200,9 @@ https://github.com/yamap55/python_repository_simple/pull/216
 
 ## まとめ
 
-- バージョンには意味がある
-- 適当につければ良いというものではない
-- 運用を考えて付ける
+- Linterは品質を向上するためのツール
+- PythonにはRuffというLinterがある
+- Linter使ってみようぜ
 
 ---
 
