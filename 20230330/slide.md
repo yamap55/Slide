@@ -212,9 +212,9 @@ https://github.com/yamap55/python_repository_simple/pull/216
 
 ## まとめ
 
-- バージョンには意味がある
-- 適当につければ良いというものではない
-- 運用を考えて付ける
+- Linterは品質を向上するためのツール
+- PythonにはRuffというLinterがある
+- Linter使ってみようぜ
 
 ---
 
