@@ -4,6 +4,16 @@
         "Deno",
         "Metabase",
         "Qiita",
-        "yamap"
+        "yamap",
+        "textlint",
+        "Clibor",
+        "namedtuple",
+        "dataclass",
+        "slackbot",
+        "Pylance",
+        "Databricks",
+        "JJUG",
+        "Mebix",
+        "pyproject"
     ]
 }
