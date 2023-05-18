@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [ノビルくん作った話](http://yamap55.github.io/Slide/index.html?slide=20230518/slide.md) | 2023/05/18 | [src](https://github.com/yamap55/Slide/blob/master/20230518/slide.md) | LT |
 | [Linterについて（PythonのLinter「Ruff」）](http://yamap55.github.io/Slide/index.html?slide=20230330/slide.md) | 2023/03/30 | [src](https://github.com/yamap55/Slide/blob/master/20230330/slide.md) | LT |
 | [バージョニングについて](http://yamap55.github.io/Slide/index.html?slide=20230323/slide.md) | 2023/03/23 | [src](https://github.com/yamap55/Slide/blob/master/20230323/slide.md) | LT |
 | [データ可視化ツールMetabase](http://yamap55.github.io/Slide/index.html?slide=20230216/slide.md) | 2023/02/16 | [src](https://github.com/yamap55/Slide/blob/master/20230216/slide.md) | LT |
