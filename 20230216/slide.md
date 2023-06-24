@@ -15,142 +15,6 @@ GAS = Google Apps Script
 
 ---
 
-## Google Apps Scriptとは
-- クラウド上でJavaScriptを実行
-- Googleサービスとの簡単な連携
-
----
-
-## GASのメリット
-- 自動化・連携による業務効率化
-- シンプルな開発環境
-
----
-
-## GASとGoogleサービスの連携
-
---
-
-## Google Sheets連携事例
-- データ整形自動化
-- カスタム関数作成
-
---
-
-## Google Forms連携事例
-- 自動返信メール設定
-- 入力データ自動処理
-
----
-
-## 他のGoogleサービスとの連携事例
-- Google Docs: 自動文書生成
-- Google Calendar: 予定管理
-- Google Drive: ファイル操作
-
---
-
-## Googleサービス連携概要
-- Gmail
-- Google Slides
-- Google Maps
-
----
-
-# GASによる自動化事例
-
---
-
-## メール通知自動化
-- 条件に応じたメール送信
-- フォーム入力に基づく通知
-
---
-
-## 定期レポート作成
-- スケジュールに従った自動実行
-- シートデータを活用したレポート生成
-
----
-
-## 社内ワークフロー自動化
-- 承認フロー効率化
-- プロジェクト管理改善
-
----
-
-## その他の自動化事例
-- データバックアップ
-- 定期リマインダー設定
-
----
-
-## GAS自動化効果
-- 時間節約
-- エラー削減
-- 作業一貫性向上
-
----
-
-# GASの開発環境とデバッグ
-
-## オンラインエディター紹介
-- スクリプトエディター
-- ビルトインデバッガー
-
-## デバッグ方法概要
-- ブレークポイント設定
-- ログ出力活用
-
-## GAS開発ヒント
-- 公式ドキュメント活用
-- コミュニティ情報共有
-
----
-
-# GAS活用：非エンジニア向け
-
-## GAS利用方法
-- サンプルコード活用
-- チュートリアル・ドキュメント学習
-
-## コード不要のGAS活用事例
-- ウェブテンプレート使用
-- プレビルトアドオン導入
-
-
-## 非エンジニア向けGASリソース
-- オンラインチュートリアル
-- コミュニティフォーラム
-- ブログ記事
-
----
-
-# GASのセキュリティと制限
-
-## セキュリティへの配慮
-- OAuth2認証
-- スクリプト公開範囲設定
-
-## 制限とクォータ
-- 実行時間制限
-- APIリクエスト制限
-
----
-
-# まとめとGASの将来性
-
-## GASの可能性
-- 企業・個人の業務効率化
-- Googleサービスとの連携強化
-
-## GASの今後の発展
-- 新機能追加
-- 多様なユースケースへの対応
-
-
----
-
 ## アジェンダ
 
 1. はじめに
@@ -164,27 +28,208 @@ GAS = Google Apps Script
 
 --
 
-## よくある
+## はじめに
 
-- SpreadSheetへ書いたときに何かしたい
-- Google Formsへ回答したときに何かしたい
-
---
-
-## 
-
+- Google Apps Script、通称GAS
+- GASの基本的な概念と利用方法を理解
+- 日々の業務に役立てることができるようになる
+- Googleのサービスをより効率的に活用するための1つの手段
 
 --
 
-## a
+## できる？
+
+- すべてをできるようになる必要はない
+- GASでできそうっという感覚を持ってほしい
+- Excelの関数とかマクロとか
+- 挑戦したくなったら相談を！
+
+---
+
+## Google Apps Scriptとは
+
+- Googleが提供
+- JavaScriptベースのプログラミングツール
+
+--
+
+## 特徴
+- Googleサービス群との強力な連携
+- シンプルな開発環境
+
+--
+
+## Googleサービス群との強力な連携
+- GmailGoogleカレンダー、GoogleSheets、Googleドライブ、Google Mapsなど
+- Googleサービスと簡単に連携ができる
+
+--
+
+## 具体例
+- Gmailから特定条件のメールをSheetsにまとめる
+- Formsに回答があったらカレンダーに反映する
+- Sheetsのリスト通りにGmailで配信する
+
+※他のサービスからGoogleサービスに連携可能な場合も多いので可能性は無限大
+
+--
+
+## シンプルな開発環境
+- ツールのインストール、設定は不要
+- ブラウザ上で即時作成が可能
+
+---
+
+## 試してみる
+
+--
+
+## SpreadSheetを開く
+
+![SpreadSheet](2023-06-24-11-32-55.png)
+
+--
+
+## Apps Scriptを開く
+
+![Apps Script](2023-06-24-11-33-42.png)
+
+--
+
+## 開いた
+
+![開いた](2023-06-24-11-39-30.png)
+
+--
+
+## プログラムを書く
+
+```javascript
+function myFunction() {
+  // アクティブなスプレッドシートを取得
+  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  // アクティブなシートを取得
+  const sheet = spreadsheet.getActiveSheet();
+  
+  // A1セルに文字列を書き込む
+  sheet.getRange("A1").setValue("書き込みたい文字");
+}
+```
+
+--
+
+## 実行
+
+![実行](2023-06-24-11-45-02.png)
+
+--
+
+## 書き込まれた
+
+![書き込まれた](2023-06-24-11-45-36.png)
+
+---
+
+## SpreadSheetからメール送る
+
+--
+
+## データ
+
+![データ](2023-06-24-11-59-33.png)
+
+※email列にメールを送信する
+
+--
+
+## GAS
+
+```javascript
+const sendEmails = () => {
+  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  const sheet = spreadsheet.getActiveSheet();
+  const data = sheet.getDataRange().getValues();
+    // Slice to ignore the first row (headers)
+  const rowsWithoutHeaders = data.slice(1);
+
+  rowsWithoutHeaders.forEach(row => {
+    const [id, name, email] = row;
+    const subject = "お知らせ";
+    const body = `
+      ${name}様
+
+      X社のYです。
+      本日はよろしくお願いします。
+    `;
+
+    MailApp.sendEmail(email, subject, body);
+  });
+};
+```
+
+--
+
+## 実行
+
+![実行](2023-06-24-12-01-16.png)
+
+--
+
+## 実行結果
+
+![一覧](2023-06-24-11-57-29.png)
+
+※エイリアスを使っているので全部自分に届く
+
+--
+
+## 詳細を見る
+
+![メール詳細](2023-06-24-11-56-42.png)
+
+---
+
+## その他
+
+--
+
+### その他
+- 定期実行が標準機能
+- botとか超簡単に作れる
+  - Line botとか
+- SpreadSheetをDBとして使える
 
 ---
 
 ## まとめ
 
-- a
-- b
-- c
+--
+
+## まとめ
+- Googleサービスとの連携強化
+- 業務効率化
+
+--
+
+## 伝えたいこと
+- 意外とサクッとできたりする
+- どういうことができるか
+- できれば興味持ってほしい
+
+--
+
+## そして
+- プログラミング楽しい🙂
+
+--
+
+## エンジニアいいかも？🤔
+
+--
+
+## 参考
+
+- [公式ドキュメント](https://developers.google.com/apps-script/reference?hl=ja)
 
 ---
 
