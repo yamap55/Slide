@@ -18,9 +18,9 @@ GAS = Google Apps Script
 ## アジェンダ
 
 1. はじめに
-2. a
-3. a
-4. 伝えたかったこと
+2. Google Apps Scriptとは
+3. 試してみる
+4. まとめ
 
 ---
 
@@ -48,6 +48,9 @@ GAS = Google Apps Script
 
 ## Google Apps Scriptとは
 
+--
+
+## Google Apps Scriptとは
 - Googleが提供
 - JavaScriptベースのプログラミングツール
 
@@ -60,7 +63,7 @@ GAS = Google Apps Script
 --
 
 ## Googleサービス群との強力な連携
-- GmailGoogleカレンダー、GoogleSheets、Googleドライブ、Google Mapsなど
+- Gmail、Googleカレンダー、GoogleSheets、Googleドライブ、Google Mapsなど
 - Googleサービスと簡単に連携ができる
 
 --
