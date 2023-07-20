@@ -2,7 +2,19 @@
     "japanese-proofreading.textlint.全角文字と半角文字の間": false,
     "cSpell.words": [
         "Deno",
+        "Metabase",
+        "Qiita",
         "yamap",
-        "Qiita"
+        "textlint",
+        "Clibor",
+        "namedtuple",
+        "dataclass",
+        "slackbot",
+        "Pylance",
+        "Databricks",
+        "JJUG",
+        "Mebix",
+        "pyproject",
+        "styz"
     ]
 }
