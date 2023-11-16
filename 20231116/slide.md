@@ -17,10 +17,10 @@ Oracle Cloudを使ってみた
 
 ## アジェンダ
 
-1. Minecraft
-2. Google Apps Scriptとは
-3. 試してみる
-4. まとめ
+1. Minecraftとは
+2. 細かい話
+3. Oracle Cloudとは
+4. 本題
 
 ---
 
@@ -137,7 +137,7 @@ Oracle Cloudを使ってみた
 
 ※癖があるのでこっちを使う
 
---
+---
 
 ## その後
 
