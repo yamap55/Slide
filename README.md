@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [スクレイピングでデータを集めてみた話](http://yamap55.github.io/Slide/index.html?slide=20231221/slide.md) | 2023/12/21 | [src](https://github.com/yamap55/Slide/blob/master/20231221/slide.md) | LT |
 | [Minecraft統合版のサーバーを構築した話](http://yamap55.github.io/Slide/index.html?slide=20231116/slide.md) | 2023/11/16 | [src](https://github.com/yamap55/Slide/blob/master/20231116/slide.md) | LT |
 | [GASの概要と利点](http://yamap55.github.io/Slide/index.html?slide=20230720/slide.md) | 2023/07/20 | [src](https://github.com/yamap55/Slide/blob/master/20230720/slide.md) | LT |
 | [なぜ私はSTYZにいるのか](http://yamap55.github.io/Slide/index.html?slide=20230629/slide.md) | 2023/06/29 | [src](https://github.com/yamap55/Slide/blob/master/20230629/slide.md) | LT |
