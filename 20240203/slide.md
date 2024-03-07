@@ -350,7 +350,76 @@
 
 --
 
-TODO: ここから
+## 感想
+- 1つの章が短くて読みやすい
+- 難しい言葉はない
+- 型どおりにいくとうまくいくというのは理解しやすい
+- マネージメント初心者から上級者まで有用だと思う
+
+---
+
+## 成果を生み出すテクニカルライティング ── トップエンジニア・研究者が実践する思考整理法
+[<img src="007.jpg" style="width:40%;" alt="成果を生み出すテクニカルライティング ── トップエ"/>](https://www.amazon.co.jp/dp/4297104067)
+
+--
+
+## 感想
+- ターゲットが研究者向け
+  - トップエンジニアとは違うような？
+- 黄金フォーマットはわかりやすくて良かった
+
+--
+
+## 黄金フォーマット
+
+![黄金フォーマット](./golden_format.jpg)
+
+※[筆者のTwitterより](https://twitter.com/fujitahajime/status/1035407785733763072)
+
+---
+
+
+## 副業で世界を変える方法　週末でアフリカに学校や貯水タンクを建設した会社員の物語
+[<img src="008.jpg" style="width:40%;" alt="副業で世界を変える方法　週末でアフリカに学校や貯"/>](https://www.amazon.co.jp/dp/B0CKZBG8Q4)
+
+--
+
+## 感想
+
+- 私とは異なる生き方、選択をしていて凄くおもしろい
+- 社会貢献や副業に興味がなくても、1つの人生の形、読み物としても楽しめた
+- 1日で読み切った
+
+---
+
+## こころの対話 25のルール
+[<img src="009.jpg" style="width:40%;" alt="こころの対話 25のルール"/>](https://www.amazon.co.jp/dp/4062564599)
+
+--
+
+## データブリックス テックブック 〜2023年 秋〜
+[<img src="010.png" style="width:40%;" alt="データブリックス テックブック 〜2023年 秋〜"/>](https://techbookfest.org/product/3CwPbf0CLinrdHPiGfcbnH)
+
+--
+
+## OAuth、OAuth認証、OpenID Connectの違いを整理して理解できる本
+[<img src="011.jpg" style="width:40%;" alt="OAuth、OAuth認証、OpenID Connectの違いを整理して理解できる"/>](https://techbookfest.org/product/4885634867003392)
+
+--
+
+## 子連れキャリア旅行記
+[<img src="012.jpg" style="width:40%;" alt="子連れキャリア旅行記"/>](https://techbookfest.org/product/dAmAYJwyDjWX3juiSbhVdt)
+
+--
+
+### マイクリプトヒーローズ解体新書 虎の巻
+[<img src="013.jpg" style="width:40%;" alt="マイクリプトヒーローズ解体新書虎の巻"/>](https://techbookfest.org/product/p4K5aVskhLCY3nh3dKe5sX)
+
+--
+
+### ChatGPTアプリを作って学ぶReact
+[<img src="014.jpg" style="width:40%;" alt="ChatGPTアプリを作って学ぶReact"/>](https://techbookfest.org/product/qJcZv2Lqr8nkjSsW3DxNrD)
+
 
 ---
 
