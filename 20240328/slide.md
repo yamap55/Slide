@@ -34,6 +34,7 @@
 - 本LTはいつも以上に自分のために行うLTです
   - 何も得られないかもしれません
 - 1冊30秒が目安
+- 全本の紹介は書けていません！
 
 --
 
@@ -392,30 +393,34 @@
 
 ---
 
+ここから後は感想割愛
+
+---
+
 ## こころの対話 25のルール
 [<img src="009.jpg" style="width:40%;" alt="こころの対話 25のルール"/>](https://www.amazon.co.jp/dp/4062564599)
 
---
+---
 
 ## データブリックス テックブック 〜2023年 秋〜
 [<img src="010.png" style="width:40%;" alt="データブリックス テックブック 〜2023年 秋〜"/>](https://techbookfest.org/product/3CwPbf0CLinrdHPiGfcbnH)
 
---
+---
 
 ## OAuth、OAuth認証、OpenID Connectの違いを整理して理解できる本
 [<img src="011.jpg" style="width:40%;" alt="OAuth、OAuth認証、OpenID Connectの違いを整理して理解できる"/>](https://techbookfest.org/product/4885634867003392)
 
---
+---
 
 ## 子連れキャリア旅行記
 [<img src="012.jpg" style="width:40%;" alt="子連れキャリア旅行記"/>](https://techbookfest.org/product/dAmAYJwyDjWX3juiSbhVdt)
 
---
+---
 
 ### マイクリプトヒーローズ解体新書 虎の巻
 [<img src="013.jpg" style="width:40%;" alt="マイクリプトヒーローズ解体新書虎の巻"/>](https://techbookfest.org/product/p4K5aVskhLCY3nh3dKe5sX)
 
---
+---
 
 ### ChatGPTアプリを作って学ぶReact
 [<img src="014.jpg" style="width:40%;" alt="ChatGPTアプリを作って学ぶReact"/>](https://techbookfest.org/product/qJcZv2Lqr8nkjSsW3DxNrD)
@@ -464,8 +469,9 @@
 
 ## まとめ
 
-- a
-
+- 振り返りをまとめることで再読できてよかった
+- 昨年は結構本を読んだ
+- 今年も頑張りたい
 
 ---
 
