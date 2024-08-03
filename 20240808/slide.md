@@ -9,7 +9,7 @@
   }
 </style>
 
-# Dockerfileのlintについて
+# Dockerfileのlinterについて
 
 ---
 
@@ -21,12 +21,6 @@
 4. Docker Build Check
 5. 試してみる
 6. まとめ
-
----
-
-# エンジニアリング
-# 勉強会
-# はーじーまーるーよー！
 
 ---
 
