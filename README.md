@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [メジャーリーグのシーズン構造](http://yamap55.github.io/Slide/index.html?slide=20251022/slide.md) | 2025/10/22 | [src](https://github.com/yamap55/Slide/blob/main/20251022/slide.md) | LT |
 | [東京 CALLING 2025 に参加してきた](http://yamap55.github.io/Slide/index.html?slide=20251008/slide.md) | 2025/10/08 | [src](https://github.com/yamap55/Slide/blob/main/20251008/slide.md) | LT |
 | [Dockerfileのlinterについて](http://yamap55.github.io/Slide/index.html?slide=20240808/slide.md) | 2024/08/08 | [src](https://github.com/yamap55/Slide/blob/main/20240808/slide.md) | LT |
 | [エンジニアリング勉強会](http://yamap55.github.io/Slide/index.html?slide=20240508/slide.md) | 2024/05/08 | [src](https://github.com/yamap55/Slide/blob/main/20240508/slide.md) | LT |
