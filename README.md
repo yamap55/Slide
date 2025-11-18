@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [10 歳になった子と一緒にやって良かったこと](http://yamap55.github.io/Slide/index.html?slide=20251119/slide.md) | 2025/11/19 | [src](https://github.com/yamap55/Slide/blob/main/20251119/slide.md) | LT |
 | [MCP サーバーで AI を拡張する](http://yamap55.github.io/Slide/index.html?slide=20251029/slide.md) | 2025/10/29 | [src](https://github.com/yamap55/Slide/blob/main/20251029/slide.md) | LT |
 | [メジャーリーグのシーズン構造](http://yamap55.github.io/Slide/index.html?slide=20251022/slide.md) | 2025/10/22 | [src](https://github.com/yamap55/Slide/blob/main/20251022/slide.md) | LT |
 | [東京 CALLING 2025 に参加してきた](http://yamap55.github.io/Slide/index.html?slide=20251008/slide.md) | 2025/10/08 | [src](https://github.com/yamap55/Slide/blob/main/20251008/slide.md) | LT |
