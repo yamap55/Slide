@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [売り出し中のアイドルライブにたまに参加する話](http://yamap55.github.io/Slide/index.html?slide=20260218/slide.md) | 2026/02/18 | [src](https://github.com/yamap55/Slide/blob/main/20260218/slide.md) | LT |
 | [Slack 絵文字レース](http://yamap55.github.io/Slide/index.html?slide=20260128/slide.md) | 2026/01/28 | [src](https://github.com/yamap55/Slide/blob/main/20260128/slide.md) | LT |
 | [親子で続ける習慣、続かない習慣](http://yamap55.github.io/Slide/index.html?slide=20251119/slide.md) | 2025/11/19 | [src](https://github.com/yamap55/Slide/blob/main/20251119/slide.md) | LT |
 | [MCP サーバーで AI を拡張する](http://yamap55.github.io/Slide/index.html?slide=20251029/slide.md) | 2025/10/29 | [src](https://github.com/yamap55/Slide/blob/main/20251029/slide.md) | LT |
