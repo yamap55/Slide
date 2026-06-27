@@ -38,9 +38,6 @@
         // Slide指定
         document.getElementById("slide").dataset.markdown = markdownUrl;
 
-        // reveal.js 4.x 以降はプラグインを plugins 配列で登録する
-        // （プラグイン本体は body 末尾で読み込み、グローバル変数として公開される）
-        // ハイライトは RevealHighlight が自動適用するため hljs の手動初期化は不要
         Reveal.initialize({
           plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
         });
