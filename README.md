@@ -111,6 +111,14 @@
 | [](http://yamap55.github.io/Slide/index.html?slide=) | // | [src](https://github.com/yamap55/Slide/blob/main/) |  |
 ```
 
+## ローカルでの確認
+
+- リポジトリのルートでローカルサーバーを起動
+  - `python3 -m http.server 8000`
+- ブラウザで `http://localhost:8000/index.html?slide=YYYYMMDD/slide.md` を開く
+- VS Code では、確認したい md を開いた状態で `Ctrl+Shift+B`（macOS は `Cmd+Shift+B`）を押すと、タスク「開いているスライドをローカルで表示」でサーバー起動と URL 表示をまとめて行える
+- vscode-reveal 等の md を直接読むツールでは、index.html 側の処理（画像パスの補正、Mermaid の描画）が反映されないため、公開時と表示が異なる
+
 ## PDF出力
 
 - URL末尾に「&print-pdf」を付与して表示。

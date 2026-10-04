@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "開いているスライドをローカルで表示",
+            "detail": "ローカルサーバーを起動し、エディタで開いている md の確認用 URL を表示する",
+            "type": "shell",
+            // サーバーが起動済みなら URL の表示だけ行い、別のスライドを開くたびに再実行できるようにする
+            "command": "url='http://localhost:8000/index.html?slide=${relativeFile}'; if curl -s -o /dev/null http://localhost:8000/; then echo \"サーバーは起動済みです: $url\"; else echo \"$url\"; python3 -m http.server 8000; fi",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            // サーバー起動中のタスクが残っていても、別スライドの URL 表示のために再実行できるようにする
+            "runOptions": {
+                "instanceLimit": 5
+            },
+            // ビルド工程はないが、既定のビルドタスクにして Ctrl+Shift+B（macOS は Cmd+Shift+B）で起動できるようにする
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
