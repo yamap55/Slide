@@ -116,7 +116,7 @@
 - リポジトリのルートでローカルサーバーを起動
   - `python3 -m http.server 8000`
 - ブラウザで `http://localhost:8000/index.html?slide=YYYYMMDD/slide.md` を開く
-- VS Code では、確認したい md を開いた状態でタスク「開いているスライドをローカルで表示」を実行すると、サーバー起動と URL 表示をまとめて行える
+- VS Code では、確認したい md を開いた状態で`Ctrl+Shift+B`（macOS は `Cmd+Shift+B`）でタスク「開いているスライドをローカルで表示」を実行すると、サーバー起動と URL 表示をまとめて行える
 - vscode-reveal 等の md を直接読むツールでは、index.html 側の処理（画像パスの補正、Mermaid の描画）が反映されないため、公開時と表示が異なる
 
 ## PDF出力

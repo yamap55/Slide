@@ -14,6 +14,11 @@
             "runOptions": {
                 "instanceLimit": 5
             },
+            // ビルド工程はないが、既定のビルドタスクにして Ctrl+Shift+B（macOS は Cmd+Shift+B）で起動できるようにする
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "problemMatcher": []
         }
     ]
