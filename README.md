@@ -2,6 +2,7 @@
 
 | タイトル | 日付 | コード | 備考 |
 |---|---|---|---|
+| [成功を証明できない保守の工数を、どう確保し続けているか](http://yamap55.github.io/Slide/index.html?slide=20261013/slide.md) | 2026/10/13 | [src](https://github.com/yamap55/Slide/blob/main/20261013/slide.md) | Syncable Tech #4（[イベントページ](https://syncable.connpass.com/event/407543/)） |
 | [「機能を追加しました」以外の日は、何をしているのか](http://yamap55.github.io/Slide/index.html?slide=20260902/slide.md) | 2026/09/02 | [src](https://github.com/yamap55/Slide/blob/main/20260902/slide.md) | LT |
 | [地味にLT会100回続いた話](http://yamap55.github.io/Slide/index.html?slide=20260304/slide.md) | 2026/03/04 | [src](https://github.com/yamap55/Slide/blob/main/20260304/slide.md) | LT |
 | [売り出し中のアイドルライブにたまに参加する話](http://yamap55.github.io/Slide/index.html?slide=20260218/slide.md) | 2026/02/18 | [src](https://github.com/yamap55/Slide/blob/main/20260218/slide.md) | LT |
